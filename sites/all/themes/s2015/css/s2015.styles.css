@@ -2,3 +2,35 @@
 img, media {
   max-width: 100%;
 }
+
+@font-face {
+  font-family: 'Swiss';
+  src: url("../fonts/272616_0_0.eot");
+  src: url("../fonts/272616_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/272616_0_0.woff") format("woff"), url("../fonts/272616_0_0.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Swiss';
+  src: url("../fonts/272616_1_0.eot");
+  src: url("../fonts/272616_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/272616_1_0.woff") format("woff"), url("../fonts/272616_1_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Swiss';
+  src: url("../fonts/272616_3_0.eot");
+  src: url("../fonts/272616_3_0.eot?#iefix") format("embedded-opentype"), url("../fonts/272616_3_0.woff") format("woff"), url("../fonts/272616_3_0.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Swiss';
+  src: url("../fonts/272616_2_0.eot");
+  src: url("../fonts/272616_2_0.eot?#iefix") format("embedded-opentype"), url("../fonts/272616_2_0.woff") format("woff"), url("../fonts/272616_2_0.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}

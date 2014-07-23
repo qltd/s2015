@@ -2,10 +2,11 @@
   "name": "s2015",
   "version": "1.0.0",
   "dependencies": {
-    "respond": "fubhy/respond",
-    "selectivizr": "fubhy/selectivizr",
+    "font-awesome": "4.1.0",
     "html5shiv": "fubhy/html5shiv",
     "matchmedia": "fubhy/matchmedia",
-    "pie": "fubhy/pie"
+    "pie": "fubhy/pie",
+    "respond": "fubhy/respond",
+    "selectivizr": "fubhy/selectivizr"
   }
 }

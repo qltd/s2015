@@ -23,21 +23,41 @@
     a. 3rd Party Libraries......Non-Native Stylesheets and Mixins
     b. App Libraries............App Specific Variables and Mixins
   2. UNIVERSAL STYLES...........Styles Applied to All Elements
-  3. ELEMENTAL STYLES...........Styles for HTML Elements
-    a. Root Elements............Styles for Root Elements
-    b. Heading Elements.........Styles for Heading Tags
-    c. Form Elements............Styles for Form Elements
-    d. Sectioning Elements......Styles for Sectioning Elements
-    e. Flow Elements............Styles for Flow Elements
-  4. UTILITIES..................Reusable Utility Classes
-  5. CONTENT....................Page Content
-    a. Header...................Styles for Brand Images and Headings
-    b. Navigation...............Styles for Navigation
-    c. Primary Content..........Styles for Focal Content
-    d. Ancillary Content........Styles for Supplemental Content
-    e. Footer...................Footer Content
-  6. MEDIA QUERIES..............Media Queries
-    a. Pixel Density............Imports HiDPI Stylesheet(s)
-    b. Print....................Imports Print Stylesheet(s)
+  3. BASE STYLES................Utility and Elemental Styles
+  4. COMPONENTS.................Specific content
 
 \*---------------------------------------------------------------------*/
+
+/*------------------------------------*\
+    LIBRARIES
+\*------------------------------------*/
+
+/*--Third Party Libraries--*/
+@import "libraries/normalize"; // symlinked css as scss from ../libraries/normalize-css/normalize.css
+@import "libraries/html5-boilerplate"; // symlinked css as scss from ../libraries/html5-boilerplate/css/main.css
+@import "compass"; // requires compass -- 'gem install compass' or 'bundle install'
+@import "../libraries/font-awesome/scss/font-awesome";
+
+/*--App Libraries--*/
+@import "variables/**/*";
+@import "abstractions/**/*";
+
+/*------------------------------------*\
+    UNIVERSAL STYLES
+\*------------------------------------*/
+
+*, *:before, *:after {
+  @include box-sizing(border-box);
+}
+
+/*------------------------------------*\
+    BASE STYLES
+\*------------------------------------*/
+
+@import "base/**/*";
+
+/*------------------------------------*\
+    COMPONENTS
+\*------------------------------------*/
+
+@import "components/**/*";

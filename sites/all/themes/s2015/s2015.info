@@ -8,10 +8,7 @@ core = 7.x
 ; ========================================
 ; Stylesheets
 ; ========================================
-stylesheets[all][] = css/s2015.normalize.min.css
-stylesheets[all][] = css/s2015.hacks.min.css
-stylesheets[all][] = css/s2015.styles.min.css
-stylesheets[all][] = css/s2015.no-query.min.css
+stylesheets[all][] = css/s2015.min.css
 
 ; ========================================
 ; Scripts

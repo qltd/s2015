@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "dependencies": {
     "font-awesome": "4.1.0",
-    "html5shiv": "fubhy/html5shiv",
-    "matchmedia": "fubhy/matchmedia",
-    "pie": "fubhy/pie",
-    "respond": "fubhy/respond",
-    "selectivizr": "fubhy/selectivizr"
+    "html5-boilerplate": "4.3.0",
+    "html5shiv": "3.7.2",
+    "normalize-css": "3.0.1",
+    "pie": "1.0.0",
+    "selectivizr": "1.0.2"
   }
 }

@@ -92,14 +92,14 @@
       <?php print render($page['branding']); ?>
     </div>
 
-    <?php print render($page['header']); ?>
     <?php print render($page['navigation']); ?>
+    <?php print render($page['header']); ?>
   </header>
 
   <div class="l-main">
     <div class="l-content" role="main">
-      <?php print render($page['highlighted']); ?>
       <?php print $breadcrumb; ?>
+      <?php print render($page['highlighted']); ?>
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
@@ -108,15 +108,13 @@
       <?php print render($title_suffix); ?>
       <?php print $messages; ?>
       <?php print render($tabs); ?>
-      <?php print render($page['help']); ?>
       <?php if ($action_links): ?>
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
       <?php print render($page['content']); ?>
     </div>
 
-    <?php print render($page['sidebar_first']); ?>
-    <?php print render($page['sidebar_second']); ?>
+    <?php print render($page['sidebar']); ?>
   </div>
 
   <footer class="l-footer" role="contentinfo">

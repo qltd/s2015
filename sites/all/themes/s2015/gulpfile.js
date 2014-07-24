@@ -3,6 +3,7 @@ var gulp = require('gulp')
   , browserify = require('gulp-browserify')
   , compass = require('gulp-compass')
   , csso = require('gulp-csso')
+  , del = require('del')
   , plumber = require('gulp-plumber')
   , rename = require('gulp-rename')
   , uglify = require('gulp-uglify');
@@ -13,7 +14,7 @@ gulp.task('bower', function () {
 });
 
 gulp.task('browserify', ['bower'], function () {
-  gulp.src('./js/s2015.js')
+  return gulp.src('./js/s2015.js')
     .pipe(plumber())
     .pipe(rename(function (path) { path.basename += '.min'; }))
     .pipe(browserify())
@@ -22,7 +23,7 @@ gulp.task('browserify', ['bower'], function () {
 });
 
 gulp.task('compass', ['bower'], function () {
-  gulp.src('./sass/*.scss')
+  return gulp.src('./sass/*.scss')
     .pipe(plumber())
     .pipe(compass({ environment: 'production', sass: './sass', css: './css' }))
     .pipe(gulp.dest('./css/'))
@@ -31,9 +32,15 @@ gulp.task('compass', ['bower'], function () {
     .pipe(gulp.dest('./css/'));
 });
 
+gulp.task('del', ['bower'], function () {
+  return del(['./libraries/ckeditor/skins/*', '!./libraries/ckeditor/skins/moono'], function (err) {
+    console.error(err);
+  });
+});
+
 gulp.task('watch', function () {
   gulp.watch(['./js/*.js'], ['browserify']);
   gulp.watch(['./sass/*.scss', './sass/**/*.scss'], ['compass']);
 });
 
-gulp.task('default', ['bower', 'browserify', 'compass']);
+gulp.task('default', ['bower', 'browserify', 'compass', 'del']);

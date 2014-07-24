@@ -2,6 +2,7 @@
   "name": "s2015",
   "version": "1.0.0",
   "dependencies": {
+    "ckeditor": "4.4.3",
     "font-awesome": "4.1.0",
     "html5-boilerplate": "4.3.0",
     "html5shiv": "3.7.2",

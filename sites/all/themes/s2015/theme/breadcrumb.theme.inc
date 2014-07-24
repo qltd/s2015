@@ -14,7 +14,7 @@ function s2015_breadcrumb ($variables) {
         // Provide a navigational heading to give context for breadcrumb links to
         // screen-reader users. Make the heading invisible with .element-invisible.
         $output = '<h2 class="element-invisible">' . t('You are here') . '</h2>';
-        $output .= '<div class="breadcrumb">' . implode(' // ', $breadcrumb) . ' // ' . strip_tags(drupal_get_title()) . '</div>';
+        $output .= '<div class="breadcrumb">' . implode(' // ', $breadcrumb) . ' // ' . l(strip_tags(drupal_get_title()), current_path()) . '</div>';
         return $output;
     } else {
         $output = '<div class="breadcrumb empty-breadcrumb">&nbsp;</div>';

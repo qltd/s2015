@@ -20,7 +20,7 @@ bundle install
 npm install
 ```
 
-Running ```npm install``` will install and run gulp, which will compile and minify all Sass and JavaScript resources.
+Running ```npm install``` will install and run gulp, which will install all bower dependencies, and compile and minify all Sass and JavaScript resources.
 
 ### Database
 

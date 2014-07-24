@@ -1,4 +1,3 @@
-
 body {
-  @include Swiss(16px);
+  @include Swiss(16px, null, 400);
 }

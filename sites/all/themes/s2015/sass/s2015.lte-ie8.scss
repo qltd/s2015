@@ -8,6 +8,15 @@
  *  \$$$$$$  |$$$$$$\ \$$$$$$  |\$$$$$$  |$$ |  $$ |$$ |  $$ |$$ |      $$ |  $$ |      $$$$$$$$\ \$$$$$$  /$$$$$$\\$$$$$$  |
  *   \______/ \______| \______/  \______/ \__|  \__|\__|  \__|\__|      \__|  \__|      \________| \______/ \______|\______/
  *
+ *  $$\    $$$$$$$$\ $$$$$$$$\    $$$$$$\ $$$$$$$$\  $$$$$$\
+ *  $$ |   \__$$  __|$$  _____|   \_$$  _|$$  _____|$$  __$$\
+ *  $$ |      $$ |   $$ |           $$ |  $$ |      $$ /  $$ |
+ *  $$ |      $$ |   $$$$$\ $$$$$$\ $$ |  $$$$$\     $$$$$$  |
+ *  $$ |      $$ |   $$  __|\______|$$ |  $$  __|   $$  __$$<
+ *  $$ |      $$ |   $$ |           $$ |  $$ |      $$ /  $$ |
+ *  $$$$$$$$\ $$ |   $$$$$$$$\    $$$$$$\ $$$$$$$$\ \$$$$$$  |
+ *  \________|\__|   \________|   \______|\________| \______/
+ *
  */
 /*
   Sass/Compass Generated Stylesheet for SIGGRAPH 2015 -- https://github.com/qltd/s2015
@@ -20,11 +29,9 @@
 /*---------------------------------------------------------------------*\
 
   1. LIBRARIES..................Stylesheet Related Resources
-    a. 3rd Party Libraries......Non-Native Stylesheets and Mixins
-    b. App Libraries............App Specific Variables and Mixins
-  2. UNIVERSAL STYLES...........Styles Applied to All Elements
-  3. BASE STYLES................Basic and Elemental Styles
-  4. COMPONENTS.................Reusable Utilities and Content
+   a. App Libraries............App Specific Variables and Mixins
+  2. BASE STYLES................Basic and Elemental Styles
+  3. COMPONENTS.................Reusable Utilities and Content
 
 \*---------------------------------------------------------------------*/
 
@@ -32,32 +39,18 @@
     LIBRARIES
 \*------------------------------------*/
 
-/*--Third Party Libraries--*/
-@import "libraries/normalize"; // symlinked css as scss from ../libraries/normalize-css/normalize.css
-@import "libraries/html5-boilerplate"; // symlinked css as scss from ../libraries/html5-boilerplate/css/main.css
-@import "compass"; // requires compass -- 'gem install compass' or 'bundle install'
-@import "../libraries/font-awesome/scss/font-awesome";
-
 /*--App Libraries--*/
 @import "variables/**/*";
-@import "abstractions/**/*";
-
-/*------------------------------------*\
-    UNIVERSAL STYLES
-\*------------------------------------*/
-
-*, *:before, *:after {
-  @include box-sizing(border-box);
-}
+@import "lte-ie8/abstractions/**/*";
 
 /*------------------------------------*\
     BASE STYLES
 \*------------------------------------*/
 
-@import "base/**/*";
+@import "lte-ie8/base/**/*";
 
 /*------------------------------------*\
     COMPONENTS
 \*------------------------------------*/
 
-@import "components/**/*";
+@import "lte-ie8/components/**/*";

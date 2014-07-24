@@ -3,7 +3,7 @@
 //----------------------------------//
 
 @font-face {
-font-family: 'Swiss';
+font-family: 'Swiss-Light';
 src: url('../fonts/272616_0_0.eot');
 src: url('../fonts/272616_0_0.eot?#iefix') format('embedded-opentype'),
   url('../fonts/272616_0_0.woff') format('woff'),
@@ -13,7 +13,7 @@ font-style: normal;
 }
 
 @font-face {
-font-family: 'Swiss';
+font-family: 'Swiss-Roman';
 src: url('../fonts/272616_1_0.eot');
 src: url('../fonts/272616_1_0.eot?#iefix') format('embedded-opentype'),
   url('../fonts/272616_1_0.woff') format('woff'),
@@ -23,7 +23,7 @@ font-style: normal;
 }
 
 @font-face {
-font-family: 'Swiss';
+font-family: 'Swiss-Medium';
 src: url('../fonts/272616_3_0.eot');
 src: url('../fonts/272616_3_0.eot?#iefix') format('embedded-opentype'),
   url('../fonts/272616_3_0.woff') format('woff'),
@@ -33,7 +33,7 @@ font-style: normal;
 }
 
 @font-face {
-font-family: 'Swiss';
+font-family: 'Swiss-Bold';
 src: url('../fonts/272616_2_0.eot');
 src: url('../fonts/272616_2_0.eot?#iefix') format('embedded-opentype'),
   url('../fonts/272616_2_0.woff') format('woff'),
@@ -115,7 +115,22 @@ font-style: normal;
   }
 }
 
-@mixin Swiss($size: null, $color: null, $weight: null, $height: null, $style: null) {
-  $family: "Swiss", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@mixin Swiss-Bold($size: null, $color: null, $weight: null, $height: null, $style: null) {
+  $family: "Swiss-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  @include font-details($size, $color, $weight, $height, $style, $family);
+}
+
+@mixin Swiss-Medium($size: null, $color: null, $weight: null, $height: null, $style: null) {
+  $family: "Swiss-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  @include font-details($size, $color, $weight, $height, $style, $family);
+}
+
+@mixin Swiss-Roman($size: null, $color: null, $weight: null, $height: null, $style: null) {
+  $family: "Swiss-Roman", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  @include font-details($size, $color, $weight, $height, $style, $family);
+}
+
+@mixin Swiss-Light($size: null, $color: null, $weight: null, $height: null, $style: null) {
+  $family: "Swiss-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   @include font-details($size, $color, $weight, $height, $style, $family);
 }

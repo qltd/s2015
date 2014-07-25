@@ -1,0 +1,3 @@
+p {
+  @include font-details($size: 18px, $weight: 300);
+}

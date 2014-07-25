@@ -1,0 +1,19 @@
+.social-navigation {
+  .menu {
+    margin: 0;
+    padding: {
+      left: 0;
+    }
+  }
+  .leaf {
+    display: inline;
+    margin: 0 5px;
+  }
+}
+.social-navigation-link {
+  @include font-details(0, transparent);
+  &:before {
+    font-size: 28px;
+    @include single-transition(color, 100ms, ease-out);
+  }
+}

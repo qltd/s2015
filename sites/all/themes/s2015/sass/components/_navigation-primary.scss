@@ -1,0 +1,51 @@
+.l-navigation {
+  background-color: $blue;
+  height: 60px;
+}
+.primary-navigation {
+  margin: 0 auto;
+  width: 960px;
+  .menu {
+    margin: 0;
+    padding: {
+      left: 0;
+    }
+    .menu {
+      position: absolute;
+      display: none;
+      background-color: $blue-dark-menu;
+    }
+  }
+  .collapsed, .expanded, .leaf {
+    float: left;
+    height: 60px;
+    &:hover {
+      background-color: $blue-dark-menu;
+    }
+  }
+  .expanded:hover {
+    .menu {
+      display: block;
+    }
+  }
+  .menu-link {
+    display: block;
+    padding: 0 25px;
+    @include font-details($color: white, $weight: 300, $height: 60px);
+  }
+  .menu-link:hover, .active, .active-trail {
+    color: $yellow;
+  }
+  .fa-home {
+    @include font-details($size: 0, $color: transparent, $height: 0);
+    &:before {
+      @include font-details($size: 24px, $color: white, $height: 60px);
+      @include single-transition(color, 100ms, ease-out);
+    }
+    &:hover, &.active, &.active-trail {
+      &:before {
+        color: $yellow;
+      }
+    }
+  }
+}

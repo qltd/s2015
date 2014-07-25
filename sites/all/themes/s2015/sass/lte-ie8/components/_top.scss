@@ -1,0 +1,5 @@
+.l-top {
+  .site-slogan, .conference-location {
+    @include Swiss-Roman();
+  }
+}

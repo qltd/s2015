@@ -21,7 +21,7 @@ scripts[] = js/s2015.min.js
 ; ========================================
 regions[top] = Top
 regions[navigation] = Navigation
-regions[header] = Header
+regions[branding] = Branding
 regions[highlighted] = Highlighted
 regions[content] = Content
 regions[sidebar] = Sidebar

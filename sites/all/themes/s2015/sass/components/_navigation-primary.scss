@@ -1,7 +1,10 @@
+// container <div>
 .l-navigation {
   background-color: $blue;
   height: 60px;
 }
+
+// navigation <nav>
 .primary-navigation {
   margin: 0 auto;
   width: 960px;
@@ -10,42 +13,59 @@
     padding: {
       left: 0;
     }
-    .menu {
-      position: absolute;
-      display: none;
-      background-color: $blue-dark-menu;
-    }
   }
-  .collapsed, .expanded, .leaf {
-    float: left;
-    height: 60px;
-    &:hover {
-      background-color: $blue-dark-menu;
-    }
+  .menu-link {
+    color: white;
   }
-  .expanded:hover {
+}
+
+// list items <li>
+.primary-navigation-expanded-top, .primary-navigation-leaf-top {
+  float: left;
+  height: 60px;
+  &:hover {
+    background-color: $blue-dark-menu;
+  }
+}
+.primary-navigation-expanded-top {
+  .menu {
+    position: absolute;
+    display: none;
+    background-color: $blue-dark-menu;
+  }
+  &:hover {
     .menu {
       display: block;
     }
   }
-  .menu-link {
-    display: block;
-    padding: 0 25px;
-    @include font-details($color: white, $weight: 300, $height: 60px);
-  }
-  .menu-link:hover, .active, .active-trail {
-    color: $yellow;
-  }
+}
+.primary-navigation-home {
   .fa-home {
     @include font-details($size: 0, $color: transparent, $height: 0);
     &:before {
       @include font-details($size: 24px, $color: white, $height: 60px);
-      @include single-transition(color, 100ms, ease-out);
     }
     &:hover, &.active, &.active-trail {
       &:before {
         color: $yellow;
       }
     }
+  }
+}
+.primary-navigation-for-volunteers {
+  .menu {
+    .menu {
+      display: none;
+    }
+  }
+}
+
+// links <a>
+.primary-navigation-menu-link-top {
+  display: block;
+  padding: 0 25px;
+  @include font-details($weight: 300, $height: 60px);
+  &:hover, &.active, &.active-trail {
+    color: $yellow;
   }
 }

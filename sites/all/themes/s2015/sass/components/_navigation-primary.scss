@@ -7,21 +7,21 @@
 // navigation <nav>
 .primary-navigation {
   margin: 0 auto;
-  width: 960px;
   .menu {
     margin: 0;
     padding: {
       left: 0;
     }
+    text-align: center;
   }
   .menu-link {
-    color: white;
+    @include font-details($color: white, $weight: 300);
   }
 }
 
 // list items <li>
 .primary-navigation-expanded-top, .primary-navigation-leaf-top {
-  float: left;
+  display: inline-block;
   height: 60px;
   &:hover {
     background-color: $blue-dark-menu;
@@ -31,7 +31,23 @@
   .menu {
     position: absolute;
     display: none;
+    left: 0;
+    width: 100%;
+    text-align: left;
     background-color: $blue-dark-menu;
+    .menu-link {
+      @include font-details($size: 0.75em);
+      &:hover {
+        color: $orange;
+      }
+    }
+    .menu {
+      position: relative;
+    }
+    .expanded {
+      width: 25%;
+      float: left;
+    }
   }
   &:hover {
     .menu {
@@ -40,6 +56,7 @@
   }
 }
 .primary-navigation-home {
+  position: absolute;
   .fa-home {
     @include font-details($size: 0, $color: transparent, $height: 0);
     &:before {
@@ -50,6 +67,11 @@
         color: $yellow;
       }
     }
+  }
+}
+.primary-navigation-for-submitters {
+  margin: {
+    left: 72px;
   }
 }
 .primary-navigation-for-volunteers {
@@ -64,7 +86,7 @@
 .primary-navigation-menu-link-top {
   display: block;
   padding: 0 25px;
-  @include font-details($weight: 300, $height: 60px);
+  @include font-details($height: 60px);
   &:hover, &.active, &.active-trail {
     color: $yellow;
   }

@@ -1,3 +1,5 @@
-.primary-navigation-menu-link-top {
-  @include Swiss-Light();
+.primary-navigation {
+  .menu-link {
+    @include Swiss-Light();
+  }
 }

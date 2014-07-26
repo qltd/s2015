@@ -1,21 +1,27 @@
 .l-top {
   @extend .clearfix;
   margin: 0 auto;
+  padding: {
+    top: 20px;
+  }
   width: 960px;
   height: 70px;
   color: $blue;
-  .site-slogan, .conference-location, .social-navigation {
+  .site-slogan, .conference-location {
     float: left;
   }
   .site-slogan, .conference-location {
     @include font-details(0.875em, $blue, 400);
   }
   .site-slogan {
-    margin: 0;
+    margin: 0 100px 0 0;
     width: 330px;
   }
   .conference-location {
     width: 125px;
+  }
+  .social-navigation, .site-search {
+    float: right;
   }
   .social-navigation-link {
     &:before {

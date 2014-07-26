@@ -1,7 +1,7 @@
 a {
   color: $blue;
   text-decoration: none;
-  @include single-transition(color, 100ms, ease-out);
+  @include single-transition(color, $duration, ease-out);
   &:hover {
     color: $orange;
   }

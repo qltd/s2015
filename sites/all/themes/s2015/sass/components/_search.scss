@@ -1,3 +1,16 @@
 .site-search {
-  float: left;
+  .form-text {
+    display: none;
+  }
+  .form-submit {
+    margin: 0 5px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    @include font-details($size: 1.75em, $color: $blue, $family: 'FontAwesome');
+    @include single-transition(color, $duration, ease-out);
+    &:hover {
+      color: $orange;
+    }
+  }
 }

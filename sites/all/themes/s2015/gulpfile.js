@@ -14,10 +14,11 @@ gulp.task('bower', function () {
 });
 
 gulp.task('browserify', ['bower'], function () {
-  return gulp.src('./js/s2015.js')
+  return gulp.src('./js-src/s2015.js')
     .pipe(plumber())
-    .pipe(rename(function (path) { path.basename += '.min'; }))
     .pipe(browserify())
+    .pipe(gulp.dest('./js/'))
+    .pipe(rename(function (path) { path.basename += '.min'; }))
     .pipe(uglify())
     .pipe(gulp.dest('./js/'));
 });

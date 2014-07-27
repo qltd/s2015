@@ -40,7 +40,7 @@ gulp.task('del', ['bower'], function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch(['./js/*.js'], ['browserify']);
+  gulp.watch(['./js-src/*.js', './js-src/**/*.js'], ['browserify']);
   gulp.watch(['./sass/*.scss', './sass/**/*.scss'], ['compass']);
 });
 

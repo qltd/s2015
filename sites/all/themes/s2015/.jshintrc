@@ -2,16 +2,8 @@
   "browser": true,
   "bitwise": true,
   "devel": true,
-  "curly": true,
   "eqeqeq": true,
   "forin": true,
-  "globals": {
-    "document": false,
-    "Drupal": false,
-    "Modernizr": false,
-    "require": false,
-    "window": false
-  },
   "immed": true,
   "indent": 2,
   "jquery": true,
@@ -24,5 +16,12 @@
   "undef": true,
   "unused": true,
   "trailing": true,
-  "smarttabs": true
+  "smarttabs": true,
+  "globals": {
+    "document": false,
+    "Drupal": false,
+    "Modernizr": false,
+    "require": false,
+    "window": false
+  }
 }

@@ -9,5 +9,9 @@
  *   \______/ \______| \______/  \______/ \__|  \__|\__|  \__|\__|      \__|  \__|      \________| \______/ \______|\______/
  *
  */
+/*
+  Browserify/Uglify Generated JavaScript for SIGGRAPH 2015 -- https://github.com/qltd/s2015
+
+*/
 
 require('./behaviors/search');

@@ -1,0 +1,17 @@
+.footer-navigation {
+  .menu {
+    margin: 0;
+    padding: 0;
+  }
+  .menu-link {
+    @include font-details($color: white, $weight: 300);
+    &:hover {
+      color: $yellow;
+    }
+  }
+  .leaf {
+    margin: {
+      bottom: 10px;
+    }
+  }
+}

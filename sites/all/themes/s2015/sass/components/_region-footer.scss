@@ -1,0 +1,35 @@
+.l-footer {
+  padding: {
+    top: 100px;
+  }
+  height: 325px;
+  background-color: $blue;
+}
+.l-footer-regions {
+  margin: 0 auto;
+  width: $width-grid;
+  .l-region {
+    float: left;
+  }
+}
+.l-region--footer-navigation, .l-region--footer-branding {
+  margin: {
+    right: 50px;
+  }
+  width: 300px;
+}
+.l-region--footer-branding {
+  .social-navigation-link {
+    &:before {
+      color: white;
+    }
+    &:hover {
+      &:before {
+        color: $yellow;
+      }
+    }
+  }
+}
+.l-region--footer-connecting {
+
+}

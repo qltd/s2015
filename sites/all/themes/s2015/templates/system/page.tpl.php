@@ -78,9 +78,7 @@
       <?php endif; ?>
       <?php print render($page['top']); ?>
     </div>
-    <div class="l-navigation">
-      <?php print render($page['navigation']); ?>
-    </div>
+    <?php print render($page['navigation']); ?>
     <div class="l-branding">
       <?php if ($logo): ?>
         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
@@ -116,6 +114,10 @@
   </div>
 
   <footer class="l-footer" role="contentinfo">
-    <?php print render($page['footer']); ?>
+    <div class="l-footer-regions">
+      <?php print render($page['footer_navigation']); ?>
+      <?php print render($page['footer_branding']); ?>
+      <?php print render($page['footer_connecting']); ?>
+    </div>
   </footer>
 </div>

@@ -33,3 +33,9 @@
 .l-region--footer-connecting {
 
 }
+.footer-connecting-link {
+  @include font-details(1.25em, white, 300);
+  &:hover{
+    color: $yellow;
+  }
+}

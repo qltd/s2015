@@ -13,7 +13,7 @@
     background: {
       image: none !important;
     };
-    color: $blue;
+    @include font-details(0.875em, $blue);
     @include transition(width $duration ease-out, margin-left $duration ease-out);
     @include input-placeholder {
       color: $orange;

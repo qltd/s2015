@@ -46,7 +46,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -50,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-2:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-2:<nolink>',
   );
   // Exported menu link: main-menu_acm-student-research-competition:node/63
   $menu_links['main-menu_acm-student-research-competition:node/63'] = array(
@@ -84,7 +84,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -49,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-2:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-2:<nolink>',
   );
   // Exported menu link: main-menu_art-gallery:node/64
   $menu_links['main-menu_art-gallery:node/64'] = array(
@@ -161,7 +161,61 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -48,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-2:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-2:<nolink>',
+  );
+  // Exported menu link: main-menu_attendees-col-1:<nolink>
+  $menu_links['main-menu_attendees-col-1:<nolink>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<nolink>',
+    'router_path' => '<nolink>',
+    'link_title' => 'Attendees-Col-1',
+    'options' => array(
+      'identifier' => 'main-menu_attendees-col-1:<nolink>',
+      'attributes' => array(
+        'class' => array(
+          0 => 'menu-nolink',
+          1 => 'hidden',
+        ),
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 1,
+    'weight' => -50,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_for-attendees:node/2',
+  );
+  // Exported menu link: main-menu_attendees-col-3:<nolink>
+  $menu_links['main-menu_attendees-col-3:<nolink>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<nolink>',
+    'router_path' => '<nolink>',
+    'link_title' => 'Attendees-Col-3',
+    'options' => array(
+      'menu_views' => array(
+        'name' => FALSE,
+        'display' => FALSE,
+        'arguments' => '',
+        'mlid' => 537,
+      ),
+      'identifier' => 'main-menu_attendees-col-3:<nolink>',
+      'attributes' => array(
+        'class' => array(
+          0 => 'menu-nolink',
+          1 => 'hidden',
+        ),
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 1,
+    'weight' => -47,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_for-attendees:node/2',
   );
   // Exported menu link: main-menu_birds-of-a-feather:node/58
   $menu_links['main-menu_birds-of-a-feather:node/58'] = array(
@@ -180,7 +234,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -47,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-2:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-2:<nolink>',
   );
   // Exported menu link: main-menu_birds-of-a-feather:node/70
   $menu_links['main-menu_birds-of-a-feather:node/70'] = array(
@@ -218,85 +272,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -46,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-2:<nolink>',
-  );
-  // Exported menu link: main-menu_col-1:<nolink>
-  $menu_links['main-menu_col-1:<nolink>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<nolink>',
-    'router_path' => '<nolink>',
-    'link_title' => 'Col-1',
-    'options' => array(
-      'attributes' => array(
-        'class' => array(
-          0 => 'menu-nolink',
-          1 => 'hidden',
-        ),
-      ),
-      'identifier' => 'main-menu_col-1:<nolink>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 1,
-    'expanded' => 1,
-    'weight' => -50,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_for-attendees:node/2',
-  );
-  // Exported menu link: main-menu_col-2:<nolink>
-  $menu_links['main-menu_col-2:<nolink>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<nolink>',
-    'router_path' => '<nolink>',
-    'link_title' => 'Col-2',
-    'options' => array(
-      'attributes' => array(
-        'class' => array(
-          0 => 'menu-nolink',
-          1 => 'hidden',
-        ),
-      ),
-      'identifier' => 'main-menu_col-2:<nolink>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 1,
-    'expanded' => 1,
-    'weight' => -49,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_for-submitters:node/3',
-  );
-  // Exported menu link: main-menu_col-3:<nolink>
-  $menu_links['main-menu_col-3:<nolink>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<nolink>',
-    'router_path' => '<nolink>',
-    'link_title' => 'Col-3',
-    'options' => array(
-      'menu_views' => array(
-        'name' => FALSE,
-        'display' => FALSE,
-        'arguments' => '',
-        'mlid' => 537,
-      ),
-      'attributes' => array(
-        'class' => array(
-          0 => 'menu-nolink',
-          1 => 'hidden',
-        ),
-      ),
-      'identifier' => 'main-menu_col-3:<nolink>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 1,
-    'expanded' => 1,
-    'weight' => -47,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_for-attendees:node/2',
+    'parent_identifier' => 'main-menu_submitters-col-2:<nolink>',
   );
   // Exported menu link: main-menu_computer-animation-festival:node/35
   $menu_links['main-menu_computer-animation-festival:node/35'] = array(
@@ -315,7 +291,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -45,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-2:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-2:<nolink>',
   );
   // Exported menu link: main-menu_computer-animation-festival:node/36
   $menu_links['main-menu_computer-animation-festival:node/36'] = array(
@@ -353,7 +329,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => 0,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-1:<nolink>',
+    'parent_identifier' => 'main-menu_attendees-col-1:<nolink>',
   );
   // Exported menu link: main-menu_contact-the-media-office:node/61
   $menu_links['main-menu_contact-the-media-office:node/61'] = array(
@@ -391,7 +367,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -44,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-2:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-2:<nolink>',
   );
   // Exported menu link: main-menu_courses:node/71
   $menu_links['main-menu_courses:node/71'] = array(
@@ -430,7 +406,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -43,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-2:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-2:<nolink>',
   );
   // Exported menu link: main-menu_dailies:node/77
   $menu_links['main-menu_dailies:node/77'] = array(
@@ -468,7 +444,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -42,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-2:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-2:<nolink>',
   );
   // Exported menu link: main-menu_education-focus:node/3979
   $menu_links['main-menu_education-focus:node/3979'] = array(
@@ -525,7 +501,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -41,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-2:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-2:<nolink>',
   );
   // Exported menu link: main-menu_emerging-technologies:node/72
   $menu_links['main-menu_emerging-technologies:node/72'] = array(
@@ -583,7 +559,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -41,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-3:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-3:<nolink>',
   );
   // Exported menu link: main-menu_ethics-of-review:node/38
   $menu_links['main-menu_ethics-of-review:node/38'] = array(
@@ -772,7 +748,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -42,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-3:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-3:<nolink>',
   );
   // Exported menu link: main-menu_for-submitters:node/3
   $menu_links['main-menu_for-submitters:node/3'] = array(
@@ -926,7 +902,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -40,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-2:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-2:<nolink>',
   );
   // Exported menu link: main-menu_games-focus:node/3980
   $menu_links['main-menu_games-focus:node/3980'] = array(
@@ -945,7 +921,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -50,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-3:<nolink>',
+    'parent_identifier' => 'main-menu_attendees-col-3:<nolink>',
   );
   // Exported menu link: main-menu_graphicsnet:node/57
   $menu_links['main-menu_graphicsnet:node/57'] = array(
@@ -1074,7 +1050,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -39,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-2:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-2:<nolink>',
   );
   // Exported menu link: main-menu_international-resources:node/43
   $menu_links['main-menu_international-resources:node/43'] = array(
@@ -1093,7 +1069,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -49,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-3:<nolink>',
+    'parent_identifier' => 'main-menu_attendees-col-3:<nolink>',
   );
   // Exported menu link: main-menu_international-resources:node/55
   $menu_links['main-menu_international-resources:node/55'] = array(
@@ -1131,7 +1107,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -48,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-3:<nolink>',
+    'parent_identifier' => 'main-menu_attendees-col-3:<nolink>',
   );
   // Exported menu link: main-menu_job-seekers--casual-networkers:node/350
   $menu_links['main-menu_job-seekers--casual-networkers:node/350'] = array(
@@ -1207,7 +1183,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -38,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-2:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-2:<nolink>',
   );
   // Exported menu link: main-menu_mobile-focus:node/3975
   $menu_links['main-menu_mobile-focus:node/3975'] = array(
@@ -1226,7 +1202,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -50,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-3:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-3:<nolink>',
   );
   // Exported menu link: main-menu_mobile-focus:node/3981
   $menu_links['main-menu_mobile-focus:node/3981'] = array(
@@ -1245,7 +1221,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -46,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-3:<nolink>',
+    'parent_identifier' => 'main-menu_attendees-col-3:<nolink>',
   );
   // Exported menu link: main-menu_movies-in-presentations:node/28
   $menu_links['main-menu_movies-in-presentations:node/28'] = array(
@@ -1302,7 +1278,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -45,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-3:<nolink>',
+    'parent_identifier' => 'main-menu_attendees-col-3:<nolink>',
   );
   // Exported menu link: main-menu_panels:node/79
   $menu_links['main-menu_panels:node/79'] = array(
@@ -1321,7 +1297,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -49,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-3:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-3:<nolink>',
   );
   // Exported menu link: main-menu_posters:node/20
   $menu_links['main-menu_posters:node/20'] = array(
@@ -1340,7 +1316,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -48,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-3:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-3:<nolink>',
   );
   // Exported menu link: main-menu_posters:node/22
   $menu_links['main-menu_posters:node/22'] = array(
@@ -1359,7 +1335,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -44,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-3:<nolink>',
+    'parent_identifier' => 'main-menu_attendees-col-3:<nolink>',
   );
   // Exported menu link: main-menu_production-sessions:node/110
   $menu_links['main-menu_production-sessions:node/110'] = array(
@@ -1378,7 +1354,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -43,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-3:<nolink>',
+    'parent_identifier' => 'main-menu_attendees-col-3:<nolink>',
   );
   // Exported menu link: main-menu_production-sessions:node/111
   $menu_links['main-menu_production-sessions:node/111'] = array(
@@ -1397,7 +1373,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -47,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-3:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-3:<nolink>',
   );
   // Exported menu link: main-menu_programs--events:<nolink>
   $menu_links['main-menu_programs--events:<nolink>'] = array(
@@ -1465,7 +1441,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -42,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-3:<nolink>',
+    'parent_identifier' => 'main-menu_attendees-col-3:<nolink>',
   );
   // Exported menu link: main-menu_real-time-live:node/69
   $menu_links['main-menu_real-time-live:node/69'] = array(
@@ -1484,7 +1460,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -46,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-3:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-3:<nolink>',
   );
   // Exported menu link: main-menu_reasons-to-attend-siggraph:node/1802
   $menu_links['main-menu_reasons-to-attend-siggraph:node/1802'] = array(
@@ -1560,7 +1536,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -39,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-3:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-3:<nolink>',
   );
   // Exported menu link: main-menu_reviewer-instructions:node/41
   $menu_links['main-menu_reviewer-instructions:node/41'] = array(
@@ -1731,7 +1707,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -41,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-3:<nolink>',
+    'parent_identifier' => 'main-menu_attendees-col-3:<nolink>',
   );
   // Exported menu link: main-menu_studio:node/99
   $menu_links['main-menu_studio:node/99'] = array(
@@ -1750,7 +1726,79 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -45,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-3:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-3:<nolink>',
+  );
+  // Exported menu link: main-menu_submitters-col-1:<nolink>
+  $menu_links['main-menu_submitters-col-1:<nolink>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<nolink>',
+    'router_path' => '<nolink>',
+    'link_title' => 'Submitters-Col-1',
+    'options' => array(
+      'attributes' => array(
+        'class' => array(
+          0 => 'menu-nolink',
+          1 => 'hidden',
+        ),
+      ),
+      'identifier' => 'main-menu_submitters-col-1:<nolink>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 1,
+    'weight' => -50,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_for-submitters:node/3',
+  );
+  // Exported menu link: main-menu_submitters-col-2:<nolink>
+  $menu_links['main-menu_submitters-col-2:<nolink>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<nolink>',
+    'router_path' => '<nolink>',
+    'link_title' => 'Submitters-Col-2',
+    'options' => array(
+      'identifier' => 'main-menu_submitters-col-2:<nolink>',
+      'attributes' => array(
+        'class' => array(
+          0 => 'menu-nolink',
+          1 => 'hidden',
+        ),
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 1,
+    'weight' => -49,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_for-submitters:node/3',
+  );
+  // Exported menu link: main-menu_submitters-col-3:<nolink>
+  $menu_links['main-menu_submitters-col-3:<nolink>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<nolink>',
+    'router_path' => '<nolink>',
+    'link_title' => 'Submitters-Col-3',
+    'options' => array(
+      'attributes' => array(
+        'class' => array(
+          0 => 'menu-nolink',
+          1 => 'hidden',
+        ),
+      ),
+      'identifier' => 'main-menu_submitters-col-3:<nolink>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 1,
+    'weight' => -48,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_for-submitters:node/3',
   );
   // Exported menu link: main-menu_submitters-important-dates:http://null
   $menu_links['main-menu_submitters-important-dates:http://null'] = array(
@@ -1769,7 +1817,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -49,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-1:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-1:<nolink>',
   );
   // Exported menu link: main-menu_submitters-important-message:http://null
   $menu_links['main-menu_submitters-important-message:http://null'] = array(
@@ -1788,7 +1836,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -50,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-1:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-1:<nolink>',
   );
   // Exported menu link: main-menu_talks:node/80
   $menu_links['main-menu_talks:node/80'] = array(
@@ -1807,7 +1855,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -44,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-3:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-3:<nolink>',
   );
   // Exported menu link: main-menu_talks:node/91
   $menu_links['main-menu_talks:node/91'] = array(
@@ -1826,7 +1874,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -40,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-3:<nolink>',
+    'parent_identifier' => 'main-menu_attendees-col-3:<nolink>',
   );
   // Exported menu link: main-menu_team-leaders:node/52
   $menu_links['main-menu_team-leaders:node/52'] = array(
@@ -1864,7 +1912,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -38,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-3:<nolink>',
+    'parent_identifier' => 'main-menu_attendees-col-3:<nolink>',
   );
   // Exported menu link: main-menu_technical-papers:node/37
   $menu_links['main-menu_technical-papers:node/37'] = array(
@@ -1883,7 +1931,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -43,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-3:<nolink>',
+    'parent_identifier' => 'main-menu_submitters-col-3:<nolink>',
   );
   // Exported menu link: main-menu_technical-papers:node/92
   $menu_links['main-menu_technical-papers:node/92'] = array(
@@ -1903,7 +1951,7 @@ function navigation_region_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -39,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_col-3:<nolink>',
+    'parent_identifier' => 'main-menu_attendees-col-3:<nolink>',
   );
   // Exported menu link: main-menu_travel-and-housing-assistance:node/3983
   $menu_links['main-menu_travel-and-housing-assistance:node/3983'] = array(
@@ -1931,11 +1979,10 @@ function navigation_region_menu_default_menu_links() {
   t('Art Gallery');
   t('Art Papers');
   t('Art Papers Reviewer Instructions');
+  t('Attendees-Col-1');
+  t('Attendees-Col-3');
   t('Birds of a Feather');
   t('Co-Located Events');
-  t('Col-1');
-  t('Col-2');
-  t('Col-3');
   t('Computer Animation Festival');
   t('Conference Overview');
   t('Contact the Media Office');
@@ -1996,6 +2043,9 @@ function navigation_region_menu_default_menu_links() {
   t('Studio');
   t('Submitters Important Dates');
   t('Submitters Important Message');
+  t('Submitters-Col-1');
+  t('Submitters-Col-2');
+  t('Submitters-Col-3');
   t('Talks');
   t('Team Leaders');
   t('Technical Papers');

@@ -1,38 +1,49 @@
 .site-search {
   .form-text {
+    z-index: 1;
     position: absolute;
     margin: {
       top: -2px;
       left: 0;
     }
     border: none;
+    padding: {
+      top: 2px;
+      left: 10px;
+    }
     width: 0;
     height: 35px;
     background: {
       image: none !important;
     };
+    color: $blue;
     @include transition(width $duration ease-out, margin-left $duration ease-out);
-    // @include single-transition(margin-left, $duration, ease-out);
+    @include input-placeholder {
+      color: $orange;
+    }
   }
   .form-submit {
+    z-index: 2;
+    position: relative;
     margin: 0 5px;
     padding: 0;
     border: none;
+    width: 28px;
     background: {
       color: transparent;
     };
     @include font-details($size: 1.75em, $color: $blue, $family: 'FontAwesome');
     @include single-transition(color, $duration, ease-out);
-    &:hover {
-      color: $orange;
-    }
   }
-  &.expanded {
+  &.expanded, &:hover {
     .form-text {
       margin: {
         left: -200px;
       }
-      width: 200px;
+      width: 240px;
+    }
+    .form-submit {
+      color: $orange;
     }
   }
 }

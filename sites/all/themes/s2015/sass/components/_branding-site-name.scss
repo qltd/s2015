@@ -1,0 +1,21 @@
+.site-name {
+  float: left;
+  margin: 0;
+}
+.site-name-link {
+  @extend .ir;
+  display: block;
+  margin: 0;
+  width: 378px;
+  height: 99px;
+  background-image: url("../images/siggraph-logo.png");
+}
+@media (-webkit-min-device-pixel-ratio: 1.3),
+  (min--moz-device-pixel-ratio: 1.3),
+  (-o-min-device-pixel-ratio: 13/10),
+  (min-resolution: 1.3dppx) {
+  .site-name-link {
+    background-image: url("../images/siggraph-logo@2x.png");
+    background-size: 378px 99px;
+  }
+}

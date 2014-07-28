@@ -1,0 +1,17 @@
+name = Navigation Region
+description = Blocks, context, and settings for the navigation region.
+core = 7.x
+package = S2015 Features
+version = 7.x-1.1
+project = navigation_region
+dependencies[] = context
+dependencies[] = fe_block
+dependencies[] = features
+dependencies[] = menu
+dependencies[] = menu_block
+features[context][] = navigation
+features[ctools][] = context:context:3
+features[fe_block_settings][] = menu_block-1
+features[features_api][] = api:2
+features[menu_custom][] = main-menu
+project path = sites/all/modules/s2015_features

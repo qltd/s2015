@@ -1,6 +1,44 @@
 .l-branding {
-  // background-color: $blue;
+  background-color: $blue;
+  &:after {
+    display: block;
+    content: '';
+    margin: 0 auto;
+    height: 54px;
+    background-image: url('../images/header-pattern-3.png');
+  }
 }
-.site-name {
-  margin: 0;
+.front {
+  .l-branding {
+    &:before, &:after {
+      display: block;
+      content: '';
+      margin: 0 auto;
+      height: 153px;
+      width: 1225px;
+    }
+    &:before {
+      background-image: url('../images/header-pattern-1.png');
+    }
+    &:after {
+      background-image: url('../images/header-pattern-2.png');
+    }
+  }
+}
+.l-branding-bar {
+  margin: 0 auto;
+  padding: 25px 0;
+  width: $width-grid;
+  height: 150px;
+}
+.l-region--branding {
+  float: right;
+  display: table;
+  margin: 20px 0;
+  height: 60px;
+  .block {
+    display: table-cell;
+    vertical-align: middle;
+    @include font-details(1.3125em, white, 300);
+  }
 }

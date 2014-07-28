@@ -1,0 +1,8 @@
+.footer-sponsored-by-acmsiggraph {
+  .sponsored-by-acmsiggraph-link {
+    @include font-details(.625em, white, 300);
+    &:hover {
+      color: $yellow;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Footer Regions feature.
+ */
+
+include_once 'footer_regions.features.inc';

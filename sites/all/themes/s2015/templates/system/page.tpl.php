@@ -80,15 +80,14 @@
     </div>
     <?php print render($page['navigation']); ?>
     <div class="l-branding">
-      <?php if ($logo): ?>
-        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
-      <?php endif; ?>
-      <?php if ($site_name): ?>
-        <h1 class="site-name">
-          <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-        </h1>
-      <?php endif; ?>
-      <?php print render($page['branding']); ?>
+      <div class="l-branding-bar">
+        <?php if ($site_name): ?>
+          <h1 class="site-name">
+            <a class="site-name-link" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
+          </h1>
+        <?php endif; ?>
+        <?php print render($page['branding']); ?>
+      </div>
     </div>
   </header>
 

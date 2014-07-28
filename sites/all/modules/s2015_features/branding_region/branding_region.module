@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Branding Region feature.
+ */
+
+include_once 'branding_region.features.inc';

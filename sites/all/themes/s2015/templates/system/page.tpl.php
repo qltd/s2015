@@ -81,9 +81,9 @@
     <?php print render($page['navigation']); ?>
     <div class="l-branding">
       <div class="l-branding-bar">
-        <?php if ($site_name): ?>
+        <?php if ($site_name_formatted): ?>
           <h1 class="site-name">
-            <a class="site-name-link" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
+            <a class="site-name-link" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><?php print $site_name_formatted; ?></a>
           </h1>
         <?php endif; ?>
         <?php print render($page['branding']); ?>

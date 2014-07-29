@@ -35,7 +35,7 @@ gulp.task('compass', ['bower'], function () {
 
 gulp.task('del', ['bower'], function () {
   return del(['./libraries/ckeditor/skins/*', '!./libraries/ckeditor/skins/moono'], function (err) {
-    console.error(err);
+    if (err) console.error(err);
   });
 });
 

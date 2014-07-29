@@ -1,7 +1,7 @@
 <?php
 
 function s2015_preprocess_page (&$variables) {
-  $variables['site_name_formatted'] = theme_get_setting('toggle_name') ? s2015_emphasize_first_word(filter_xss_admin(variable_get('site_name', 'Drupal')), 'site-name-emphasized') : '';
+  if (isset($variables['site_name'])) $variables['site_name_formatted'] = s2015_emphasize_first_word($variables['site_name'], 'site-name-emphasized');
 }
 
 /**

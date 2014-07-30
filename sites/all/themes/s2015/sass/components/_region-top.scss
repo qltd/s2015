@@ -6,6 +6,7 @@
   }
   height: 70px;
   color: $blue;
+  overflow: hidden;
   .site-slogan, .conference-location {
     @include font-details(0.875em, $blue, 400);
   }
@@ -17,11 +18,11 @@
     }
   }
   .conference-location {
-    @include span(4 of 24);
+    @include span(3 of 24 wide);
     @include pre(2 of 24);
   }
   .site-search {
-    @include span(1 at 24 of 24);
+    @include span(1 of 24 rtl);
   }
   .social-navigation {
     @include span(7 of 24 rtl);

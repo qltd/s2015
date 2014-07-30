@@ -1,27 +1,33 @@
 .l-top {
   @extend .clearfix;
-  margin: 0 auto;
+  @include container($width-container);
   padding: {
     top: 20px;
   }
-  width: $width-grid;
   height: 70px;
   color: $blue;
-  .site-slogan, .conference-location {
-    float: left;
-  }
   .site-slogan, .conference-location {
     @include font-details(0.875em, $blue, 400);
   }
   .site-slogan {
-    margin: 0 100px 0 0;
-    width: 330px;
+    @include span(8 of 24 wide);
+    margin: {
+      top: 0;
+      bottom: 0;
+    }
   }
   .conference-location {
-    width: 125px;
+    @include span(4 of 24);
+    @include pre(2 of 24);
   }
-  .social-navigation, .site-search {
-    float: right;
+  .site-search {
+    @include span(1 at 24 of 24);
+  }
+  .social-navigation {
+    @include span(7 of 24 rtl);
+    .menu {
+      text-align: right;
+    }
   }
   .social-navigation-link {
     &:before {

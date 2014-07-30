@@ -25,9 +25,8 @@
   }
 }
 .l-branding-bar {
-  margin: 0 auto;
+  @include container($width-container);
   padding: 25px 0;
-  width: $width-grid;
   height: 150px;
 }
 .l-region--branding {

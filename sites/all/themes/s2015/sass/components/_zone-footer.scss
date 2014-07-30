@@ -6,17 +6,13 @@
   background-color: $blue;
 }
 .l-footer-regions {
-  margin: 0 auto;
-  width: $width-grid;
+  @include container($width-container);
   .l-region {
-    float: left;
+    @include span(1 of 3);
   }
-}
-.l-region--footer-navigation, .l-region--footer-branding {
-  margin: {
-    right: 50px;
+  .l-region--footer-connecting {
+    @include span(1 at 3 of 3);
   }
-  width: 300px;
 }
 .l-region--footer-branding {
   .social-navigation-link {

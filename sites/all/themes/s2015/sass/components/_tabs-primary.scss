@@ -3,7 +3,7 @@
   a {
     padding: 0.4em 0.8em 0.1em;
     background-color: $gray-tab;
-    @include single-transition(background-color, $duration, ease-out);
+    @include single-transition(background-color, $duration-transition, ease-out);
     &.active, &:hover {
       color: $yellow;
       background-color: $gray-rule;

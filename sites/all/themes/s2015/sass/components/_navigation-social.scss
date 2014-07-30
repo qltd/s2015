@@ -21,6 +21,6 @@
   @include font-details(0, transparent);
   &:before {
     font-size: 28px;
-    @include single-transition(color, $duration, ease-out);
+    @include single-transition(color, $duration-transition, ease-out);
   }
 }

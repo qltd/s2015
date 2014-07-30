@@ -1,4 +1,3 @@
 .l-content {
-  margin: 0 auto;
-  width: $width-grid;
+  @include container($width-container);
 }

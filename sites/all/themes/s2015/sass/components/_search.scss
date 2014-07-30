@@ -14,7 +14,7 @@
       image: none !important;
     };
     @include font-details(0.875em, $blue);
-    @include transition(width $duration ease-out, margin-left $duration ease-out);
+    @include transition(width $duration-transition ease-out, margin-left $duration-transition ease-out);
     @include input-placeholder {
       color: $orange;
     }
@@ -30,7 +30,7 @@
       color: transparent;
     };
     @include font-details($size: 1.75em, $color: $blue, $family: 'FontAwesome');
-    @include single-transition(color, $duration, ease-out);
+    @include single-transition(color, $duration-transition, ease-out);
   }
   &.expanded, &:hover {
     .form-text {

@@ -62,7 +62,7 @@
     @include font-details($size: 0, $color: transparent, $height: 0);
     &:before {
       @include font-details($size: 24px, $color: white, $height: 60px);
-      @include single-transition(color, $duration, ease-out);
+      @include single-transition(color, $duration-transition, ease-out);
     }
     &:hover, &.active, &.active-trail {
       &:before {

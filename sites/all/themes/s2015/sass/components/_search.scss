@@ -22,7 +22,7 @@
   .form-submit {
     z-index: 2;
     position: relative;
-    margin: 0 5px;
+    margin: 0 0 0 8px;
     padding: 0;
     border: none;
     width: 28px;
@@ -35,9 +35,9 @@
   &.expanded, &:hover {
     .form-text {
       margin: {
-        left: -200px;
+        left: -210px;
       }
-      width: 240px;
+      width: 250px;
     }
     .form-submit {
       color: $orange;

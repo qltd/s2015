@@ -7,7 +7,14 @@
   }
   .leaf {
     display: inline;
-    margin: 0 5px;
+  }
+  .menu-link {
+    margin: 0 8px;
+    &.fa-google-plus {
+      margin: {
+        right: 2px;
+      }
+    }
   }
 }
 .social-navigation-link {

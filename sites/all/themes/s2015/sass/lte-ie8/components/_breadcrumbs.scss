@@ -1,0 +1,6 @@
+.breadcrumb {
+  @include Swiss-Light();
+  .active {
+    @include Swiss-Medium();
+  }
+}

@@ -1,0 +1,15 @@
+.breadcrumb {
+  @include font-details($size: 0.875em, $weight: 300);
+  .active {
+    @include font-details($color: $blue, $weight: 500);
+    &:hover {
+      color: $orange;
+    }
+  }
+}
+.breadcrumb-delimiter {
+  margin: 0 5px;
+}
+.empty-breadcrumb {
+  display: none;
+}

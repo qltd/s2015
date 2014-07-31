@@ -92,8 +92,8 @@
   </header>
 
   <div class="l-main">
+    <?php print $breadcrumb; ?>
     <div class="l-content" role="main">
-      <?php print $breadcrumb; ?>
       <?php print render($page['highlighted']); ?>
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>

@@ -1,3 +1,4 @@
 body {
   @include Swiss(16px, $black, 400);
+  min-width: $width-container;
 }

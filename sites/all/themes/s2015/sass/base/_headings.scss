@@ -2,5 +2,5 @@ h1 {
   @include font-details(3.375em, $gray-heading, 300);
 }
 h2 {
-  // @include font-details(3em, white, 300);
+  @include font-details(2.25em, $gray-heading, 300);
 }

@@ -1,0 +1,21 @@
+.primary-sub-navigation {
+  .menu-block-wrapper {
+    @include Swiss-Medium();
+  }
+  .menu {
+    .menu {
+      @include Swiss-Roman();
+    }
+  }
+}
+
+.primary-sub-navigation-for-submitters {
+  .menu {
+    .menu {
+      @include Swiss-Medium();
+      .menu {
+        @include Swiss-Roman();
+      }
+    }
+  }
+}

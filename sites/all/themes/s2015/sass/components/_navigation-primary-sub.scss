@@ -1,0 +1,54 @@
+.primary-sub-navigation {
+  .block__title {
+    @include font-details(1.3125em);
+  }
+  .menu-block-wrapper {
+    padding: 0 10px 10px 15px;
+    background-color: $blue-light-menu;
+    @include font-details($size: 0.875em, $weight: 500);
+  }
+  .menu {
+    margin: 0;
+    padding: 20px 0 0;
+    .menu {
+      padding: {
+        left: 10px;
+      }
+      @include font-details($size: 0.875em, $weight: 400);
+    }
+  }
+  .collapsed, .expanded, .leaf {
+
+  }
+  .leaf, .collapsed {
+    margin: {
+      bottom: 20px;
+    }
+  }
+  .menu-link {
+
+  }
+  .active {
+    color: $orange;
+  }
+}
+
+.primary-sub-navigation-for-submitters {
+  .menu-block-wrapper {
+    font-size: inherit;
+  }
+  .menu {
+    .menu {
+      padding: {
+        top: 0;
+      }
+      font-weight: 500;
+      .menu {
+        padding: {
+          top: 20px;
+        }
+        font-weight: 400;
+      }
+    }
+  }
+}

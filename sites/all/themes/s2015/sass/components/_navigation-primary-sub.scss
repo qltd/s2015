@@ -1,8 +1,17 @@
 .primary-sub-navigation {
   .block__title {
+    border: {
+      top: 1px solid $gray-rule;
+    }
+    padding: {
+      top: 20px;
+    }
     @include font-details(1.3125em);
   }
   .menu-block-wrapper {
+    border: {
+      top: 1px solid $blue-rule;
+    }
     padding: 0 10px 10px 15px;
     background-color: $blue-light-menu;
     @include font-details($size: 0.875em, $weight: 500);
@@ -25,9 +34,7 @@
       bottom: 20px;
     }
   }
-  .menu-link {
-
-  }
+  .menu-link {}
   .active {
     color: $orange;
   }

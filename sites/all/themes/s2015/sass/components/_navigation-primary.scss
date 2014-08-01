@@ -6,7 +6,7 @@
 
 // navigation <nav>
 .primary-navigation {
-  margin: 0 auto;
+  @include container($width-container);
   .menu {
     margin: 0;
     padding: {
@@ -87,7 +87,7 @@
 // links <a>
 .primary-navigation-menu-link-top {
   display: block;
-  padding: 0 25px;
+  padding: 0 24px;
   @include font-details($height: 60px);
   &:hover, &.active, &.active-trail {
     color: $yellow;

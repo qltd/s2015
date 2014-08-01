@@ -1,6 +1,7 @@
 .footer-navigation {
   .menu {
     margin: 0;
+    padding: 0;
   }
   .menu-link {
     @include font-details($color: white, $weight: 300);

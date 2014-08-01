@@ -12,6 +12,12 @@
 /*
   Browserify/Uglify Generated JavaScript for SIGGRAPH 2015 -- https://github.com/qltd/s2015
 
+  - compile while in theme directory (sites/all/themes/s2015)           : gulp browserify
+  - watch for changes while in theme directory (sites/all/themes/s2015) : gulp watch
 */
 
+/**
+ * Components
+ */
 require('./behaviors/search');
+require('./behaviors/navigation-primary-sub');

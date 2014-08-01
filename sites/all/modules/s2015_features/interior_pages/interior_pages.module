@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Interior Pages feature.
+ */
+
+include_once 'interior_pages.features.inc';

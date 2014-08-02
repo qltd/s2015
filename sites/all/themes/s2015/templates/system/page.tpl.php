@@ -92,7 +92,10 @@
   </header>
 
   <div class="l-main">
-    <?php print $breadcrumb; ?>
+    <header class="l-content-header">
+      <?php print $breadcrumb; ?>
+      <?php print render($page['content_header']); ?>
+    </header>
     <div class="l-content" role="main">
       <?php print render($page['highlighted']); ?>
       <a id="main-content"></a>
@@ -109,7 +112,7 @@
       <?php print render($page['content']); ?>
     </div>
     <?php print render($page['sidebar']); ?>
-    <?php print render($page['fixed_sidebar']); ?>
+    <?php print render($page['sidebar_fixed']); ?>
   </div>
 
   <footer class="l-footer" role="contentinfo">

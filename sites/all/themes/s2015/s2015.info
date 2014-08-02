@@ -8,8 +8,8 @@ core = 7.x
 ; ========================================
 ; Stylesheets
 ; ========================================
-stylesheets[all][] = css/s2015.styles.min.css
-stylesheets[all][] = css/s2015.hacks.min.css
+stylesheets[all][] = css/s2015.styles.css
+stylesheets[all][] = css/s2015.hacks.css
 
 ; ========================================
 ; Scripts

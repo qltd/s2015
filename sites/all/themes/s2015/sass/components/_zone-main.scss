@@ -4,6 +4,7 @@
 }
 .l-content {
   @include span(9 at 4 of 12);
+  @include rem-fallback(padding-left, 1.25rem);
 }
 .l-region--sidebar {
   @include span(3 of 12);

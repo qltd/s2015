@@ -14,7 +14,8 @@
   }
   .menu-level-1 {
     > .menu {
-      text-align: center;
+      @include container-fallback($width-container, $width-container-px-fallback);
+      // text-align: center;
     }
   }
   .menu-link {
@@ -24,7 +25,7 @@
 
 // list items <li>
 .primary-navigation-expanded-top, .primary-navigation-leaf-top {
-  display: inline-block;
+  float: left;
   @include rem-fallback(height, 3.75rem);
   &:hover {
     background-color: $blue-dark-menu;
@@ -54,8 +55,6 @@
     overflow: hidden;
     opacity: 0;
     // @include single-transition(opacity, $duration-transition-extended, ease-out);
-  }
-  .menu {
     .menu-link {
       @include font-details($size: 0.75em);
       &:hover {
@@ -93,27 +92,27 @@
 }
 .primary-navigation-for-submitters {
   > .menu {
-    @include rem-fallback(margin-left, -4.75rem);
+    @include rem-fallback(margin-left, -4.5rem);
   }
 }
 .primary-navigation-for-volunteers {
   > .menu {
-    @include rem-fallback(margin-left, -15rem);
+    @include rem-fallback(margin-left, -14.5rem);
   }
 }
 .primary-navigation-for-attendees {
   > .menu {
-    @include rem-fallback(margin-left, -25.1875rem);
+    @include rem-fallback(margin-left, -24.4375rem);
   }
 }
 .primary-navigation-for-the-media {
   > .menu {
-    @include rem-fallback(margin-left, -35.0625rem);
+    @include rem-fallback(margin-left, -34.0625rem);
   }
 }
 .primary-navigation-for-exhibitors-advertisers {
   > .menu {
-    @include rem-fallback(margin-left, -44.5625rem);
+    @include rem-fallback(margin-left, -43.3125rem);
   }
 }
 

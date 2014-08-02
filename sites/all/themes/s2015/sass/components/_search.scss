@@ -2,18 +2,16 @@
   .form-text {
     z-index: 1;
     position: absolute;
-    margin: {
-      top: -2px;
-      left: 0;
-    }
+    @include rem-fallback(margin, -0.125rem, 0, 0);
     border: none;
-    padding: 2px 40px 1px 10px;
+    @include rem-fallback(padding, 0.125rem, 2.5rem, 0.0625rem, 0.625rem);
     width: 0;
-    height: 35px;
+    @include rem-fallback(height, 2.1875rem);
     background: {
       image: none !important;
     };
-    @include font-details(0.875em, $blue);
+    font-size: rem-fallback(0.875rem);
+    @include font-details(0.875rem, $blue);
     @include transition(width $duration-transition ease-out, margin-left $duration-transition ease-out);
     @include input-placeholder {
       color: $orange;
@@ -24,19 +22,18 @@
     position: relative;
     padding: 0;
     border: none;
-    width: 28px;
+    @include rem-fallback(width, 1.75rem);
     background: {
       color: transparent;
     };
-    @include font-details($size: 1.75em, $color: $blue, $family: 'FontAwesome');
+    font-size: rem-fallback(1.75rem);
+    @include font-details($size: 1.75rem, $color: $blue, $family: 'FontAwesome');
     @include single-transition(color, $duration-transition, ease-out);
   }
   &.expanded, &:hover {
     .form-text {
-      margin: {
-        left: -210px;
-      }
-      width: 240px;
+      @include rem-fallback(margin-left, -13.125rem);
+      @include rem-fallback(width, 15rem);
     }
     .form-submit {
       color: $orange;

@@ -1,0 +1,4 @@
+@mixin container-fallback ($primary, $fallback) {
+  max-width: $fallback;
+  @include container($primary);
+}

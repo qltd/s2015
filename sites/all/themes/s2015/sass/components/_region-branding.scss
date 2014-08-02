@@ -3,8 +3,7 @@
   &:after {
     display: block;
     content: '';
-    margin: 0 auto;
-    height: 54px;
+    @include rem-fallback(height, 3.375rem);
     background-image: url('../images/header-pattern-3.png');
   }
 }
@@ -13,8 +12,7 @@
     &:before, &:after {
       display: block;
       content: '';
-      margin: 0 auto;
-      height: 153px;
+      @include rem-fallback(height, 9.5625rem);
     }
     &:before {
       background-image: url('../images/header-pattern-1.png');
@@ -25,15 +23,15 @@
   }
 }
 .l-branding-bar {
-  @include container($width-container);
-  padding: 25px 0;
-  height: 150px;
+  @include container-fallback($width-container, $width-container-em-fallback);
+  @include rem-fallback(padding, 1.5625rem, 0);
+  @include rem-fallback(height, 9.375rem);
 }
 .l-region--branding {
   float: right;
   display: table;
-  margin: 20px 0;
-  height: 60px;
+  @include rem-fallback(margin, 1.25rem, 0);
+  @include rem-fallback(height, 3.75rem);
   .block {
     display: table-cell;
     vertical-align: middle;

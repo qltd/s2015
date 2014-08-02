@@ -9,18 +9,16 @@
     display: inline;
   }
   .menu-link {
-    margin: 0 8px;
+    @include rem-fallback(margin, 0, 0.5rem);
     &.fa-google-plus {
-      margin: {
-        right: 2px;
-      }
+      @include rem-fallback(margin-right, 0.125rem);
     }
   }
 }
 .social-navigation-link {
   @include font-details(0, transparent);
   &:before {
-    font-size: 28px;
+    @include rem-fallback(font-size, 1.75rem);  
     @include single-transition(color, $duration-transition, ease-out);
   }
 }

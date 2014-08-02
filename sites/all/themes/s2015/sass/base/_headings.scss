@@ -1,6 +1,8 @@
 h1 {
-  @include font-details(3.375em, $gray-heading, 300);
+  font-size: rem-fallback(3.375rem);
+  @include font-details(3.375rem, $gray-heading, 300);
 }
 h2 {
-  @include font-details(2.25em, $gray-heading, 300);
+  font-size: rem-fallback(2.25rem);
+  @include font-details(2.25rem, $gray-heading, 300);
 }

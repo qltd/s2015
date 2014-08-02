@@ -1,12 +1,10 @@
 .l-footer {
-  padding: {
-    top: 100px;
-  }
-  height: 325px;
+  @include rem-fallback(padding-top, 6.25rem);
+  @include rem-fallback(height, 20.3125rem);
   background-color: $blue;
 }
 .l-footer-regions {
-  @include container($width-container);
+  @include container-fallback($width-container, $width-container-em-fallback);
   .l-region {
     @include span(1 of 3);
   }

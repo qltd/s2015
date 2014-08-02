@@ -1,7 +1,7 @@
 .tabs--primary {
   border-bottom-color: $gray-rule;
   a {
-    padding: 0.4em 0.8em 0.1em;
+    @include rem-fallback(padding, 0.4rem, 0.8rem, 0.1rem);
     background-color: $gray-tab;
     @include single-transition(background-color, $duration-transition, ease-out);
     &.active, &:hover {

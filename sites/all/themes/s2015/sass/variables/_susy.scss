@@ -5,3 +5,8 @@ $susy: (
   columns: 12,
   global-box-sizing: border-box
 );
+
+// width of grid containers
+$width-container: 60rem;
+$width-container-em-fallback: 60em;
+$width-container-px-fallback: 960px;

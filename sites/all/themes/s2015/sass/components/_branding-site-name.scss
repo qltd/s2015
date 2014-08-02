@@ -6,8 +6,8 @@
   @extend .ir;
   display: block;
   margin: 0;
-  width: 378px;
-  height: 99px;
+  @include rem-fallback(width, 23.625rem);
+  @include rem-fallback(height, 6.1875rem);
   background-image: url("../images/siggraph-logo.png");
 }
 @media (-webkit-min-device-pixel-ratio: 1.3),
@@ -16,6 +16,6 @@
   (min-resolution: 1.3dppx) {
   .site-name-link {
     background-image: url("../images/siggraph-logo@2x.png");
-    background-size: 378px 99px;
+    @include rem-fallback(background-size, 23.625rem, 6.1875rem);
   }
 }

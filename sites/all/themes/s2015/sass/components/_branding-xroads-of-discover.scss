@@ -2,8 +2,6 @@
   border: {
     right: 1px solid white;
   }
-  padding: {
-    right: 20px;
-  }
-  width: 220px;
+  @include rem-fallback(padding-right, 1.25rem);
+  @include rem-fallback(width, 13.75rem);
 }

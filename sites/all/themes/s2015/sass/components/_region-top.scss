@@ -1,14 +1,13 @@
 .l-top {
   @extend .clearfix;
-  @include container($width-container);
-  padding: {
-    top: 20px;
-  }
-  height: 70px;
+  @include container-fallback($width-container, $width-container-em-fallback);
+  @include rem-fallback(padding-top, 1.25rem);
+  @include rem-fallback(height, 4.375rem);
   color: $blue;
   overflow: hidden;
   .site-slogan, .conference-location {
-    @include font-details(0.875em, $blue, 400);
+    font-size: rem-fallback(0.875rem);
+    @include font-details(0.875rem, $blue, 400);
   }
   .site-slogan {
     @include span(8 of 24 wide);

@@ -1,5 +1,3 @@
 .branding-conference-dates {
-  padding: {
-    left: 20px;
-  }
+  @include rem-fallback(padding-left, 1.25rem);
 }

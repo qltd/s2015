@@ -1,5 +1,6 @@
 .breadcrumb {
-  @include font-details($size: 0.875em, $weight: 300);
+  font-size: rem-fallback(0.875rem);
+  @include font-details($size: 0.875rem, $weight: 300);
   .active {
     @include font-details($color: $blue, $weight: 500);
     &:hover {
@@ -8,7 +9,7 @@
   }
 }
 .breadcrumb-delimiter {
-  margin: 0 5px;
+  @include rem-fallback(margin, 0, 0.3125rem);
 }
 .empty-breadcrumb {
   display: none;

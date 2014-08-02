@@ -6,7 +6,7 @@
 
 // navigation <nav>
 .primary-navigation {
-  @include container($width-container);
+  @include container-fallback($width-container, $width-container-em-fallback);
   .menu {
     margin: 0;
     padding: {

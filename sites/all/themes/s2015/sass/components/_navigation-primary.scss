@@ -49,9 +49,11 @@
     position: absolute;
     display: block;
     @include rem-fallback(width, $width-container);
+    height: 0;
     z-index: 1;
+    overflow: hidden;
     opacity: 0;
-    @include single-transition(opacity, $duration-transition-extended, ease-out);
+    // @include single-transition(opacity, $duration-transition-extended, ease-out);
   }
   .menu {
     .menu-link {
@@ -70,12 +72,14 @@
   &:hover {
     > .menu-link {
       &:after {
-        height: map_get($dropdown-height, default);
+        @include rem-fallback(height, map_get($dropdown-height, default));
         @include transition-delay(0ms);
       }
     }
     > .menu {
+      @include rem-fallback(height, map_get($dropdown-height, default));
       opacity: 1;
+      z-index: 2;
     }
   }
 }

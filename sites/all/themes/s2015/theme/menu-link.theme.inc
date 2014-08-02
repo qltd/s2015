@@ -11,6 +11,7 @@ function s2015_menu_link ($variables) {
 /**
  * Helper function for primary navigation menu items
  *
+ * - adds font awesome icon to 'Home' item
  * - adds emphasis via a classed <strong> tag
  * - adds additional classes for easier styling and scripting
  *
@@ -28,6 +29,7 @@ function s2015_primary_navigation ($element) {
   } else $element['#attributes']['class'][] = 'primary-navigation-leaf-top';
   foreach ($title_words as $key => $title_word) {
     if ($title_word != 'For' && $title_word != 'the' && $emphasized === false) {
+      if ($title_word === 'Home') $output_str .= '<i class="fa fa-home"></i>';
       $output_str .= '<strong class="menu-link-emphasized">';
       $emphasized = true;
     }

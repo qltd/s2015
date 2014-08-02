@@ -35,8 +35,8 @@
     }
   }
   .menu-link {}
-  .active {
-    color: $orange;
+  .active, .menu-link:hover {
+    color: $red;
   }
 }
 

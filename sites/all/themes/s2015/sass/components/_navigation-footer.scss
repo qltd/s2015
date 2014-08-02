@@ -10,6 +10,6 @@
     }
   }
   .leaf {
-    @include rem-fallback(margin-bottom, 1.6rem);
+    @include rem-fallback(margin-bottom, 0.625rem);
   }
 }

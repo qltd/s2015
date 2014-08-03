@@ -1,5 +1,10 @@
 .tabs--primary {
-  border-bottom-color: $gray-rule;
+  margin: {
+    bottom: 0;
+  }
+  border: {
+    bottom: none;
+  }
   a {
     @include rem-fallback(padding, 0.4rem, 0.8rem, 0.1rem);
     background-color: $gray-tab;

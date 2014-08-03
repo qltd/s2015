@@ -1,9 +1,9 @@
 .primary-sub-navigation {
+  border: {
+    top: 1px solid $gray-rule;
+  }
   .block__title {
-    border: {
-      top: 1px solid $gray-rule;
-    }
-    @include rem-fallback(padding-top, 1.25rem);
+    @include rem-fallback(margin, 1rem, 0);
     font-size: rem-fallback(1.3125rem);
     @include font-details(1.3125rem);
   }

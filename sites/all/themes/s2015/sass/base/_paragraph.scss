@@ -1,4 +1,5 @@
 p {
+  @include rem-fallback(margin, 2rem, 0);
   font-size: rem-fallback(1.125rem);
-  @include font-details($size: 1.125rem, $weight: 300, $height: 1.4);
+  @include font-details($size: 1.125rem, $weight: 300, $height: 1.5);
 }

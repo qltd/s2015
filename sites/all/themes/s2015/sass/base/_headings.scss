@@ -1,8 +1,9 @@
 h1 {
+  @include rem-fallback(margin, 1.25rem, 0);
   font-size: rem-fallback(3.375rem);
   @include font-details(3.375rem, $gray-heading, 300);
 }
-h2 {
+h2, h3 {
   font-size: rem-fallback(2.25rem);
   @include font-details(2.25rem, $gray-heading, 300);
 }

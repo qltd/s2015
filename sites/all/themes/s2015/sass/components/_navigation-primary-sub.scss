@@ -3,36 +3,29 @@
     border: {
       top: 1px solid $gray-rule;
     }
-    padding: {
-      top: 20px;
-    }
-    @include font-details(1.3125em);
+    @include rem-fallback(padding-top, 1.25rem);
+    font-size: rem-fallback(1.3125rem);
+    @include font-details(1.3125rem);
   }
-  .menu-block-wrapper {
+  .menu-level-1 {
     border: {
       top: 1px solid $blue-rule;
     }
-    padding: 0 10px 10px 15px;
+    @include rem-fallback(padding, 0, 0.625rem, 0.625rem, 0.9375rem);
     background-color: $blue-light-menu;
     @include font-details($size: 0.875em, $weight: 500);
   }
   .menu {
     margin: 0;
-    padding: 20px 0 0;
+    @include rem-fallback(padding, 1.25rem, 0, 0);
     .menu {
-      padding: {
-        left: 10px;
-      }
-      @include font-details($size: 0.875em, $weight: 400);
+      @include rem-fallback(padding-left, 0.625rem);
+      @include font-details($size: 0.875em, $weight: 400); // do not use rem
     }
   }
-  .collapsed, .expanded, .leaf {
-
-  }
+  .collapsed, .expanded, .leaf {}
   .leaf, .collapsed {
-    margin: {
-      bottom: 20px;
-    }
+    @include rem-fallback(margin-bottom, 1.25rem);
   }
   .menu-link {}
   .active, .menu-link:hover {
@@ -40,8 +33,8 @@
   }
 }
 
-.primary-sub-navigation-for-submitters {
-  .menu-block-wrapper {
+.primary-sub-navigation-for-submitters, .primary-sub-navigation-for-attendees {
+  .menu-level-1 {
     font-size: inherit;
   }
   .menu {
@@ -49,9 +42,82 @@
       padding: 0;
       font-weight: 500;
       .menu {
-        padding: 20px 0 0 10px;
+        @include rem-fallback(padding, 1.25rem, 0, 0, 0.625rem);
         font-weight: 400;
       }
+    }
+  }
+  .menu-level-1 {
+    > .menu {
+      > .first {
+        display: none;
+      }
+    }
+  }
+}
+.primary-sub-navigation-for-attendees {
+  .menu-level-1 {
+    border: {
+      top: none;
+    }
+    padding: 0;
+    background-color: transparent;
+    > .menu {
+      padding: 0;
+      .menu {
+        @include rem-fallback(padding, 1.25rem, 0.625rem, 1.25rem, 0.9375rem);
+        background-color: $blue-light-menu;
+      }
+    }
+  }
+  .menu {
+    .menu {
+      .menu {
+        padding-bottom: 0;
+      }
+    }
+  }
+  .primary-navigation-programs-events, .primary-navigation-attendees-col-3, .primary-navigation-information-planning {
+    &.active-trail {
+      + .menu {
+        display: block;
+      }
+    }
+    + .menu {
+      display: none;
+    }
+  }
+  .primary-navigation-programs-events, .primary-navigation-information-planning {
+    @extend .fa-plus-circle;
+    display: block;
+    @include rem-fallback(margin, 0.25rem, 0);
+    @include rem-fallback(padding, 0, 0.625rem, 0, 0.9375rem);
+    background-color: $blue-menu;
+    line-height: rem-fallback(3.75rem);
+    @include font-details($color: $blue, $height: 3.75rem);
+    @include single-transition(color, $duration-transition, ease-out);
+    cursor: pointer;
+    &:before {
+      float: right;
+      @include font-details($color: white, $family: FontAwesome);
+    }
+    &.active-trail {
+      @extend .fa-minus-circle;
+      background-color: $blue-light-menu;
+    }
+  }
+  .primary-navigation-programs-events {
+    + .menu {
+      padding-bottom: 0 !important;
+      > .last {
+        margin-bottom: 0;
+        @include rem-fallback(padding-bottom, 1.25rem);
+      }
+    }
+  }
+  .primary-navigation-attendees-col-3 {
+    + .menu {
+      padding-top: 0 !important;
     }
   }
 }

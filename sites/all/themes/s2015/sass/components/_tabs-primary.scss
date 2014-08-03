@@ -15,8 +15,18 @@
     }
   }
   li {
+    float: none;
+    display: inline-block;
     margin: {
       bottom: 0;
+    }
+  }
+}
+
+.node-type-page, .node-type-for-submitters, .node-type-for-attendees {
+  .tabs--primary {
+    li {
+      float: left;
     }
   }
 }

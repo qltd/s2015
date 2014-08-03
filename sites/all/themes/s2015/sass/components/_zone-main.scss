@@ -1,11 +1,15 @@
 .l-main {
-  @include container-fallback($width-container, $width-container-em-fallback);
   @include rem-fallback(padding, 1.875rem, 0, 3.75rem);
 }
-.l-content {
-  @include span(9 at 4 of 12);
-  @include rem-fallback(padding-left, 1.25rem);
-}
-.l-region--sidebar {
-  @include span(3 of 12);
+.node-type-page, .node-type-for-submitters, .node-type-for-attendees {
+  .l-main {
+    @include container-fallback($width-container, $width-container-em-fallback);  
+  }
+  .l-content {
+    @include span(9 at 4 of 12);
+    @include rem-fallback(padding-left, 1.25rem);
+  }
+  .l-region--sidebar {
+    @include span(3 of 12);
+  }
 }

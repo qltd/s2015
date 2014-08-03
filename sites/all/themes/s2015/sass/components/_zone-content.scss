@@ -1,12 +1,25 @@
 .l-content {
-  @include container-fallback($width-container, $width-container-em-fallback);
-  .content-title {
-    @include rem-fallback(margin-right, 8.75rem);
-  }
+  text-align: center;
+}
+
+.front, .node-type-landing-page {
   .node__content {
-    border: {
-      top: 1px solid $gray-rule;
+    @include container-fallback($width-container, $width-container-em-fallback);
+  }
+}
+
+.node-type-page, .node-type-for-submitters, .node-type-for-attendees {
+  .l-content {
+    text-align: left;
+    @include container-fallback($width-container, $width-container-em-fallback);
+    .content-title {
+      @include rem-fallback(margin-right, 8.75rem);
     }
-    @include rem-fallback(padding-top, 0.5rem);
+    .node__content {
+      border: {
+        top: 1px solid $gray-rule;
+      }
+      @include rem-fallback(padding-top, 0.5rem);
+    }
   }
 }

@@ -3,3 +3,9 @@ p {
   font-size: rem-fallback(1.125rem);
   @include font-details($size: 1.125rem, $weight: 300, $height: 1.5);
 }
+
+.front, .node-type-landing-page {
+  p {
+    @include rem-fallback(font-size, 1.3125rem);
+  }
+}

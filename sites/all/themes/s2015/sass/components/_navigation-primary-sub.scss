@@ -65,7 +65,7 @@
     > .menu {
       padding: 0;
       .menu {
-        @include rem-fallback(padding, 1.25rem, 0.625rem, 1.25rem, 0.9375rem);
+        @include rem-fallback(padding, 1.25rem, 0.625rem, 0.625rem, 0.9375rem);
         background-color: $blue-light-menu;
       }
     }
@@ -99,7 +99,9 @@
     cursor: pointer;
     &:before {
       float: right;
-      @include font-details($color: white, $family: FontAwesome);
+      font-size: rem-fallback(1.3125rem);
+      line-height: rem-fallback(3.75rem);
+      @include font-details($size: 1.3125rem, $color: white, $height: 3.75rem, $family: FontAwesome);
     }
     &.active-trail {
       @extend .fa-minus-circle;

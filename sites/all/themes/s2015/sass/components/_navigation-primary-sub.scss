@@ -95,13 +95,16 @@
     background-color: $blue-menu;
     line-height: rem-fallback(3.75rem);
     @include font-details($color: $blue, $height: 3.75rem);
-    @include single-transition(color, $duration-transition, ease-out);
+    @include transition(color $duration-transition ease-out, background-color $duration-transition ease-out);
     cursor: pointer;
     &:before {
       float: right;
       font-size: rem-fallback(1.3125rem);
       line-height: rem-fallback(3.75rem);
       @include font-details($size: 1.3125rem, $color: white, $height: 3.75rem, $family: FontAwesome);
+    }
+    &:hover {
+      background-color: $blue-light-menu;
     }
     &.active-trail {
       @extend .fa-minus-circle;

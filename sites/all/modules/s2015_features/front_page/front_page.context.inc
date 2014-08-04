@@ -32,6 +32,12 @@ function front_page_context_default_contexts() {
           'region' => 'content',
           'weight' => '-10',
         ),
+        'block-31' => array(
+          'module' => 'block',
+          'delta' => '31',
+          'region' => 'content',
+          'weight' => '-9',
+        ),
       ),
     ),
   );

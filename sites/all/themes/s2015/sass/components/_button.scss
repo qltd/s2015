@@ -4,16 +4,24 @@
   font-size: rem-fallback(0.875rem);
   @include font-details(0.875rem, white, 500, normal);
   @include rem-fallback(letter-spacing, 0.1875rem);
+  white-space: nowrap;
   text-transform: uppercase;
+  @include single-transition(background-color, $duration-transition, ease-out);
   &:hover {
+    background-color: $red;
     color: white;
+    &:after {
+      @include rem-fallback(left, 0.5rem);
+    }
   }
   &:after {
     position: relative;
+    left: 0;
     @include rem-fallback(top, 0.1875rem);
     @include rem-fallback(padding-left, 0.625rem);
     font-size: rem-fallback(1.5rem);
     @include font-details($size: 1.5rem, $family: FontAwesome);
     content: "\f178";
+    @include single-transition(left, $duration-transition, ease-out);
   }
 }

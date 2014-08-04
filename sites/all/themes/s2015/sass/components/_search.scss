@@ -3,7 +3,7 @@
     z-index: 1;
     position: absolute;
     @include rem-fallback(margin, -0.125rem, 0, 0);
-    border: none;
+    border: none !important;
     @include rem-fallback(padding, 0.125rem, 2.5rem, 0.0625rem, 0.625rem);
     width: 0;
     @include rem-fallback(height, 2.1875rem);

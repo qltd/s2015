@@ -2,3 +2,7 @@
   @include container-fallback($width-container, $width-container-em-fallback);
   @include rem-fallback(margin-bottom, 1.875rem);
 }
+
+.front .l-content-header {
+  display: none;
+}

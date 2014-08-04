@@ -19,5 +19,6 @@
 /**
  * Components
  */
-require('./behaviors/search');
+require('./behaviors/front-countdown');
 require('./behaviors/navigation-primary-sub');
+require('./behaviors/search');

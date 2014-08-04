@@ -1,7 +1,0 @@
-.front-about {
-  @include container-fallback($width-container, $width-container-em-fallback);
-  @include rem-fallback(padding, 0, 3.75rem);
-}
-.front-about-paragraph {
-  @include rem-fallback(font-size, 1.75rem);
-}

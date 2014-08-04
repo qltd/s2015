@@ -1,0 +1,11 @@
+.front-block {
+  @include container-fallback($width-container, $width-container-em-fallback);
+  @include rem-fallback(padding, 0, 3.6875rem);
+  .block__title {
+    @include rem-fallback(font-size, 3.375rem);
+    @include rem-fallback(margin, 2rem, 0);
+  }
+}
+.front-paragraph {
+  @include rem-fallback(font-size, 1.75rem);
+}

@@ -1,0 +1,10 @@
+.front-location {
+  &:before {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    @include rem-fallback(width, 11.0625rem);
+    @include rem-fallback(height, 11.0625rem);
+    background-image: url("../images/front-los-angeles.png");
+  }
+}

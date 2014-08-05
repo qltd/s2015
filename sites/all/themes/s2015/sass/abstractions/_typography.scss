@@ -119,3 +119,12 @@ font-style: normal;
   $family: "Swiss", "Helvetica Neue", Helvetica, Arial, sans-serif;
   @include font-details($size, $color, $weight, $height, $style, $family);
 }
+
+@mixin FontAwesome() {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

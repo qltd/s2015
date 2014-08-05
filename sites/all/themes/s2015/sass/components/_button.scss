@@ -20,7 +20,8 @@
     @include rem-fallback(top, 0.1875rem);
     @include rem-fallback(padding-left, 0.625rem);
     font-size: rem-fallback(1.5rem);
-    @include font-details($size: 1.5rem, $family: FontAwesome);
+    @include font-details($size: 1.5rem);
+    @include FontAwesome();
     content: "\f178";
     @include single-transition(left, $duration-transition, ease-out);
   }

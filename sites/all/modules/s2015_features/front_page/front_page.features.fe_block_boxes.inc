@@ -22,6 +22,14 @@ function front_page_default_fe_block_boxes() {
   $export['front_about'] = $fe_block_boxes;
 
   $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'The conference countdown block for the front page';
+  $fe_block_boxes->format = 'raw_html';
+  $fe_block_boxes->machine_name = 'front_countdown';
+  $fe_block_boxes->body = '<p class="front-countdown-paragraph front-paragraph"><span class="countdown-pie" data-date="Sun Aug 09 2015 00:00:00 GMT-0400" data-days="400"><i class="countdown-pie-slice"></i><span class="front-countdown-count">365</span> <span class="front-countdown-unit">Days</span></span> Until SIGGRAPH 2015</p>';
+
+  $export['front_countdown'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'The location description block for the front page';
   $fe_block_boxes->format = 'event';
   $fe_block_boxes->machine_name = 'front_location';

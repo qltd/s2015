@@ -120,11 +120,12 @@ font-style: normal;
   @include font-details($size, $color, $weight, $height, $style, $family);
 }
 
-@mixin FontAwesome() {
+@mixin FontAwesome($size: null, $color: null) {
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  @include font-details($size, $color);
 }

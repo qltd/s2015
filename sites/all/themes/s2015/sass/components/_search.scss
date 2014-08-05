@@ -27,7 +27,7 @@
       color: transparent;
     };
     font-size: rem-fallback(1.75rem);
-    @include font-details($size: 1.75rem, $color: $blue, $family: 'FontAwesome');
+    @include FontAwesome(1.75rem, $blue);
     @include single-transition(color, $duration-transition, ease-out);
   }
   &.expanded, &:hover {

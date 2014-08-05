@@ -44,6 +44,12 @@ function front_page_context_default_contexts() {
           'region' => 'content',
           'weight' => '-8',
         ),
+        'block-32' => array(
+          'module' => 'block',
+          'delta' => '32',
+          'region' => 'content',
+          'weight' => '-7',
+        ),
       ),
     ),
   );

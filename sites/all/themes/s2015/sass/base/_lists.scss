@@ -1,6 +1,10 @@
 ol {}
 ul {}
-li {
-  @include rem-fallback(margin-bottom, 1rem);
-  line-height: 1.5;
+li {}
+
+.block__content, .node__content {
+  li {
+    @include rem-fallback(margin-bottom, 1rem);
+    line-height: 1.5;
+  }
 }

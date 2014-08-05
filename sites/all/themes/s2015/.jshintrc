@@ -9,6 +9,7 @@
   "jquery": true,
   "latedef": true,
   "laxcomma": true,
+  "multistr": true,
   "newcap": true,
   "noarg": true,
   "quotmark": true,

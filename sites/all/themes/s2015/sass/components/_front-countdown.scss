@@ -1,0 +1,78 @@
+
+.front-countdown {}
+.front-countdown-count, .front-countdown-unit {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+.front-countdown-count {
+  @include rem-fallback(padding-top, 3.125rem);
+  @include rem-fallback(font-size, 4.5rem);
+}
+.front-countdown-unit {
+  @include rem-fallback(font-size, 1.125rem);
+}
+
+// pie css forked from: http://codepen.io/AtomicNoggin/pen/fEish
+.countdown-pie {
+  display: block;
+  margin: 0 auto rem-fallback(1.5rem);
+  margin: 0 auto 1.5rem;
+  @include rem-fallback(border-radius, 5.625rem);
+  @include rem-fallback(width, 11.25rem);
+  @include rem-fallback(height, 11.25rem);
+  background-color: $gray;
+  @include font-details($color: white, $height: 1);
+  text-transform: uppercase;
+  text-align: left;
+}
+.countdown-pie-slice {
+  position: absolute;
+  @include rem-fallback(margin-left, 5.625rem);
+  @include rem-fallback(width, 5.625rem);
+  @include rem-fallback(height, 11.25rem);
+  overflow: hidden;
+  -moz-transform-origin: left center;
+  -ms-transform-origin: left center;
+  -o-transform-origin: left center;
+  -webkit-transform-origin: left center;
+  transform-origin: left center;
+
+  &.big-slice {
+    @include rem-fallback(width, 11.25rem);
+    @include rem-fallback(height, 11.25rem);
+    margin-left: 0;
+    -moz-transform-origin:center center;
+    -ms-transform-origin:center center;
+    -o-transform-origin:center center;
+    -webkit-transform-origin:center center;
+    transform-origin:center center;
+    &:before {
+      left: 0;
+    }
+    &:after {
+      content:"";
+      position:absolute;
+      @include rem-fallback(width, 5.625rem);
+      @include rem-fallback(height, 11.25rem);
+      @include rem-fallback(left, 5.625rem);
+      @include rem-fallback(border-radius, 0, 5.625rem, 5.625rem, 0);
+    }
+  }
+  &:before {
+    content:"";
+    position:absolute;
+    @include rem-fallback(width, 5.625rem);
+    @include rem-fallback(height, 11.25rem);
+    @include rem-fallback(left, -5.625rem);
+    @include rem-fallback(border-radius, 5.625rem, 0, 0, 5.625rem);
+    -moz-transform-origin:right center;
+    -ms-transform-origin:right center;
+    -o-transform-origin:right center;
+    -webkit-transform-origin:right center;
+    transform-origin:right center;
+  }
+  &:before, &:after {
+    background-color: $blue;
+  }
+}

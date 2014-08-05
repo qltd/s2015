@@ -1,0 +1,31 @@
+.front-twitter {
+  @include rem-fallback(padding, 1.75rem, 0);
+  background-image: url("../images/background-honeycomb-red.png");
+  background-attachment: fixed;
+  color: white;
+}
+.front-twitter-link {
+  display: block;
+  margin: 0 auto;
+  @include rem-fallback(width, 9.375rem);
+  font-size: rem-fallback(0.75rem);
+  @include font-details(0.75rem, $orange, 500);
+  .fa-twitter {
+    display: block;
+    @include rem-fallback(margin-bottom, 0.75rem);
+    padding-left: 0;
+    font-size: rem-fallback(2.25rem);
+    @include font-details(2.25rem, white);
+    @include single-transition(padding-left, $duration-transition, ease-out);
+    &:before {
+      @include single-transition(color, $duration-transition, ease-out);
+    }
+  }
+  &:hover {
+    color: $yellow;
+    .fa-twitter {
+      @include rem-fallback(padding-left, 5.3125rem);
+      color: $yellow;
+    }
+  }
+}

@@ -24,7 +24,7 @@
   &:hover {
     color: $yellow;
     .fa-twitter {
-      @include rem-fallback(padding-left, 5.3125rem);
+      @include rem-fallback(padding-left, 1.5625rem);
       color: $yellow;
     }
   }

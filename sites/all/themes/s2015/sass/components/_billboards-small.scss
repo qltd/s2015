@@ -4,10 +4,10 @@
   padding: 0;
   list-style: none;
   text-align: center;
-}
-.billboards-small-list-item {
-  display: inline-block;
-  @include rem-fallback(margin, 0, 0.5rem);
+  .billboards-small-list-item {
+    display: inline-block;
+    @include rem-fallback(margin, 0, 0.5rem, 1.25rem);
+  }
 }
 .billboard-small-container, .billboard-small-shelf {
   @include rem-fallback(width, 13.75rem);
@@ -49,7 +49,7 @@
   border: {
     bottom: 1px solid rgba(white, 0.3);
   }
-  @include rem-fallback(padding, 0, 0.75rem, 0, 0);
+  @include rem-fallback(padding, 0);
   @include rem-fallback(height, 4.25rem);
   font-size: rem-fallback(1.5rem);
   @include font-details($size: 1.5rem, $color: white, $height: normal);

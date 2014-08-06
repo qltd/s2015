@@ -1,10 +1,10 @@
 <?php
 
 /**
- * Template for "Small Billboards" field collection output
+ * Template for "Small Billboards" field collection item output
  */
 
-if (isset($row->field_field_billboards[0]['rendered']['entity']['field_collection_item'])) {
+if (isset($row->field_field_billboards[0]['rendered']['entity']['field_collection_item'])):
   foreach ($row->field_field_billboards[0]['rendered']['entity']['field_collection_item'] as $billboard) {
     $title = isset($billboard['field_billboard_title']['#items'][0]['value']) ? $billboard['field_billboard_title']['#items'][0]['value'] : '';
     $body = isset($billboard['field_billboard_body']['#items'][0]['value']) ? $billboard['field_billboard_body']['#items'][0]['value'] : '';
@@ -24,7 +24,6 @@ if (isset($row->field_field_billboards[0]['rendered']['entity']['field_collectio
       'path' => isset($billboard['field_billboard_link']['#items'][0]['url']) ? $billboard['field_billboard_link']['#items'][0]['url'] : '',
     );
   }
-}
 ?>
 
 <div class="billboard-small-container">
@@ -36,3 +35,5 @@ if (isset($row->field_field_billboards[0]['rendered']['entity']['field_collectio
     </div>
   </a>
 </div>
+
+<?php endif; ?>

@@ -7,6 +7,7 @@
 }
 .billboards-small-list-item {
   display: inline-block;
+  @include rem-fallback(margin, 0, 0.5rem);
 }
 .billboard-small-container, .billboard-small-shelf {
   @include rem-fallback(width, 13.75rem);
@@ -16,7 +17,7 @@
   overflow: hidden;
   &:hover {
     .billboard-small-shelf {
-      margin-top: -220px;
+      @include rem-fallback(margin-top, -13.75rem);
       background-color: $red;
       background-color: $red-mask;
       &:after {
@@ -27,7 +28,7 @@
 }
 .billboard-small-shelf {
   position: relative;
-  margin-top: -75px;
+  @include rem-fallback(margin-top, -4.6875rem);
   @include rem-fallback(padding, 0.75rem, 1rem);
   background-color: $blue;
   background-color: $blue-mask;
@@ -39,7 +40,7 @@
     @include rem-fallback(bottom, 0.25rem);
     @include FontAwesome(1.5rem, white);
     content: "\f178";
-    @include single-transition(margin-left, $duration-transition, ease-out, $duration-transition-extended);
+    @include single-transition(margin-left, $duration-transition-extended, ease-out, $duration-transition);
   }
 }
 .billboard-small-title {

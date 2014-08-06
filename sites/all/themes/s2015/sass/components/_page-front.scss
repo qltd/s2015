@@ -1,3 +1,7 @@
+.front-block, .front-block-full {
+  @include rem-fallback(margin-top, 3.75rem);
+  @include rem-fallback(margin-bottom, 3.75rem);
+}
 .front-block {
   @include container-fallback($width-container, $width-container-em-fallback);
   @include rem-fallback(padding, 0, 3.6875rem);

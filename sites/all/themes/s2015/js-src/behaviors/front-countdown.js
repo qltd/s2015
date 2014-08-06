@@ -10,7 +10,7 @@
       var dateEnd = new Date(pie.attr('data-date'))
         , dateStart = new Date()
         , daysTotal = parseInt(pie.attr('data-days'))
-        , daysRemaining = Math.floor(( dateEnd - dateStart ) / ( 1000 * 60 * 60 * 24 ))
+        , daysRemaining = 1 + ( Math.floor(( dateEnd - dateStart ) / ( 1000 * 60 * 60 * 24 )))
         , pieSliceDegrees = 360 - Math.floor(( daysRemaining / daysTotal ) * 360)
         , pieStyles = $(document.createElement('style'));
 

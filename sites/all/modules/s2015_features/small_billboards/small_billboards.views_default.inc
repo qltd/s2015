@@ -152,7 +152,7 @@ if (isset($data->field_field_billboard_link[0][\'raw\'][\'attributes\'])) {
   $handler->display->display_options['row_plugin'] = 'semanticviews_fields';
   $handler->display->display_options['row_options']['skip_blank'] = 0;
   $handler->display->display_options['row_options']['semantic_html'] = array(
-    'nothing' => array(
+    'field_billboards' => array(
       'element_type' => 'div',
       'class' => 'billboard-small-container',
     ),

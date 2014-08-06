@@ -26,14 +26,12 @@ if (isset($row->field_field_billboards[0]['rendered']['entity']['field_collectio
   }
 ?>
 
-<div class="billboard-small-container">
-  <a class="billboard-small-link" href="<?php print $link['path']; ?>"<?php if (!empty($link['attributes']['target'])) print ' target="' . $link['attributes']['target'] . '"'; ?>>
-    <?php if (!empty($image['path'])) print theme('image_style', $image); ?>
-    <div class="billboard-small-shelf">
-      <h3 class="billboard-small-title"><?php print $title; ?></h3>
-      <div class="billboard-small-body"><?php print $body; ?></div>
-    </div>
-  </a>
-</div>
+<a class="billboard-small-link" href="<?php print $link['path']; ?>"<?php if (!empty($link['attributes']['target'])) print ' target="' . $link['attributes']['target'] . '"'; ?>>
+  <?php if (!empty($image['path'])) print theme('image_style', $image); ?>
+  <div class="billboard-small-shelf">
+    <h3 class="billboard-small-title"><?php print $title; ?></h3>
+    <div class="billboard-small-body"><?php print $body; ?></div>
+  </div>
+</a>
 
 <?php endif; ?>

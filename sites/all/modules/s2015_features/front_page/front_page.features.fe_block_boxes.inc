@@ -22,6 +22,19 @@ function front_page_default_fe_block_boxes() {
   $export['front_about'] = $fe_block_boxes;
 
   $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'This is the "Call for Submissions" billboard for the front page.';
+  $fe_block_boxes->format = 'raw_html';
+  $fe_block_boxes->machine_name = 'front_call_for_submissions';
+  $fe_block_boxes->body = '<a class="front-call-for-submissions-link" href="/submitters">
+  <h2 class="front-call-for-submissions-title">Call for Submissions</h2>
+  <p class="front-call-for-submissions-body">Like the thread that connects the pieces of the quilt, SIGGRAPH provides the opportunity for discovery across its many areas. Submit your excellent work!</p>
+</a>
+
+';
+
+  $export['front_call_for_submissions'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'The conference countdown block for the front page';
   $fe_block_boxes->format = 'raw_html';
   $fe_block_boxes->machine_name = 'front_countdown';

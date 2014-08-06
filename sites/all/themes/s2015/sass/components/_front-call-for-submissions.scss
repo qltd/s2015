@@ -1,0 +1,58 @@
+.front-call-for-submissions {
+  background-color: $blue-menu;
+  .block__content {
+    margin: 0 auto;
+    @include rem-fallback(padding-top, 7.8125rem);
+    @include rem-fallback(max-width, 82.5rem);
+    @include rem-fallback(height, 31.25rem);
+    background-image: url("../images/h_slidecall.jpg");
+    background-repeat: no-repeat;
+  }
+}
+.front-call-for-submissions-link {
+  display: block;
+  margin: 0 auto;
+  @include rem-fallback(padding, 1.5rem, 2rem);
+  @include rem-fallback(height, 15.625rem);
+  @include rem-fallback(width, 35.9375rem);
+  background-color: $blue;
+  background-color: $blue-mask;
+  text-align: left;
+  @include single-transition(background-color, $duration-transition-extended, ease-out);
+  &:hover {
+    background-color: $red;
+    background-color: $red-mask;
+    &:before {
+      margin-top: 136px;
+      margin-left: 415px;
+      font-size: 96px;
+    }
+  }
+  &:before {
+    position: absolute;
+    margin: 180px 0 0 0;
+    width: 0;
+    content: "\f178";
+    font-size: rem-fallback(1.75rem);
+    @include FontAwesome(1.75rem, white);
+    @include transition(margin $duration-transition-extended ease-out $duration-transition, font-size $duration-transition-extended ease-out $duration-transition);
+  }
+}
+.front-call-for-submissions-title, .front-call-for-submissions-body {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.front-call-for-submissions-title {
+  @include rem-fallback(margin, 0, 0, 1rem);
+  border-bottom-color: white;
+  border: {
+    bottom: 1px solid rgba(white, 0.3);
+  }
+  @include rem-fallback(padding, 0, 0, 0.5rem);
+  font-size: rem-fallback(3rem);
+  @include font-details($size: 3rem, $height: normal);
+}
+.front-call-for-submissions-body {
+  @include rem-fallback(font-size, 1.125rem);
+}

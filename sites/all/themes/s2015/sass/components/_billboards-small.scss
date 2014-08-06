@@ -47,9 +47,9 @@
   @include rem-fallback(margin, 0, 0, 1rem);
   border-bottom-color: white;
   border: {
-    bottom: 1px solid rgba(white, 0.7);
+    bottom: 1px solid rgba(white, 0.3);
   }
-  padding: 0;
+  @include rem-fallback(padding, 0, 0.75rem, 0, 0);
   @include rem-fallback(height, 4.25rem);
   font-size: rem-fallback(1.5rem);
   @include font-details($size: 1.5rem, $color: white, $height: normal);

@@ -144,11 +144,11 @@ function front_page_default_fe_block_settings() {
     'visibility' => 0,
   );
 
-  $export['views-small_billboards-block_1'] = array(
+  $export['views-9c499aded61b02cb2e64a5937132d8a6'] = array(
     'cache' => -1,
     'css_class' => 'front-billboards-small',
     'custom' => 0,
-    'delta' => 'small_billboards-block_1',
+    'delta' => '9c499aded61b02cb2e64a5937132d8a6',
     'module' => 'views',
     'node_types' => array(),
     'pages' => '',

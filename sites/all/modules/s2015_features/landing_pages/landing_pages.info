@@ -1,0 +1,15 @@
+name = Landing Pages
+description = Blocks, context, and settings for landing pages.
+core = 7.x
+package = S2015 Features
+version = 7.x-1.0
+project = landing_pages
+dependencies[] = context
+dependencies[] = ctools
+dependencies[] = fe_block
+dependencies[] = views
+features[context][] = landing
+features[ctools][] = context:context:3
+features[fe_block_settings][] = views-21aaed4132c6deaf4b03dd6014950a1e
+features[features_api][] = api:2
+project path = sites/all/modules/s2015_features

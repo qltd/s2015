@@ -32,9 +32,9 @@ function front_page_context_default_contexts() {
           'region' => 'content',
           'weight' => '-10',
         ),
-        'views-small_billboards-block_1' => array(
+        'views-9c499aded61b02cb2e64a5937132d8a6' => array(
           'module' => 'views',
-          'delta' => 'small_billboards-block_1',
+          'delta' => '9c499aded61b02cb2e64a5937132d8a6',
           'region' => 'content',
           'weight' => '-9',
         ),

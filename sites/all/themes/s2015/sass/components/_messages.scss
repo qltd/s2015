@@ -1,0 +1,3 @@
+.messages {
+  @include container-fallback($width-container, $width-container-px-fallback);
+}

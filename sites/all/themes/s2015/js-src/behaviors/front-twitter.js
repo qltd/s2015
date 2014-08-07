@@ -1,5 +1,5 @@
 (function ($) {
-  var delay = 10000 // how long each tweet should be visible
+  var delay = 5000 // how long each tweet should be visible
     , transition = 250; // how long it takes for a tweet to transition to hidden
 
   var rotate = function (items, count) {

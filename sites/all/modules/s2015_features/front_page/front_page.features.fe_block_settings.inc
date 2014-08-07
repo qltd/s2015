@@ -144,12 +144,12 @@ function front_page_default_fe_block_settings() {
     'visibility' => 0,
   );
 
-  $export['block-front_twitter'] = array(
+  $export['views-9c499aded61b02cb2e64a5937132d8a6'] = array(
     'cache' => -1,
-    'css_class' => 'front-twitter front-block-full',
+    'css_class' => 'front-billboards-small front-block-full',
     'custom' => 0,
-    'machine_name' => 'front_twitter',
-    'module' => 'block',
+    'delta' => '9c499aded61b02cb2e64a5937132d8a6',
+    'module' => 'views',
     'node_types' => array(),
     'pages' => '',
     'roles' => array(),
@@ -177,11 +177,11 @@ function front_page_default_fe_block_settings() {
     'visibility' => 0,
   );
 
-  $export['views-9c499aded61b02cb2e64a5937132d8a6'] = array(
+  $export['views-siggraph_tweets-siggraph_tweets'] = array(
     'cache' => -1,
-    'css_class' => 'front-billboards-small front-block-full',
+    'css_class' => 'front-twitter front-block-full',
     'custom' => 0,
-    'delta' => '9c499aded61b02cb2e64a5937132d8a6',
+    'delta' => 'siggraph_tweets-siggraph_tweets',
     'module' => 'views',
     'node_types' => array(),
     'pages' => '',

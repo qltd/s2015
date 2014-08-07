@@ -53,14 +53,5 @@ function front_page_default_fe_block_boxes() {
 
   $export['front_location'] = $fe_block_boxes;
 
-  $fe_block_boxes = new stdClass();
-  $fe_block_boxes->info = 'The Twitter block for the front page';
-  $fe_block_boxes->format = 'raw_html';
-  $fe_block_boxes->machine_name = 'front_twitter';
-  $fe_block_boxes->body = '<p class="front-twitter-paragraph"><a class="front-twitter-link" href="http://twitter.com/siggraph" target="_blank"><i class="fa fa-twitter"></i>SIGGRAPH on Twitter</a></p>
-';
-
-  $export['front_twitter'] = $fe_block_boxes;
-
   return $export;
 }

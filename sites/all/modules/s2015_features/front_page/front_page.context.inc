@@ -50,9 +50,9 @@ function front_page_context_default_contexts() {
           'region' => 'content',
           'weight' => '-7',
         ),
-        'block-33' => array(
-          'module' => 'block',
-          'delta' => '33',
+        'views-siggraph_tweets-siggraph_tweets' => array(
+          'module' => 'views',
+          'delta' => 'siggraph_tweets-siggraph_tweets',
           'region' => 'content',
           'weight' => '-6',
         ),
@@ -60,7 +60,7 @@ function front_page_context_default_contexts() {
           'module' => 'block',
           'delta' => '32',
           'region' => 'content',
-          'weight' => '-5',
+          'weight' => '-4',
         ),
       ),
     ),

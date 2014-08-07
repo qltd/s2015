@@ -23,19 +23,18 @@
     background-color: $red;
     background-color: $red-mask;
     &:before {
-      margin-top: 136px;
-      margin-left: 415px;
-      font-size: 96px;
+      @include rem-fallback(margin-top, 10.625rem);
+      @include rem-fallback(font-size, 3rem);
     }
   }
   &:before {
     position: absolute;
-    margin: 180px 0 0 0;
+    @include rem-fallback(margin, 11.25rem, 0, 0, 0);
     width: 0;
     content: "\f178";
     font-size: rem-fallback(1.75rem);
     @include FontAwesome(1.75rem, white);
-    @include transition(margin $duration-transition-extended ease-out $duration-transition, font-size $duration-transition-extended ease-out $duration-transition);
+    @include transition(font-size $duration-transition ease-out $duration-transition, margin-top $duration-transition ease-out $duration-transition);
   }
 }
 .front-call-for-submissions-title, .front-call-for-submissions-body {

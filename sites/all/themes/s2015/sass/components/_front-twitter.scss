@@ -24,8 +24,33 @@
   &:hover {
     color: $yellow;
     .fa-twitter {
-      @include rem-fallback(padding-left, 1.5625rem);
+      //@include rem-fallback(padding-left, 1.5625rem);
       color: $yellow;
     }
   }
+}
+.twitter-tweets {
+  @include container-fallback($width-container, $width-container-px-fallback);
+}
+.twitter-tweets-list {
+  padding: 0;
+  list-style: none;
+  @include rem-fallback(height, 5.25rem);
+}
+.twitter-tweets-list-item {
+  display: none;
+  &.first {
+    display: block;
+  }
+}
+.twitter-tweets-paragraph {
+  font-size: rem-fallback(1.75rem);
+  @include font-details($size: 1.75rem);
+  a {
+    color: $yellow;
+  }
+}
+.twitter-tweets-paragraph {
+  font-size: rem-fallback(1.75rem);
+  @include font-details($size: 1.75rem);
 }

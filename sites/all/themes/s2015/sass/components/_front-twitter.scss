@@ -71,6 +71,27 @@
   @include font-details($size: 1.75rem, $color: white);
   a {
     color: $yellow;
+    border: {
+      bottom: {
+        color: transparent;
+      }
+    }
+    border: {
+      bottom: 1px solid rgba($yellow, 0);
+    }
+    @include single-transition(border-bottom-color, $duration-transition, ease-out);
+    &:hover {
+      border: {
+        bottom: {
+          color: $yellow;
+        }
+      }
+      border: {
+        bottom: {
+          color: rgba($yellow, 1);
+        }
+      }
+    }
   }
 }
 .twitter-tweets-paragraph {

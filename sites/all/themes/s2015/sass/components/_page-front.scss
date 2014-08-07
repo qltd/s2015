@@ -10,6 +10,9 @@
     @include rem-fallback(margin, 2rem, 0);
   }
 }
+.front-about, .front-location {
+  @include rem-fallback(margin-bottom, 5rem);
+}
 .front-paragraph {
   @include rem-fallback(font-size, 1.75rem);
 }

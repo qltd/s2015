@@ -9,7 +9,7 @@
     @include rem-fallback(margin, 0, 0.5rem, 1.25rem);
   }
 }
-.billboard-small-container, .billboard-small-shelf {
+.billboard-small-container, .billboard-small-link, .billboard-small-shelf {
   @include rem-fallback(width, 13.75rem);
   @include rem-fallback(height, 13.75rem);
 }
@@ -25,6 +25,11 @@
       }
     }
   }
+}
+.billboard-small-link {
+  position: absolute; // prevent Safari drifting box bug
+  display: block;
+  overflow: hidden;
 }
 .billboard-small-shelf {
   position: relative;

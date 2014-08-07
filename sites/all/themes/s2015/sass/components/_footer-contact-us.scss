@@ -1,5 +1,10 @@
 .footer-contact-us {
   .contact-us-link {
-    // color: white;
+    &:before {
+      content: "\f0e5";
+      @include rem-fallback(padding-right, 1rem);
+      font-size: rem-fallback(1.5rem);
+      @include FontAwesome(1.5rem);
+    }
   }
 }

@@ -12,7 +12,24 @@
     @include span(1 at 3 of 3);
   }
 }
+.l-region--footer-branding, .l-region--footer-connecting {
+  .block {
+    &:first-child {
+      @include rem-fallback(margin-bottom, 2rem);
+      border-bottom: 1px solid white;
+      @include rem-fallback(padding-bottom, 2rem);
+      @include rem-fallback(height, 3.875rem);
+    }
+  }
+}
 .l-region--footer-branding {
+  .first {
+    .social-navigation-link {
+      margin: {
+        left: 0;
+      }
+    }
+  }
   .social-navigation-link {
     &:before {
       color: white;

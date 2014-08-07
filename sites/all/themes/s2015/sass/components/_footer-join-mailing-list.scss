@@ -1,5 +1,10 @@
 .footer-join-mailing-list {
   .join-mailing-list-link {
-    // color: white;
+    &:before {
+      content: "\f0e0";
+      @include rem-fallback(padding-right, 1rem);
+      font-size: rem-fallback(1.5rem);
+      @include FontAwesome(1.5rem);
+    }
   }
 }

@@ -1,9 +1,33 @@
 .footer-sponsored-by-acmsiggraph {
   .sponsored-by-acmsiggraph-link {
     font-details: rem-fallback(0.625rem);
-    @include font-details(0.625rem, white, 300);
+    line-height: rem-fallback(1.875rem);
+    @include font-details(0.625rem, white, 300, 1.875rem);
     &:hover {
       color: $yellow;
+    }
+    &:before {
+      content: "";
+      float: left;
+      display: block;
+      @include rem-fallback(margin-right, 0.625rem);
+      width: 3.875rem;
+      height: 1.875rem;
+      background-image: url("../images/acm-siggraph-icons.png");
+    }
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.3),
+  (min--moz-device-pixel-ratio: 1.3),
+  (-o-min-device-pixel-ratio: 13/10),
+  (min-resolution: 1.3dppx) {
+  .footer-sponsored-by-acmsiggraph {
+    .sponsored-by-acmsiggraph-link {
+      &:before {
+        background-image: url("../images/acm-siggraph-icons@2x.png");
+        @include rem-fallback(background-size, 3.875rem, 1.875rem);
+      }
     }
   }
 }

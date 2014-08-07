@@ -3,3 +3,8 @@
     @include Swiss-Light();
   }
 }
+
+// links <a>
+.primary-navigation-menu-link-top {
+  @include rem-fallback(padding, 0, 1.25rem);
+}

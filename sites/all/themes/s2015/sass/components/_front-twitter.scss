@@ -12,19 +12,23 @@
   .fa-twitter {
     display: block;
     @include rem-fallback(margin-bottom, 0.75rem);
-    // padding-left: 0;
     font-size: rem-fallback(2.25rem);
     @include font-details(2.25rem, white);
-    // @include single-transition(padding-left, $duration-transition, ease-out);
     &:before {
-      @include single-transition(color, $duration-transition, ease-out);
+      position: relative;
+      top: 0;
+      padding-left: 0;
+      @include transition(color $duration-transition ease-out, padding-left $duration-transition ease-out, top $duration-transition ease-out);
     }
   }
   &:hover {
     color: $yellow;
     .fa-twitter {
-      // @include rem-fallback(padding-left, 1.5625rem);
       color: $yellow;
+      &:before {
+        @include rem-fallback(top, -0.75rem);
+        @include rem-fallback(padding-left, 1.5625rem);
+      }
     }
   }
 }
@@ -35,7 +39,7 @@
   @include rem-fallback(margin, 2rem, 0);
   padding: 0;
   list-style: none;
-  @include rem-fallback(height, 5.25rem);
+  @include rem-fallback(height, 6.25rem);
 }
 .twitter-tweets-rotating {
   .twitter-tweets-list-item {

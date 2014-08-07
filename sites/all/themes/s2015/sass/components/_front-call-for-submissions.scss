@@ -1,5 +1,5 @@
 .front-call-for-submissions {
-  background-color: black;
+  background-color: $blue-menu;
   .block__content {
     margin: 0 auto;
     @include rem-fallback(padding-top, 7.8125rem);

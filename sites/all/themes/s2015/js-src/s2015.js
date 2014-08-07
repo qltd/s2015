@@ -20,5 +20,6 @@
  * Components
  */
 require('./behaviors/front-countdown');
+require('./behaviors/front-twitter');
 require('./behaviors/navigation-primary-sub');
 require('./behaviors/search');

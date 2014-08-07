@@ -2,7 +2,6 @@
   @include rem-fallback(padding, 1.75rem, 0);
   background-image: url("../images/background-honeycomb-red.png");
   background-attachment: fixed;
-  color: white;
 }
 .front-twitter-link {
   display: block;
@@ -13,10 +12,10 @@
   .fa-twitter {
     display: block;
     @include rem-fallback(margin-bottom, 0.75rem);
-    padding-left: 0;
+    // padding-left: 0;
     font-size: rem-fallback(2.25rem);
     @include font-details(2.25rem, white);
-    @include single-transition(padding-left, $duration-transition, ease-out);
+    // @include single-transition(padding-left, $duration-transition, ease-out);
     &:before {
       @include single-transition(color, $duration-transition, ease-out);
     }
@@ -24,7 +23,7 @@
   &:hover {
     color: $yellow;
     .fa-twitter {
-      //@include rem-fallback(padding-left, 1.5625rem);
+      // @include rem-fallback(padding-left, 1.5625rem);
       color: $yellow;
     }
   }
@@ -33,19 +32,32 @@
   @include container-fallback($width-container, $width-container-px-fallback);
 }
 .twitter-tweets-list {
+  @include rem-fallback(margin, 2rem, 0);
   padding: 0;
   list-style: none;
   @include rem-fallback(height, 5.25rem);
 }
+.twitter-tweets-rotating {}
 .twitter-tweets-list-item {
-  display: none;
-  &.first {
-    display: block;
+  position: absolute;
+  margin: 0 auto;
+  @include rem-fallback(max-width, $width-container);
+  z-index: -1;
+  opacity: 0;
+  @include single-transition(opacity, $duration-transition-extended, ease-out);
+  &.active {
+    z-index: 1;
+    opacity: 1;
+  }
+  &.fade-out {
+    opacity: 0;
   }
 }
 .twitter-tweets-paragraph {
+  margin: 0;
+  @include rem-fallback(width, $width-container);
   font-size: rem-fallback(1.75rem);
-  @include font-details($size: 1.75rem);
+  @include font-details($size: 1.75rem, $color: white);
   a {
     color: $yellow;
   }

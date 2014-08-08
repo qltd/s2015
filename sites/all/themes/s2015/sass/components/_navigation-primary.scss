@@ -49,17 +49,22 @@
   > .menu {
     position: absolute;
     display: block;
+    @include rem-fallback(padding, 2rem, 0);
     @include rem-fallback(width, $width-container);
     height: 0;
     z-index: 1;
     overflow: hidden;
     opacity: 0;
-    // @include single-transition(opacity, $duration-transition-extended, ease-out);
+    @include single-transition(opacity, $duration-transition-extended, ease-out);
     .menu-link {
-      @include font-details($size: 0.75em);
+      @include rem-fallback(font-size, 0.75rem);
+      font-weight: 500;
       &:hover {
         color: $orange;
       }
+    }
+    .leaf, .collapsed {
+      @include rem-fallback(margin-bottom, 0.75rem);
     }
     .expanded {
       @include span(3 of 12);
@@ -94,6 +99,16 @@
   > .menu {
     @include rem-fallback(margin-left, -4.5rem);
   }
+  &:hover {
+    > .menu-link {
+      &:after {
+        @include rem-fallback(height, map_get($dropdown-height, submitters));
+      }
+    }
+    > .menu {
+      @include rem-fallback(height, map_get($dropdown-height, submitters));
+    }
+  }
 }
 .primary-navigation-for-volunteers {
   > .menu {
@@ -103,6 +118,16 @@
 .primary-navigation-for-attendees {
   > .menu {
     @include rem-fallback(margin-left, -24.4375rem);
+  }
+  &:hover {
+    > .menu-link {
+      &:after {
+        @include rem-fallback(height, map_get($dropdown-height, attendees));
+      }
+    }
+    > .menu {
+      @include rem-fallback(height, map_get($dropdown-height, attendees));
+    }
   }
 }
 .primary-navigation-for-the-media {

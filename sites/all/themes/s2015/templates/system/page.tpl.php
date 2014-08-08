@@ -99,6 +99,7 @@
     <div class="l-content" role="main">
       <?php print render($page['highlighted']); ?>
       <a id="main-content"></a>
+      <?php print render($page['title_line']); ?>
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
         <h1 class="content-title"><?php print $title; ?></h1>

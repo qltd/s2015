@@ -24,6 +24,7 @@ regions[navigation] = Navigation
 regions[branding] = Branding
 regions[content_header] = Content Header
 regions[highlighted] = Highlighted
+regions[title_line] = Title Line
 regions[content] = Content
 regions[sidebar] = Sidebar
 regions[sidebar_fixed] = Fixed Sidebar

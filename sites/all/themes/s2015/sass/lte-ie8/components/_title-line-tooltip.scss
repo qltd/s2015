@@ -1,0 +1,11 @@
+.title-line-tooltip {
+  .block__title {
+    @include Swiss-Medium();
+  }
+}
+.title-line-tooltip-subheading {
+  @include Swiss-Bold();
+}
+.title-line-tooltip-paragraph {
+  @include Swiss-Roman();
+}

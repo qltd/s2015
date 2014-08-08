@@ -1,0 +1,62 @@
+.l-region--title-line {
+  position: absolute;
+  @include rem-fallback(margin-top, -3.75rem);
+  @include rem-fallback(width, 43.5rem);
+  text-align: right;
+}
+
+.title-line-tooltip {
+  display: inline-block;
+  a {
+    color: white;
+    &:hover {
+      color: $yellow;
+    }
+  }
+  .block__title {
+    display: inline-block;
+    @include rem-fallback(margin, 0.75rem, 0, 1rem);
+    @include font-details($size: 0.9375rem, $color: $blue, $weight: 500);
+    cursor: pointer;
+  }
+  .block__content {
+    display: none;
+    position: absolute;
+    right: 0;
+    @include rem-fallback(padding, 2rem);
+    @include rem-fallback(width, 18.75rem);
+    background-color: $blue;
+    text-align: left;
+    &:before {
+      content: "";
+      position: absolute;
+      display: block;
+      @include rem-fallback(top, -0.625rem);
+      @include rem-fallback(right, 2.5rem);
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid $blue;
+    }
+  }
+  &:hover {
+    .block__content {
+      display: block;
+    }
+  }
+}
+.title-line-tooltip-subheading, .title-line-tooltip-paragraph {
+  @include rem-fallback(margin, 0, 0, 0.75rem);
+}
+.title-line-tooltip-subheading {
+  @include rem-fallback(margin-top, 2rem);
+  @include font-details($size: 0.9375rem, $color: $blue-light-menu, $weight: 700);
+}
+.title-line-tooltip-paragraph {
+  @include font-details($size: 0.8125rem, $color: white, $weight: 400);
+}
+.title-line-tooltip-footer {
+  @include rem-fallback(margin, 2rem, 0, 0);
+  @include font-details($size: 0.8125rem, $color: white);
+}

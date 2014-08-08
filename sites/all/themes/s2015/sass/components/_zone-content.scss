@@ -13,7 +13,7 @@
     text-align: left;
     @include container-fallback($width-container, $width-container-em-fallback);
     .content-title {
-      @include rem-fallback(margin-right, 8.75rem);
+      // @include rem-fallback(margin-right, 8.75rem);
     }
     .node__content {
       border: {

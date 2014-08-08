@@ -1,6 +1,35 @@
 .primary-navigation-content-block {
   color: white;
-  p {
+  .fa {
+    @include rem-fallback(padding-bottom, 0.75rem);
+    font-size: rem-fallback(2.25rem);
+    @include font-details($size: 2.25rem, $color: white);
+  }
+  .primary-navigation-content-title, .primary-navigation-content-paragraph {
     margin: 0;
+    font-size: rem-fallback(0.75rem);
+    @include font-details($size: 0.75rem, $color: white);
+  }
+  .primary-navigation-content-title {
+    font-weight: 700;
+  }
+}
+.primary-navigation-content-list {
+  padding: 0;
+  list-style: none;
+  .primary-navigation-content-list-item {
+    @include rem-fallback(margin-bottom, 2.25rem);
+    @include rem-fallback(padding-right, 3.375rem);
+  }
+}
+.primary-navigation-content-link {
+  display: block;
+  .fa, .primary-navigation-content-title {
+    @include single-transition(color, $duration-transition, ease-out);
+  }
+  &:hover {
+    .fa, .primary-navigation-content-title {
+      color: $orange;
+    }
   }
 }

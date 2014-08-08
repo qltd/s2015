@@ -11,7 +11,7 @@
     border: {
       top: 1px solid $blue-rule;
     }
-    @include rem-fallback(padding, 0, 0.625rem, 0.625rem, 0.9375rem);
+    @include rem-fallback(padding, 0, 0.625rem, 0.625rem, 1rem);
     background-color: $blue-light-menu;
     @include font-details($weight: 500);
     > .menu {

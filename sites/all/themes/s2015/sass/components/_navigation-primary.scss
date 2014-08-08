@@ -129,6 +129,11 @@
       @include rem-fallback(height, map_get($dropdown-height, attendees));
     }
   }
+  .primary-navigation-programs-events, .primary-navigation-attendees-col-3, .primary-navigation-information-planning {
+    display: block !important;
+    @include rem-fallback(margin-bottom, 0.75rem);
+    color: $gray-light-heading !important;
+  }
 }
 .primary-navigation-for-the-media {
   > .menu {

@@ -15,7 +15,6 @@
   .menu-level-1 {
     > .menu {
       @include container-fallback($width-container, $width-container-px-fallback);
-      // text-align: center;
     }
   }
   .menu-link {
@@ -49,7 +48,7 @@
   > .menu {
     position: absolute;
     display: block;
-    @include rem-fallback(padding, 2rem, 0);
+    padding: 0;
     @include rem-fallback(width, $width-container);
     height: 0;
     z-index: 1;
@@ -81,6 +80,7 @@
       }
     }
     > .menu {
+      @include rem-fallback(padding, 2rem, 0);
       @include rem-fallback(height, map_get($dropdown-height, default));
       opacity: 1;
       z-index: 2;

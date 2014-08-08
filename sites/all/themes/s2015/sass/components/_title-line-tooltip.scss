@@ -16,6 +16,7 @@
   .block__title {
     display: inline-block;
     @include rem-fallback(margin, 0.75rem, 0, 1rem);
+    font-size: rem-fallback(0.9375rem);
     @include font-details($size: 0.9375rem, $color: $blue, $weight: 500);
     cursor: pointer;
   }
@@ -51,12 +52,20 @@
 }
 .title-line-tooltip-subheading {
   @include rem-fallback(margin-top, 2rem);
+  font-size: rem-fallback(0.9375rem);
   @include font-details($size: 0.9375rem, $color: $blue-light-menu, $weight: 700);
+  &.first {
+    margin: {
+      top: 0;
+    }
+  }
 }
 .title-line-tooltip-paragraph {
+  font-size: rem-fallback(0.8125rem);
   @include font-details($size: 0.8125rem, $color: white, $weight: 400);
 }
 .title-line-tooltip-footer {
   @include rem-fallback(margin, 2rem, 0, 0);
+  font-size: rem-fallback(0.8125rem);
   @include font-details($size: 0.8125rem, $color: white);
 }

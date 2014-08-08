@@ -13,14 +13,23 @@
     }
     @include rem-fallback(padding, 0, 0.625rem, 0.625rem, 0.9375rem);
     background-color: $blue-light-menu;
-    @include font-details($size: 0.875em, $weight: 500);
+    @include font-details($weight: 500);
+    > .menu {
+      > .first {
+        display: none;
+      }
+    }
   }
   .menu {
     margin: 0;
     @include rem-fallback(padding, 1.25rem, 0, 0);
     .menu {
-      @include rem-fallback(padding-left, 0.625rem);
-      @include font-details($size: 0.875em, $weight: 400); // do not use rem
+      padding: 0;
+      @include font-details($size: 0.875em); // do not use rem
+      .menu {
+        @include rem-fallback(padding, 1.25rem, 0, 0, 0.625rem);
+        @include font-details($weight: 400);
+      }
     }
   }
   .collapsed, .expanded, .leaf {}
@@ -33,28 +42,6 @@
   }
 }
 
-.primary-sub-navigation-for-submitters, .primary-sub-navigation-for-attendees {
-  .menu-level-1 {
-    font-size: inherit;
-  }
-  .menu {
-    .menu {
-      padding: 0;
-      font-weight: 500;
-      .menu {
-        @include rem-fallback(padding, 1.25rem, 0, 0, 0.625rem);
-        font-weight: 400;
-      }
-    }
-  }
-  .menu-level-1 {
-    > .menu {
-      > .first {
-        display: none;
-      }
-    }
-  }
-}
 .primary-sub-navigation-for-attendees {
   .menu-level-1 {
     border: {

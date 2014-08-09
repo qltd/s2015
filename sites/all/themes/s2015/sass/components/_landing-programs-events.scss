@@ -1,0 +1,50 @@
+.programs-events-list {
+  @include rem-fallback(margin-top, 4rem);
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  .programs-events-list-item {
+    @include rem-fallback(margin-bottom, 2.5rem);
+  }
+}
+
+.programs-events-list-item {
+  @extend .clearfix;
+  .programs-events-image {
+    float: left;
+  }
+  .programs-events-title {
+    @include rem-fallback(margin, 0, 0, 0.75rem, 19.375rem);
+    font-size: rem-fallback(1.75rem);
+    @include font-details($size: 1.75rem, $color: $blue, $height: 1);
+    @include single-transition(color, $duration-transition, ease-out);
+  }
+  .programs-events-paragraph {
+    @include rem-fallback(margin, 0, 0, 0, 19.375rem);
+    font-size: rem-fallback(1.0625rem);
+    @include font-details($size: 1.0625rem, $color: $black);
+    &:after {
+      content: "\f178";
+      display: block;
+      @include rem-fallback(margin-top, 0.75rem);
+      font-size: rem-fallback(1.5rem);
+      @include FontAwesome($size: 1.5rem, $color: $blue);
+      @include transition(color $duration-transition ease-out);
+    }
+  }
+  &:hover {
+    .programs-events-title {
+      color: $orange;
+    }
+    .programs-events-paragraph {
+      &:after {
+        color: $orange;
+      }
+    }
+  }
+}
+
+.programs-events-link {
+  display: block;
+  @include rem-fallback(min-height, 10.5rem);
+}

@@ -1,5 +1,6 @@
 .front-twitter {
   @include rem-fallback(padding, 1.75rem, 0);
+  background-color: $red;
   background-image: url("../images/background-honeycomb-red.png");
   background-attachment: fixed;
 }

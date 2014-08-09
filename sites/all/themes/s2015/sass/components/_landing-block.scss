@@ -1,0 +1,14 @@
+.landing-block {
+  .block__title {
+    @include rem-fallback(margin, 3rem, 0);
+    @include rem-fallback(padding, 2rem, 0);
+    background-color: $red;
+    background-image: url("../images/background-honeycomb-red.png");
+    background-attachment: fixed;
+    font-size: rem-fallback(2.75rem);
+    @include font-details($size: 2.75rem, $color: white);
+  }
+  .block__content {
+    @include container-fallback($width-container, $width-container-em-fallback);
+  }
+}

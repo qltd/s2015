@@ -23,8 +23,7 @@ function footer_regions_default_fe_block_boxes() {
   $fe_block_boxes->info = 'The "Join Mailing List" block for the footer';
   $fe_block_boxes->format = 'raw_html';
   $fe_block_boxes->machine_name = 'footer_join_mailing_list';
-  $fe_block_boxes->body = '<span><a class="footer-connecting-link join-mailing-list-link" href="">Join Mailing List</a></span>
-';
+  $fe_block_boxes->body = '<span><a class="footer-connecting-link join-mailing-list-link" href="/add-me-your-mailing-list">Join Mailing List</a></span>';
 
   $export['footer_join_mailing_list'] = $fe_block_boxes;
 

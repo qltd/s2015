@@ -27,7 +27,7 @@ function front_page_default_fe_block_boxes() {
   $fe_block_boxes->machine_name = 'front_call_for_submissions';
   $fe_block_boxes->body = '<a class="front-call-for-submissions-link" href="/submitters">
   <h2 class="front-call-for-submissions-title">Call for Submissions</h2>
-  <p class="front-call-for-submissions-body">Like the thread that connects the pieces of the quilt, SIGGRAPH provides the opportunity for discovery across its many areas. Submit your excellent work!</p>
+  <p class="front-call-for-submissions-body">Like the thread that connects the pieces of a quilt, SIGGRAPH provides opportunities for discovery across its many areas. Submit your excellent work!</p>
 </a>
 
 ';
@@ -46,7 +46,7 @@ function front_page_default_fe_block_boxes() {
   $fe_block_boxes->info = 'The location description block for the front page';
   $fe_block_boxes->format = 'event';
   $fe_block_boxes->machine_name = 'front_location';
-  $fe_block_boxes->body = '<p class="front-paragraph front-location-paragraph">Downtown Los Angeles is experiencing a remarkable revitalization. Amongst the palm trees and sunshine are a number of residential and commerical endeavors, fantastic restaurants, and a new zeal for life.</p>
+  $fe_block_boxes->body = '<p class="front-paragraph front-location-paragraph">Downtown Los Angeles is enjoying a remarkable revitalization. Among&nbsp;the palm trees and sunshine are a number of residential and commerical endeavors, fantastic restaurants, and a new zest for life.</p>
 
 <p><a class="button" href="/attendees/los-angeles">Things to do</a></p>
 ';

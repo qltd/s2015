@@ -1,7 +1,7 @@
 (function ($) {
 
   // override broken clickHandler
-  Drupal.quicktabs.clickHandler = function(event) {
+  if (Drupal.quicktabs) Drupal.quicktabs.clickHandler = function (event) {
     var tab = event.data.tab;
     var element = this;
     // Set clicked tab to active.

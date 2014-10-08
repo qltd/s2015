@@ -42,7 +42,7 @@ Drupal.quicktabs.clickHandler = function(event) {
 
   // Hide all tabpages.
   tab.container.children().addClass('quicktabs-hide');
-  
+
   if (!tab.tabpage.hasClass("quicktabs-tabpage")) {
     tab = new Drupal.quicktabs.tab(element);
   }
@@ -86,13 +86,13 @@ if (Drupal.ajax) {
     if (ajax.ajaxing) {
       return false;
     }
-  
+    
     try {
       if (ajax.form) {
         if (ajax.setClick) {
           element.form.clk = element;
         }
-  
+
         ajax.form.ajaxSubmit(ajax.options);
       }
       else {

@@ -1,0 +1,4 @@
+.webform-component-textarea {
+  @include rem-fallback(max-width, 27.5rem);
+  margin: 0 auto;
+}

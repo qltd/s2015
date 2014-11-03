@@ -63,7 +63,7 @@
   @include rem-fallback(max-width, $width-container);
   z-index: -1;
   opacity: 0;
-  @include single-transition(opacity, $duration-transition-extended, ease-out);
+  @include transition(opacity $duration-transition-extended ease-out);
   &.first {
     z-index: 1;
     opacity: 1;
@@ -84,7 +84,7 @@
     border: {
       bottom: 1px solid rgba($yellow, 0);
     }
-    @include single-transition(border-bottom-color, $duration-transition, ease-out);
+    @include transition(border-bottom-color $duration-transition ease-out);
     &:hover {
       border: {
         bottom: {

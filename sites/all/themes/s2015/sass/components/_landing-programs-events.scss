@@ -17,7 +17,7 @@
     @include rem-fallback(margin, 0, 0, 0.75rem, 19.375rem);
     font-size: rem-fallback(1.75rem);
     @include font-details($size: 1.75rem, $color: $blue, $height: 1);
-    @include single-transition(color, $duration-transition, ease-out);
+    @include transition(color $duration-transition ease-out);
   }
   .programs-events-paragraph {
     @include rem-fallback(margin, 0, 0, 0, 19.375rem);

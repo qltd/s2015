@@ -25,7 +25,7 @@
 .primary-navigation-content-link {
   display: block;
   .fa, .primary-navigation-content-title {
-    @include single-transition(color, $duration-transition, ease-out);
+    @include transition(color $duration-transition ease-out);
   }
   &:hover {
     .fa, .primary-navigation-content-title {

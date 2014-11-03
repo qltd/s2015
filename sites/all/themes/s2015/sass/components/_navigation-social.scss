@@ -18,7 +18,7 @@
 .social-navigation-link {
   @include font-details(0, transparent);
   &:before {
-    @include rem-fallback(font-size, 1.75rem);  
-    @include single-transition(color, $duration-transition, ease-out);
+    @include rem-fallback(font-size, 1.75rem);
+    @include transition(color $duration-transition ease-out);
   }
 }

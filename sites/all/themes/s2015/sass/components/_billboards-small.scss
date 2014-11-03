@@ -49,7 +49,7 @@
     @include rem-fallback(bottom, 0.25rem);
     @include FontAwesome(1.5rem, white);
     content: "\f178";
-    @include single-transition(margin-left, $duration-transition-extended, ease-out, $duration-transition);
+    @include transition(margin-left $duration-transition-extended ease-out $duration-transition);
   }
 }
 .billboard-small-title {

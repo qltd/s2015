@@ -83,7 +83,7 @@
     @include font-details($color: $blue, $height: 3.5rem);
     @include transition(color $duration-transition ease-out, background-color $duration-transition ease-out);
     cursor: pointer;
-    @include experimental('user-select', none, webkit, moz, not o);
+    @include user-select(none);
     &:after {
       content: "\f055";
       float: right;

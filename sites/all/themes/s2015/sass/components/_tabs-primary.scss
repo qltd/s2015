@@ -8,7 +8,7 @@
   a {
     @include rem-fallback(padding, 0.4rem, 0.8rem, 0.1rem);
     background-color: $gray-tab;
-    @include single-transition(background-color, $duration-transition, ease-out);
+    @include transition(background-color $duration-transition ease-out);
     &.active, &:hover {
       color: $yellow;
       background-color: $gray-rule;

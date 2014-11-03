@@ -28,7 +28,7 @@
     };
     font-size: rem-fallback(1.75rem);
     @include FontAwesome(1.75rem, $blue);
-    @include single-transition(color, $duration-transition, ease-out);
+    @include transition(color $duration-transition ease-out);
   }
   &.expanded, &:hover {
     .form-text {

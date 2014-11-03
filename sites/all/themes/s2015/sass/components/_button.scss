@@ -6,7 +6,7 @@
   @include rem-fallback(letter-spacing, 0.1875rem);
   white-space: nowrap;
   text-transform: uppercase;
-  @include single-transition(background-color, $duration-transition, ease-out);
+  @include transition(background-color $duration-transition ease-out);
   &:hover {
     background-color: $red;
     color: white;
@@ -22,6 +22,6 @@
     font-size: rem-fallback(1.5rem);
     @include FontAwesome(1.5rem);
     content: "\f178";
-    @include single-transition(left, $duration-transition, ease-out);
+    @include transition(left $duration-transition ease-out);
   }
 }

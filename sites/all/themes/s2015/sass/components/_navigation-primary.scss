@@ -42,7 +42,7 @@
       height: 0;
       z-index: 1;
       background-color: $blue-dark-menu;
-      @include single-transition(height, $duration-transition, ease-out, $duration-transition);
+      @include transition(height $duration-transition ease-out $duration-transition);
     }
   }
   > .menu {
@@ -54,7 +54,7 @@
     z-index: 1;
     overflow: hidden;
     opacity: 0;
-    @include single-transition(opacity, $duration-transition-extended, ease-out);
+    @include transition(opacity $duration-transition-extended ease-out);
     .menu-link {
       @include rem-fallback(font-size, 0.75rem);
       font-weight: 500;

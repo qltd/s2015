@@ -5,6 +5,7 @@ li {}
 .block__content, .node__content {
   li {
     @include rem-fallback(margin-bottom, 1rem);
-    line-height: 1.5;
+    font-size: 18px;
+    @include font-details($size: 1.125rem, $weight: 300, $height: 1.5);
   }
 }

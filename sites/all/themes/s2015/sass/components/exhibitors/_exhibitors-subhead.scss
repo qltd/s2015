@@ -1,0 +1,36 @@
+.exhibitors-subhead-1 {
+  &:before {
+    content: "\f080";
+  }
+}
+
+.exhibitors-subhead-2 {
+  &:before {
+    content: "\f0c0";
+  }
+}
+
+.exhibitors-subhead-3 {
+  &:before {
+    content: "\f13e";
+  }
+}
+
+.exhibitors-subhead-4 {
+  &:before {
+    content: "\f013";
+  }
+}
+
+.exhibitors-subhead-1,
+.exhibitors-subhead-2,
+.exhibitors-subhead-3,
+.exhibitors-subhead-4 {
+  &:before {
+    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
+    display: block;
+    font-family: FontAwesome;
+    color: $blue;
+  }
+}

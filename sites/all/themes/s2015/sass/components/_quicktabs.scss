@@ -9,7 +9,7 @@
   }
   a {
     @include transition(background-color $duration-transition ease-out);
-    @include rem-fallback(padding, 1, 0.9);
+    @include rem-fallback(padding, 1, 0.7);
 
     float: left;
     color: $black;

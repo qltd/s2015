@@ -1,4 +1,45 @@
 .exhibitors-piechart {
   margin: 0 auto;
   display: block;
+  max-width: auto;
+}
+
+.img-grid,
+.img-grid--list {
+  padding-left: 0;
+}
+
+.img-grid {
+  overflow: hidden;
+}
+
+.img-grid--list {
+  text-align: center;
+}
+
+.img-grid--item,
+.img-grid--img,
+.img-grid--caption {
+  list-style: none;
+}
+
+.img-grid--item {
+  width: 32%;
+  float: left;
+  &:first-child {
+    margin-right: 2%;
+  }
+  &:last-child {
+    margin-left: 2%;
+  }
+  &:nth-child(4), &:nth-child(7) {
+    clear: left;
+  }
+}
+
+.node__content .img-grid--caption {
+  padding: 0 4px;
+  padding: 0 0.25rem;
+  font-size: 14px;
+  font-size: 0.875rem;
 }

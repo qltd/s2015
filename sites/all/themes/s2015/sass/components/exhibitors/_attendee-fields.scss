@@ -1,0 +1,53 @@
+.attendee-fields-list {
+  margin: 0 auto;
+  padding-left: 0;
+  width: 90%;
+  text-align: center;
+  li {
+    margin-left: 4px;
+    margin-left: 0.25rem;
+    display: inline-block;
+    white-space: nowrap;
+    list-style: none;
+    font-size: 14px;
+    font-size: 0.875rem;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+.emphasis-red,
+.emphasis-pink,
+.emphasis-purple,
+.emphasis-yellow,
+.emphasis-blue,
+.emphasis-orange,
+.emphasis-none {
+  font-size: 18px;
+  font-size: 1.125rem;
+}
+
+.emphasis-red {
+  color: $red;
+}
+
+.emphasis-pink {
+  color: #ec008c;
+}
+
+.emphasis-purple {
+  color: #442347;
+}
+
+.emphasis-yellow {
+  color: #d7df21;
+}
+
+.emphasis-blue {
+  color: $blue;
+}
+
+.emphasis-orange {
+  color: $orange;
+}

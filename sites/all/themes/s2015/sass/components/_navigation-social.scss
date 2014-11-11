@@ -22,3 +22,9 @@
     @include transition(color $duration-transition ease-out);
   }
 }
+
+.search-block-form input[type=submit] {
+  &:hover {
+    background-color: white;
+  }
+}

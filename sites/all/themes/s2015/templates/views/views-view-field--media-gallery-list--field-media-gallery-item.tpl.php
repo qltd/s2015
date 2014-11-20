@@ -33,7 +33,7 @@ if (isset($row->field_field_media_gallery_item[0]['rendered']['entity']['field_c
 ?>
 
 <article class="media-gallery-list-item">
-  <div class="gallery-media"><?php print $media_asset; ?></div>
+  <div class="gallery-media-thumb"><?php print $media_asset; ?></div>
   <div class="gallery-caption"><?php print $caption; ?></div>
 </article>
 

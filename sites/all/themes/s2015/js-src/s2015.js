@@ -21,6 +21,7 @@
  */
 require('./behaviors/front-countdown');
 require('./behaviors/front-twitter');
+require('./behaviors/media-gallery');
 require('./behaviors/navigation-primary');
 require('./behaviors/navigation-primary-sub');
 require('./behaviors/search');

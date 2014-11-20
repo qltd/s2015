@@ -10,19 +10,28 @@
   float: left;
 }
 
+.media-gallery-lg-image, .gallery-media-thumb {
+  width: 110px;
+  height: 71px;
+}
+
+.gallery-media-thumb {
+  margin-bottom: 2px;
+  margin-bottom: 0.125rem;
+  opacity: 0.5;
+}
+
 .media-gallery-list-item {
-  .media-gallery-lg-image, .gallery-media {
-    width: 110px;
-    height: 71px;
-  }
   .gallery-caption {
     display: none;
     visibility: hidden;
   }
-  .gallery-media {
-    margin-bottom: 2px;
-    margin-bottom: 0.125rem;
-    opacity: 0.5;
+}
+
+.media-gallery-main {
+  .media-gallery-lg-image {
+    width: 570px;
+    height: 363px;
   }
 }
 

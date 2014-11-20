@@ -1,0 +1,51 @@
+.block-views-media-gallery-list {
+  width: 110px;
+  float: left;
+}
+
+.block-views-media-gallery-main {
+  margin-right: 2px;
+  margin-right: 0.125rem;
+  width: 570px;
+  float: left;
+}
+
+.media-gallery-list-item {
+  .media-gallery-lg-image, .gallery-media {
+    width: 110px;
+    height: 71px;
+  }
+  .gallery-caption {
+    display: none;
+    visibility: hidden;
+  }
+  .gallery-media {
+    margin-bottom: 2px;
+    margin-bottom: 0.125rem;
+    &first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+.active-media {
+  opacity: 1;
+}
+
+.inactive-media {
+  opacity: 0.5;
+}
+
+.button-play-video {
+  display: block;
+  background: $blue;
+  text-align: center;
+  @include font-details(0, transparent);
+  &:before {
+    content: "\f01d";
+    display: block;
+    color: #fff;
+    line-height: 71px;
+    @include rem-fallback(font-size, 2.0rem);
+  }
+}

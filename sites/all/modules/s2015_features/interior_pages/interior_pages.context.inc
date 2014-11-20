@@ -92,6 +92,24 @@ function interior_pages_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
+        'views-30a59ed5fc3ab70a2bdbcd982684116e' => array(
+          'module' => 'views',
+          'delta' => '30a59ed5fc3ab70a2bdbcd982684116e',
+          'region' => 'highlighted',
+          'weight' => '-10',
+        ),
+        'views-1166e414025bbb712537716b55a9774e' => array(
+          'module' => 'views',
+          'delta' => '1166e414025bbb712537716b55a9774e',
+          'region' => 'highlighted',
+          'weight' => '-9',
+        ),
+        'quicktabs-tabs' => array(
+          'module' => 'quicktabs',
+          'delta' => 'tabs',
+          'region' => 'content',
+          'weight' => '-10',
+        ),
         'menu_block-2' => array(
           'module' => 'menu_block',
           'delta' => '2',

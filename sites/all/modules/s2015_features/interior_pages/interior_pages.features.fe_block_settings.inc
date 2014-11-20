@@ -177,5 +177,71 @@ function interior_pages_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['views-1166e414025bbb712537716b55a9774e'] = array(
+    'cache' => -1,
+    'css_class' => 'block-views-media-gallery-list',
+    'custom' => 0,
+    'delta' => '1166e414025bbb712537716b55a9774e',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-30a59ed5fc3ab70a2bdbcd982684116e'] = array(
+    'cache' => -1,
+    'css_class' => 'block-views-media-gallery-main',
+    'custom' => 0,
+    'delta' => '30a59ed5fc3ab70a2bdbcd982684116e',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   return $export;
 }

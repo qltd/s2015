@@ -22,18 +22,12 @@
   .gallery-media {
     margin-bottom: 2px;
     margin-bottom: 0.125rem;
-    &first-child {
-      margin-top: 0;
-    }
+    opacity: 0.5;
   }
 }
 
 .active-media {
   opacity: 1;
-}
-
-.inactive-media {
-  opacity: 0.5;
 }
 
 .button-play-video {

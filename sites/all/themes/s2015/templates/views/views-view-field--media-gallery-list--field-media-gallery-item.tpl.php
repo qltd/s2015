@@ -23,7 +23,9 @@ if (isset($row->field_field_media_gallery_item[0]['rendered']['entity']['field_c
     } elseif ($media_type === 'video') {
       $video = isset($media_item['field_media_asset']['#items'][0]['uri']) ? drupal_realpath($media_item['field_media_asset']['#items'][0]['uri']) : '';
       $start_time = isset($media_item['field_media_start_time']['#items'][0]['value']) ? '&start='. $media_item['field_media_start_time']['#items'][0]['value'] : '';
-      $media_asset = '<a class="fa button-play-video" href="'.$video.$start_time.'" role="button" target="_blank">Play Video</a>';
+      $url = $video.$start_time;
+      $embed_url = str_replace('&start', '?start', str_replace('watch?v=', 'embed/', $url));
+      $media_asset = '<a class="fa button-play-video" href="'.$url.'" role="button" target="_blank" data-embed-url="'.$embed_url.'">Play Video</a>';
     } else {
       $media_asset = '';
     }

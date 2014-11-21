@@ -10,6 +10,12 @@
   float: left;
 }
 
+.gallery-media {
+  position: relative;
+  max-height: 363px;
+  overflow: hidden;
+}
+
 .media-gallery-lg-image, .gallery-media-thumb {
   width: 110px;
   height: 71px;
@@ -29,7 +35,24 @@
 }
 
 .media-gallery-main {
-  .media-gallery-lg-image {
+  .gallery-caption {
+    padding: 15px 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    visibility: visible;
+    background-color: $blue;
+    background-color: $blue-mask;
+    color: #fff;
+    font-size: 12px;
+    font-size: 0.75rem;
+  }
+}
+
+.media-gallery-main {
+  .gallery-media-thumb, .media-gallery-lg-image {
     width: 570px;
     height: 363px;
   }

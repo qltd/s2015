@@ -116,6 +116,18 @@ label, select {
   margin-bottom: 1.25rem;
 }
 
+.search-form {
+  label {
+    text-align: center;
+  }
+  input[type=submit] {
+    padding: 0.5rem;
+  }
+  input[type=text] {
+    padding: 0.1875rem;
+  }
+}
+
 /* Tweaks for Safari + Chrome. */
 @media (-webkit-min-device-pixel-ratio: 0) {
   select {

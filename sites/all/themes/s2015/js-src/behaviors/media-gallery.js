@@ -5,6 +5,8 @@
         , gallery = $('.gallery-media');
       if (!item.length || !gallery.length) return;
 
+      $('.gallery-media-thumb').eq(0).addClass('active-media');
+
       item.click(function (e) {
         e.preventDefault();
         var mediaActive = $(this);

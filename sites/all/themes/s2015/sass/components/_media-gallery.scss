@@ -46,9 +46,8 @@
     visibility: visible;
     background-color: $blue;
     background-color: $blue-mask;
-    color: #fff;
     font-size: 12px;
-    font-size: 0.75rem;
+    @include font-details($size: 0.75rem, $color: white, $height: 1.4);
   }
 }
 

@@ -23,10 +23,17 @@
   }
 }
 
+.exhibitors-subhead-5 {
+  &:before {
+    content: "\f185";
+  }
+}
+
 .exhibitors-subhead-1,
 .exhibitors-subhead-2,
 .exhibitors-subhead-3,
-.exhibitors-subhead-4 {
+.exhibitors-subhead-4,
+.exhibitors-subhead-5 {
   &:before {
     margin-bottom: 12px;
     margin-bottom: 0.75rem;

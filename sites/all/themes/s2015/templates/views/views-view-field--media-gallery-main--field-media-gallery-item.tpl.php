@@ -23,7 +23,6 @@ if (isset($row->field_field_media_gallery_item[0]['rendered']['entity']['field_c
     } elseif ($media_type === 'video') {
       $video = isset($media_item['field_media_asset']['#items'][0]['uri']) ? drupal_realpath($media_item['field_media_asset']['#items'][0]['uri']) : '';
       $start_time = isset($media_item['field_media_start_time']['#items'][0]['value']) ? '&start='. $media_item['field_media_start_time']['#items'][0]['value'] : '';
-      //$media_asset = '<a class="fa button-play-video" href="'.$video.$start_time.'" role="button" target="_blank">Play Video</a>';
       $url = $video.$start_time;
       $embed_url = str_replace('&start', '?start', str_replace('watch?v=', 'embed/', $url));
       $media_asset = '<iframe width="570" height="363" src="'.$embed_url.'" frameborder="0" allowfullscreen></iframe>';
@@ -35,7 +34,9 @@ if (isset($row->field_field_media_gallery_item[0]['rendered']['entity']['field_c
 
   <article class="media-gallery-main">
     <div class="gallery-media"><?php print $media_asset; ?></div>
-    <?php if (!empty($caption)) print "<div class=\"gallery-caption\">" . $caption . "</div>" ?>
+    <?php if (!empty($caption)): ?>
+      <div class="gallery-caption"><?php print $caption; ?></div>
+    <?php endif; ?>
   </article>
 
 <?php endif; ?>

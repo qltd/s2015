@@ -31,10 +31,12 @@ if (isset($row->field_field_media_gallery_item[0]['rendered']['entity']['field_c
     }
   }
 ?>
-
-<article class="media-gallery-list-item">
-  <div class="gallery-media-thumb"><?php print $media_asset; ?></div>
-  <?php if (!empty($caption)) print "<div class=\"gallery-caption\">" . $caption . "</div>" ?>
-</article>
-
+  <?php if (isset($view->result) && count($view->result) > 1): ?>
+    <article class="media-gallery-list-item">
+      <div class="gallery-media-thumb"><?php print $media_asset; ?></div>
+      <?php if (!empty($caption)): ?>
+        <div class="gallery-caption"><?php print $caption; ?></div>
+      <?php endif;?>
+    </article>
+  <?php endif; ?>
 <?php endif; ?>

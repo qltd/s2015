@@ -10,6 +10,7 @@
         e.preventDefault();
         var mediaActive = $(this);
 
+        main.find('iframe').css('display', 'none'); // prevent ie8 blackscreen
         item.removeClass('media-gallery-list-item-active');
         mediaActive.addClass('media-gallery-list-item-active');
 

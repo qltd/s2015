@@ -1,6 +1,26 @@
 .primary-navigation {
+  .menu-level-1 {
+    > .menu {
+      position: relative:
+      z-index: 20;
+      max-width: 1020px;
+    }
+  }
   .menu-link {
     @include Swiss-Light();
+  }
+}
+
+.primary-navigation-expanded-top {
+  &:hover {
+    > .menu-link {
+      &:after {
+
+      }
+    }
+    > .menu {
+      z-index: 10;
+    }
   }
 }
 

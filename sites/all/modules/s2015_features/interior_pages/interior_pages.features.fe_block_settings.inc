@@ -12,6 +12,41 @@ function interior_pages_default_fe_block_settings() {
 
   $export['version'] = '2.0';
 
+  $export['block-exhibiting_at_siggraph'] = array(
+    'cache' => -1,
+    'css_class' => 'contact-info-exhibitors-advertisers',
+    'custom' => 0,
+    'machine_name' => 'exhibiting_at_siggraph',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => 'exhibitors-advertisers
+exhibitors-advertisers/exhibiting-siggraph-2015
+exhibitors-advertisers/sponsorship-advertising',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => -13,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
   $export['menu_block-2'] = array(
     'cache' => -1,
     'css_class' => 'primary-sub-navigation primary-sub-navigation-for-submitters',

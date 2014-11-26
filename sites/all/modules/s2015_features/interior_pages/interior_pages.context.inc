@@ -65,9 +65,9 @@ function interior_pages_context_default_contexts() {
           'region' => 'sidebar',
           'weight' => '-10',
         ),
-        'block-14' => array(
+        'block-42' => array(
           'module' => 'block',
-          'delta' => '14',
+          'delta' => '42',
           'region' => 'sidebar',
           'weight' => '-9',
         ),

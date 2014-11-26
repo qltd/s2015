@@ -1,0 +1,7 @@
+.gallery-media {
+  .media-gallery-main & {
+    @include rem-fallback(max-height, 22.6875rem);
+
+    overflow: hidden;
+  }
+}

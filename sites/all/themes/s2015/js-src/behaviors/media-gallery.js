@@ -2,22 +2,38 @@
   Drupal.behaviors.s2015MediaGallery = {
     attach: function () {
       var item = $('.media-gallery-list-item')
-        , gallery = $('.gallery-media');
-      if (!item.length || !gallery.length) return;
+        , main = $('.media-gallery-main');
 
-      $('.gallery-media-thumb').eq(0).addClass('active-media');
+      if (!item.length || !main.length) return;
 
       item.click(function (e) {
         e.preventDefault();
         var mediaActive = $(this);
-        item.children().removeClass('active-media');
-        mediaActive.children().addClass('active-media');
-        if (mediaActive.find('.media-gallery-lg-image').length) {
-          var content = mediaActive.html();
-          gallery.html(content);
+
+        item.removeClass('media-gallery-list-item-active');
+        mediaActive.addClass('media-gallery-list-item-active');
+
+        if (mediaActive.find('.gallery-image').length) {
+          main.html(mediaActive.html());
+
         } else if (mediaActive.find('.button-play-video').length) {
-          var embedUrl = $('.button-play-video').attr('data-embed-url');
-          gallery.html('<iframe width="570" height="363" src="' + embedUrl + '" frameborder="0" allowfullscreen></iframe>');
+          var galleryContainer = $(document.createElement('div'))
+            , galleryMedia = $(document.createElement('div'))
+            , embedUrl = mediaActive.find('.button-play-video').attr('data-embed-url')
+            , iframe = $(document.createElement('iframe'));
+
+          iframe.attr({
+            allowfullscreen: '',
+            frameborder: 0,
+            height: 363,
+            width: 570,
+            src: embedUrl
+          });
+          galleryMedia.addClass('gallery-media');
+          galleryMedia.append(iframe);
+          galleryContainer.append(galleryMedia);
+
+          main.html(galleryContainer.html());
         }
       });
     }

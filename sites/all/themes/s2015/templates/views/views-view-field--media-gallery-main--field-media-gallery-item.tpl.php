@@ -16,7 +16,7 @@ if (isset($row->field_field_media_gallery_item[0]['rendered']['entity']['field_c
         'alt' => isset($media_item['field_media_asset']['#items'][0]['alt']) ? $media_item['field_media_asset']['#items'][0]['alt'] : '',
         'title' => isset($media_item['field_media_asset']['#items'][0]['title']) ? $media_item['field_media_asset']['#items'][0]['title'] : '',
         'attributes' => array(
-          'class' => array('media-gallery-lg-image'),
+          'class' => array('gallery-image'),
         ),
       );
       $media_asset = theme('image_style', $image);

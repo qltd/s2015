@@ -1,0 +1,6 @@
+.block-views-media-gallery-main {
+  @include rem-fallback(margin-right, 0.125rem);
+  @include rem-fallback(width, 35.625rem);
+
+  float: left;
+}

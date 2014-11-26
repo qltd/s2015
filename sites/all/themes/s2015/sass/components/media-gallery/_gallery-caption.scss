@@ -1,0 +1,18 @@
+.gallery-caption {
+  .media-gallery-main & {
+    @include rem-fallback(padding, 0.9375rem, 0.625rem);
+    @include font-details($size: 12px, $color: white);
+    font-size: 0.75rem;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: $blue;
+    background-color: $blue-mask;
+  }
+
+  .media-gallery-list-item & {
+    display: none;
+  }
+}

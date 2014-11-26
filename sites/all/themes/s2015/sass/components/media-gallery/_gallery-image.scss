@@ -1,0 +1,11 @@
+.gallery-image {
+  .media-gallery-main & {
+    @include rem-fallback(width, 35.625rem);
+    @include rem-fallback(height, 22.6875rem);
+  }
+
+  .media-gallery-list-item & {
+    @include rem-fallback(width, 6.875rem);
+    @include rem-fallback(height, 4.4375rem);
+  }
+}

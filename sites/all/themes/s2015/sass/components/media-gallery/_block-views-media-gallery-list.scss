@@ -1,0 +1,5 @@
+.block-views-media-gallery-list {
+  @include rem-fallback(width, 6.875rem);
+
+  float: left;
+}

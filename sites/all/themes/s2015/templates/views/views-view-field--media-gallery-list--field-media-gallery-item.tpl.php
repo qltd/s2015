@@ -6,6 +6,10 @@
 
 if (isset($row->field_field_media_gallery_item[0]['rendered']['entity']['field_collection_item'])):
   foreach ($row->field_field_media_gallery_item[0]['rendered']['entity']['field_collection_item'] as $media_item) {
+    $classes = 'media-gallery-list-item';
+    $count = isset($row->field_data_field_media_gallery_item_delta) ? intval($row->field_data_field_media_gallery_item_delta) : 0;
+    $total = isset($view->result) ? count($view->result) : 0;
+    if ($count === 0) $classes .= ' media-gallery-list-item-active';
     $title = isset($media_item['field_media_title']['#items'][0]['value']) ? $media_item['field_media_title']['#items'][0]['value'] : '';
     $caption = isset($media_item['field_media_caption']['#items'][0]['value']) ? $media_item['field_media_caption']['#items'][0]['value'] : '';
     $media_type = isset($media_item['field_media_asset']['#items'][0]['type']) ? $media_item['field_media_asset']['#items'][0]['type'] : '';
@@ -16,7 +20,7 @@ if (isset($row->field_field_media_gallery_item[0]['rendered']['entity']['field_c
          'alt' => isset($media_item['field_media_asset']['#items'][0]['alt']) ? $media_item['field_media_asset']['#items'][0]['alt'] : '',
          'title' => isset($media_item['field_media_asset']['#items'][0]['title']) ? $media_item['field_media_asset']['#items'][0]['title'] : '',
          'attributes' => array(
-           'class' => array('media-gallery-lg-image'),
+           'class' => array('gallery-image'),
          ),
       );
       $media_asset = theme('image_style', $image);
@@ -31,9 +35,9 @@ if (isset($row->field_field_media_gallery_item[0]['rendered']['entity']['field_c
     }
   }
 ?>
-  <?php if (isset($view->result) && count($view->result) > 1): ?>
-    <article class="media-gallery-list-item">
-      <div class="gallery-media-thumb"><?php print $media_asset; ?></div>
+  <?php if ($total > 1): ?>
+    <article class="<?php print $classes; ?>">
+      <div class="gallery-media"><?php print $media_asset; ?></div>
       <?php if (!empty($caption)): ?>
         <div class="gallery-caption"><?php print $caption; ?></div>
       <?php endif;?>

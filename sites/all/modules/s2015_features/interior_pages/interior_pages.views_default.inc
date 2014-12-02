@@ -44,15 +44,10 @@ function interior_pages_views_default_views() {
   );
   $handler->display->display_options['fields']['field_media_gallery_item']['group_rows'] = FALSE;
   $handler->display->display_options['fields']['field_media_gallery_item']['delta_offset'] = '0';
-  /* Sort criterion: Content: Order (field_order) */
-  $handler->display->display_options['sorts']['field_order_value']['id'] = 'field_order_value';
-  $handler->display->display_options['sorts']['field_order_value']['table'] = 'field_data_field_order';
-  $handler->display->display_options['sorts']['field_order_value']['field'] = 'field_order_value';
-  /* Sort criterion: Content: Post date */
-  $handler->display->display_options['sorts']['created']['id'] = 'created';
-  $handler->display->display_options['sorts']['created']['table'] = 'node';
-  $handler->display->display_options['sorts']['created']['field'] = 'created';
-  $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  /* Sort criterion: Content: Media Gallery Item (field_media_gallery_item:delta) */
+  $handler->display->display_options['sorts']['delta']['id'] = 'delta';
+  $handler->display->display_options['sorts']['delta']['table'] = 'field_data_field_media_gallery_item';
+  $handler->display->display_options['sorts']['delta']['field'] = 'delta';
   /* Contextual filter: Content: Nid */
   $handler->display->display_options['arguments']['nid']['id'] = 'nid';
   $handler->display->display_options['arguments']['nid']['table'] = 'node';
@@ -109,15 +104,10 @@ function interior_pages_views_default_views() {
   $handler->display->display_options['fields']['field_media_gallery_item']['group_rows'] = FALSE;
   $handler->display->display_options['fields']['field_media_gallery_item']['delta_limit'] = '6';
   $handler->display->display_options['fields']['field_media_gallery_item']['delta_offset'] = '0';
-  /* Sort criterion: Content: Order (field_order) */
-  $handler->display->display_options['sorts']['field_order_value']['id'] = 'field_order_value';
-  $handler->display->display_options['sorts']['field_order_value']['table'] = 'field_data_field_order';
-  $handler->display->display_options['sorts']['field_order_value']['field'] = 'field_order_value';
-  /* Sort criterion: Content: Post date */
-  $handler->display->display_options['sorts']['created']['id'] = 'created';
-  $handler->display->display_options['sorts']['created']['table'] = 'node';
-  $handler->display->display_options['sorts']['created']['field'] = 'created';
-  $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  /* Sort criterion: Content: Media Gallery Item (field_media_gallery_item:delta) */
+  $handler->display->display_options['sorts']['delta']['id'] = 'delta';
+  $handler->display->display_options['sorts']['delta']['table'] = 'field_data_field_media_gallery_item';
+  $handler->display->display_options['sorts']['delta']['field'] = 'delta';
   /* Contextual filter: Content: Nid */
   $handler->display->display_options['arguments']['nid']['id'] = 'nid';
   $handler->display->display_options['arguments']['nid']['table'] = 'node';

@@ -6,7 +6,6 @@
 
 if (isset($row->field_field_media_gallery_item[0]['rendered']['entity']['field_collection_item'])):
   foreach ($row->field_field_media_gallery_item[0]['rendered']['entity']['field_collection_item'] as $media_item) {
-    $title = isset($media_item['field_media_title']['#items'][0]['value']) ? $media_item['field_media_title']['#items'][0]['value'] : '';
     $caption = isset($media_item['field_media_caption']['#items'][0]['value']) ? $media_item['field_media_caption']['#items'][0]['value'] : '';
     $media_type = isset($media_item['field_media_asset']['#items'][0]['type']) ? $media_item['field_media_asset']['#items'][0]['type'] : '';
     if ($media_type === 'image') {

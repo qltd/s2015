@@ -26,6 +26,18 @@ function interior_pages_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
+        'views-30a59ed5fc3ab70a2bdbcd982684116e' => array(
+          'module' => 'views',
+          'delta' => '30a59ed5fc3ab70a2bdbcd982684116e',
+          'region' => 'highlighted',
+          'weight' => '-10',
+        ),
+        'views-1166e414025bbb712537716b55a9774e' => array(
+          'module' => 'views',
+          'delta' => '1166e414025bbb712537716b55a9774e',
+          'region' => 'highlighted',
+          'weight' => '-9',
+        ),
         'menu_block-4' => array(
           'module' => 'menu_block',
           'delta' => '4',
@@ -182,6 +194,18 @@ function interior_pages_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
+        'views-30a59ed5fc3ab70a2bdbcd982684116e' => array(
+          'module' => 'views',
+          'delta' => '30a59ed5fc3ab70a2bdbcd982684116e',
+          'region' => 'highlighted',
+          'weight' => '-10',
+        ),
+        'views-1166e414025bbb712537716b55a9774e' => array(
+          'module' => 'views',
+          'delta' => '1166e414025bbb712537716b55a9774e',
+          'region' => 'highlighted',
+          'weight' => '-9',
+        ),
         'menu_block-3' => array(
           'module' => 'menu_block',
           'delta' => '3',

@@ -129,39 +129,6 @@ function interior_pages_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'field_collection_item-field_media_gallery_item-field_media_title'
-  $field_instances['field_collection_item-field_media_gallery_item-field_media_title'] = array(
-    'bundle' => 'field_media_gallery_item',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'hidden',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 1,
-      ),
-    ),
-    'entity_type' => 'field_collection_item',
-    'field_name' => 'field_media_title',
-    'label' => 'Media Title',
-    'required' => 0,
-    'settings' => array(
-      'text_processing' => 0,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'text',
-      'settings' => array(
-        'size' => 60,
-      ),
-      'type' => 'text_textfield',
-      'weight' => 0,
-    ),
-  );
-
   // Exported field_instance: 'node-for_attendees-body'
   $field_instances['node-for_attendees-body'] = array(
     'bundle' => 'for_attendees',
@@ -782,7 +749,6 @@ function interior_pages_field_default_field_instances() {
   t('Media Caption');
   t('Media Gallery Item');
   t('Media Start Time');
-  t('Media Title');
   t('New for 2015');
   t('Select an image or video.');
   t('Submission Deadline');

@@ -13,6 +13,39 @@ function landing_pages_context_default_contexts() {
   $context = new stdClass();
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
+  $context->name = 'for_submitters_landing';
+  $context->description = 'This is the "For Submitters landing page" page context';
+  $context->tag = 'pages';
+  $context->conditions = array(
+    'path' => array(
+      'values' => array(
+        'submitters' => 'submitters',
+      ),
+    ),
+  );
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'block-43' => array(
+          'module' => 'block',
+          'delta' => '43',
+          'region' => 'content',
+          'weight' => '-10',
+        ),
+      ),
+    ),
+  );
+  $context->condition_mode = 0;
+
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('This is the "For Submitters landing page" page context');
+  t('pages');
+  $export['for_submitters_landing'] = $context;
+
+  $context = new stdClass();
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
   $context->name = 'landing';
   $context->description = 'This is the context for landing pages';
   $context->tag = 'pages';

@@ -45,6 +45,39 @@ function landing_pages_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['block-programs_video'] = array(
+    'cache' => -1,
+    'css_class' => 'front-block-full',
+    'custom' => 0,
+    'machine_name' => 'programs_video',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => 'submitters',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
+  );
+
   $export['views-21aaed4132c6deaf4b03dd6014950a1e'] = array(
     'cache' => -1,
     'css_class' => 'landing-billboards-small',

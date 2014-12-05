@@ -206,5 +206,14 @@ function landing_pages_default_fe_block_boxes() {
 
   $export['for_attendees_programs_events'] = $fe_block_boxes;
 
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Full programs video';
+  $fe_block_boxes->format = 'event';
+  $fe_block_boxes->machine_name = 'programs_video';
+  $fe_block_boxes->body = '<div class="video-wrapper"><iframe allowfullscreen="" frameborder="0" height="315" src="//www.youtube.com/embed/qXi2BWdO74Q" width="560"></iframe></div>
+';
+
+  $export['programs_video'] = $fe_block_boxes;
+
   return $export;
 }

@@ -1,0 +1,15 @@
+name = Admin Pages
+description = Blocks, context, and settings for admin pages.
+core = 7.x
+package = S2015 Features
+version = 7.x-1.0
+project = admin_pages
+dependencies[] = features
+dependencies[] = menu
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[menu_custom][] = management
+features[views_view][] = meta
+features_exclude[dependencies][ctools] = ctools
+project path = sites/all/modules/s2015_features

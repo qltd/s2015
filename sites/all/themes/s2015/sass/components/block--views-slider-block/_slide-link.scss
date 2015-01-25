@@ -1,0 +1,30 @@
+.slide-link {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 100px;
+  @include rem-fallback(padding, 1.5rem, 2rem);
+  @include rem-fallback(height, 15.625rem);
+  @include rem-fallback(width, 35.9375rem);
+  background-color: $blue;
+  background-color: $blue-mask;
+  text-align: left;
+  @include transition(background-color $duration-transition-extended ease-out);
+  &:hover {
+    background-color: $red;
+    background-color: $red-mask;
+    &:before {
+      @include rem-fallback(margin-top, 10.625rem);
+      @include rem-fallback(font-size, 3rem);
+    }
+  }
+  &:before {
+    position: absolute;
+    @include rem-fallback(margin, 11.25rem, 0, 0, 0);
+    width: 0;
+    content: "\f178";
+    font-size: rem-fallback(1.75rem);
+    @include FontAwesome(1.75rem, white);
+    @include transition(font-size $duration-transition ease-out $duration-transition, margin-top $duration-transition ease-out $duration-transition);
+  }
+}

@@ -26,3 +26,4 @@ require('./behaviors/navigation-primary');
 require('./behaviors/navigation-primary-sub');
 require('./behaviors/search');
 require('./behaviors/quicktabs');
+require('./behaviors/flexslider');

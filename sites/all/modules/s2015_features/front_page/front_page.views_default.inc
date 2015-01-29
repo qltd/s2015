@@ -142,5 +142,98 @@ function front_page_views_default_views() {
   $handler->display->display_options['block_description'] = 'SIGGRAPH Tweets';
   $export['siggraph_tweets'] = $view;
 
+  $view = new view();
+  $view->name = 'slider';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'node';
+  $view->human_name = 'Slider';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['css_class'] = 'flexslider';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'perm';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '3';
+  $handler->display->display_options['style_plugin'] = 'semanticviews_default';
+  $handler->display->display_options['style_options']['list']['element_type'] = 'ul';
+  $handler->display->display_options['style_options']['list']['class'] = 'slides';
+  $handler->display->display_options['style_options']['row']['element_type'] = 'li';
+  $handler->display->display_options['style_options']['row']['class'] = 'slides-list-item';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  $handler->display->display_options['row_options']['hide_empty'] = TRUE;
+  $handler->display->display_options['row_options']['default_field_elements'] = FALSE;
+  /* Field: Content: Slide Image */
+  $handler->display->display_options['fields']['field_slide_image']['id'] = 'field_slide_image';
+  $handler->display->display_options['fields']['field_slide_image']['table'] = 'field_data_field_slide_image';
+  $handler->display->display_options['fields']['field_slide_image']['field'] = 'field_slide_image';
+  $handler->display->display_options['fields']['field_slide_image']['label'] = '';
+  $handler->display->display_options['fields']['field_slide_image']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_slide_image']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_slide_image']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_slide_image']['settings'] = array(
+    'image_style' => '',
+    'image_link' => '',
+  );
+  /* Field: Content: Slide Heading */
+  $handler->display->display_options['fields']['field_slide_heading']['id'] = 'field_slide_heading';
+  $handler->display->display_options['fields']['field_slide_heading']['table'] = 'field_data_field_slide_heading';
+  $handler->display->display_options['fields']['field_slide_heading']['field'] = 'field_slide_heading';
+  $handler->display->display_options['fields']['field_slide_heading']['label'] = '';
+  $handler->display->display_options['fields']['field_slide_heading']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_slide_heading']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_slide_heading']['type'] = 'text_plain';
+  /* Field: Content: Slide Link */
+  $handler->display->display_options['fields']['field_slide_link']['id'] = 'field_slide_link';
+  $handler->display->display_options['fields']['field_slide_link']['table'] = 'field_data_field_slide_link';
+  $handler->display->display_options['fields']['field_slide_link']['field'] = 'field_slide_link';
+  $handler->display->display_options['fields']['field_slide_link']['label'] = '';
+  $handler->display->display_options['fields']['field_slide_link']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_slide_link']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_slide_link']['click_sort_column'] = 'url';
+  $handler->display->display_options['fields']['field_slide_link']['type'] = 'link_plain';
+  /* Field: Content: Body */
+  $handler->display->display_options['fields']['body']['id'] = 'body';
+  $handler->display->display_options['fields']['body']['table'] = 'field_data_body';
+  $handler->display->display_options['fields']['body']['field'] = 'body';
+  $handler->display->display_options['fields']['body']['label'] = '';
+  $handler->display->display_options['fields']['body']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['body']['alter']['text'] = '[field_slide_image]
+<a class="slide-link" href="[field_slide_link]">
+<h2 class="slide-heading">[field_slide_heading]</h2>
+<p class="slide-body">[body]</p>
+</a>';
+  $handler->display->display_options['fields']['body']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['body']['type'] = 'text_plain';
+  /* Sort criterion: Content: Slide Order (field_slide_order) */
+  $handler->display->display_options['sorts']['field_slide_order_value']['id'] = 'field_slide_order_value';
+  $handler->display->display_options['sorts']['field_slide_order_value']['table'] = 'field_data_field_slide_order';
+  $handler->display->display_options['sorts']['field_slide_order_value']['field'] = 'field_slide_order_value';
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Type */
+  $handler->display->display_options['filters']['type']['id'] = 'type';
+  $handler->display->display_options['filters']['type']['table'] = 'node';
+  $handler->display->display_options['filters']['type']['field'] = 'type';
+  $handler->display->display_options['filters']['type']['value'] = array(
+    'slide' => 'slide',
+  );
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $export['slider'] = $view;
+
   return $export;
 }

@@ -32,9 +32,9 @@ function front_page_context_default_contexts() {
           'region' => 'content',
           'weight' => '-10',
         ),
-        'block-34' => array(
-          'module' => 'block',
-          'delta' => '34',
+        'views-slider-block' => array(
+          'module' => 'views',
+          'delta' => 'slider-block',
           'region' => 'content',
           'weight' => '-9',
         ),
@@ -42,19 +42,19 @@ function front_page_context_default_contexts() {
           'module' => 'views',
           'delta' => '9c499aded61b02cb2e64a5937132d8a6',
           'region' => 'content',
-          'weight' => '-8',
+          'weight' => '-7',
         ),
         'block-31' => array(
           'module' => 'block',
           'delta' => '31',
           'region' => 'content',
-          'weight' => '-7',
+          'weight' => '-6',
         ),
         'views-siggraph_tweets-siggraph_tweets' => array(
           'module' => 'views',
           'delta' => 'siggraph_tweets-siggraph_tweets',
           'region' => 'content',
-          'weight' => '-6',
+          'weight' => '-5',
         ),
         'block-32' => array(
           'module' => 'block',

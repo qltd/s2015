@@ -25,9 +25,9 @@ function front_page_default_fe_block_boxes() {
   $fe_block_boxes->info = 'This is the "Call for Submissions" billboard for the front page.';
   $fe_block_boxes->format = 'raw_html';
   $fe_block_boxes->machine_name = 'front_call_for_submissions';
-  $fe_block_boxes->body = '<a class="front-call-for-submissions-link" href="/submitters">
-  <h2 class="front-call-for-submissions-title">Call for Submissions</h2>
-  <p class="front-call-for-submissions-body">Like the thread that connects the pieces of a quilt, SIGGRAPH provides opportunities for discovery across its many areas. Submit your excellent work!</p>
+  $fe_block_boxes->body = '<a class="front-call-for-submissions-link" href="/attendees/keynote-session">
+  <h2 class="front-call-for-submissions-title">Keynote Joichi “Joi” Ito</h2>
+  <p class="front-call-for-submissions-body">Director of MIT Media Lab. Currently exploring how radical new approaches to science and technology can transform society in substantial and positive ways.</p>
 </a>
 
 ';
@@ -38,7 +38,7 @@ function front_page_default_fe_block_boxes() {
   $fe_block_boxes->info = 'The conference countdown block for the front page';
   $fe_block_boxes->format = 'raw_html';
   $fe_block_boxes->machine_name = 'front_countdown';
-  $fe_block_boxes->body = '<p class="front-countdown-paragraph front-paragraph"><span class="countdown-pie" data-date="Sun Aug 09 2015 00:00:00 GMT-0400" data-days="400"><i class="countdown-pie-slice"></i><span class="front-countdown-count"></span> <span class="front-countdown-unit">Days</span></span> Until SIGGRAPH 2015</p>';
+  $fe_block_boxes->body = '<p class="front-countdown-paragraph front-paragraph"><span class="countdown-pie" data-date="Sun Aug 09 2015 00:00:00 GMT-0400" data-days="365"><i class="countdown-pie-slice"></i><span class="front-countdown-count"></span> <span class="front-countdown-unit">Days</span></span> Until SIGGRAPH 2015</p>';
 
   $export['front_countdown'] = $fe_block_boxes;
 

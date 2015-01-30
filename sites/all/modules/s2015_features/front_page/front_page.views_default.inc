@@ -216,6 +216,7 @@ function front_page_views_default_views() {
   $handler->display->display_options['sorts']['field_slide_order_value']['id'] = 'field_slide_order_value';
   $handler->display->display_options['sorts']['field_slide_order_value']['table'] = 'field_data_field_slide_order';
   $handler->display->display_options['sorts']['field_slide_order_value']['field'] = 'field_slide_order_value';
+  $handler->display->display_options['sorts']['field_slide_order_value']['order'] = 'DESC';
   /* Filter criterion: Content: Published */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';

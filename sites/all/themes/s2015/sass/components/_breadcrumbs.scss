@@ -1,4 +1,6 @@
 .breadcrumb {
+  width: 50%;
+  float: left;
   font-size: rem-fallback(0.875rem);
   @include font-details($size: 0.875rem, $weight: 300);
   .active {

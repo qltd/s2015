@@ -1,0 +1,15 @@
+.social-share-buttons {
+  width: 50%;
+  float: right;
+  text-align: right;
+  h2 {
+    margin: 0;
+    color: $blue;
+    font-size: 20px;
+    font-size: 1.25rem;
+  }
+  h2, .block__content {
+    display: inline-block;
+    //vertical-align: middle;
+  }
+}

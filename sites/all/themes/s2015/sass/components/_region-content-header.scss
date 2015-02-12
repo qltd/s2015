@@ -1,4 +1,5 @@
 .l-content-header {
+  overflow: hidden;
   @include container-fallback($width-container, $width-container-em-fallback);
   @include rem-fallback(margin-bottom, 1.875rem);
 }

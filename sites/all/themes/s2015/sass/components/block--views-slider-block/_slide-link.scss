@@ -3,7 +3,8 @@
   margin: 0 auto;
   position: absolute;
   top: 125px;
-  left: 384px;
+  left: 50%;
+  margin-left: -288px;
   @include rem-fallback(padding, 1.5rem, 2rem);
   @include rem-fallback(height, 15.625rem);
   @include rem-fallback(width, 35.9375rem);

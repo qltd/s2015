@@ -1,4 +1,9 @@
 .social-btn-icon {
-  font-size: 26px;
-  font-size: 1.625rem;
+  color: $blue;
+  font-size: 14px;
+  font-size: 0.875rem;
+  @include transition(color $duration-transition ease-out);
+  &:hover {
+    color: $orange;
+  }
 }

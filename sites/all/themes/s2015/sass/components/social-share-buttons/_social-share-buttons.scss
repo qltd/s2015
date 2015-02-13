@@ -5,11 +5,11 @@
   h2 {
     margin: 0;
     color: $blue;
-    font-size: 20px;
-    font-size: 1.25rem;
+    font-size: 14px;
+    font-size: 0.875rem;
   }
   h2, .block__content {
     display: inline-block;
-    //vertical-align: middle;
+    vertical-align: top;
   }
 }

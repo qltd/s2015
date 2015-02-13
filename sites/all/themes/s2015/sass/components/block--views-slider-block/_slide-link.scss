@@ -2,9 +2,16 @@
   display: block;
   margin: 0 auto;
   position: absolute;
-  top: 125px;
+  top: 50%;
+  margin: {
+    top: -127px;
+    top: -7.9375rem;
+  }
   left: 50%;
-  margin-left: -288px;
+  margin: {
+    left: -288px;
+    left: -18rem;
+  }
   @include rem-fallback(padding, 1.5rem, 2rem);
   @include rem-fallback(height, 15.625rem);
   @include rem-fallback(width, 35.9375rem);

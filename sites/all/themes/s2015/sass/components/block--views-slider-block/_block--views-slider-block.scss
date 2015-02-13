@@ -3,5 +3,10 @@
     bottom: 80px;
     bottom: 5rem;
   }
+  height: auto;
   background: #bcccdf;
+
+  .block__content li {
+    margin-bottom: 0;
+  }
 }

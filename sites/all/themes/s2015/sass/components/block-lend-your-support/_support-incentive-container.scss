@@ -1,0 +1,35 @@
+.support-incentive-container {
+  margin: {
+    right: 20px;
+    right: 1.25rem;
+  }
+  margin: {
+    bottom: 50px;
+    bottom: 3.125rem;
+  }
+  padding: 50px 20px 0;
+  padding: 3.125rem 1.25rem 0;
+  float: left;
+  height: 216px;
+  height: 13.5rem;
+  width: 216px;
+  width: 13.5rem;
+  color: #fff;
+  background: $blue;
+  text-align: center;
+  font-size: 14px;
+  @include font-details(0.875rem, white, 300, 1.5);
+
+  i {
+    margin: {
+      bottom: 20px;
+      bottom: 1.25rem;
+    }
+    font-size: 36px;
+    font-size: 2.25rem;
+  }
+
+  &.last {
+    margin-right: 0;
+  }
+}

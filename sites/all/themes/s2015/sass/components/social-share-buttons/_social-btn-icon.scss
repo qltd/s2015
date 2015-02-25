@@ -2,7 +2,6 @@
   color: $blue;
   font-size: 14px;
   font-size: 0.875rem;
-  //@include transition(color $duration-transition ease-out);
   &:hover {
     color: $orange;
   }

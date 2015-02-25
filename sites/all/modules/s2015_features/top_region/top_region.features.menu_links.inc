@@ -95,7 +95,7 @@ function top_region_menu_default_menu_links() {
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -46,
+    'weight' => -45,
     'customized' => 1,
   );
   // Exported menu link: menu-social_twitter:http://twitter.com/siggraph
@@ -127,6 +127,32 @@ function top_region_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -48,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-social_wordpress-blog:http://blog.siggraph.org/
+  $menu_links['menu-social_wordpress-blog:http://blog.siggraph.org/'] = array(
+    'menu_name' => 'menu-social',
+    'link_path' => 'http://blog.siggraph.org/',
+    'router_path' => '',
+    'link_title' => 'Wordpress Blog',
+    'options' => array(
+      'attributes' => array(
+        'class' => array(
+          0 => 'fa',
+          1 => 'fa-wordpress',
+          2 => 'social-navigation-link',
+          3 => 'menu-link',
+        ),
+        'target' => '_blank',
+      ),
+      'identifier' => 'menu-social_wordpress-blog:http://blog.siggraph.org/',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -46,
     'customized' => 1,
   );
   // Exported menu link: menu-social_youtube:http://www.youtube.com/user/ACMSIGGRAPH
@@ -167,6 +193,7 @@ function top_region_menu_default_menu_links() {
   t('Google+');
   t('Instagram');
   t('Twitter');
+  t('Wordpress Blog');
   t('Youtube');
 
 

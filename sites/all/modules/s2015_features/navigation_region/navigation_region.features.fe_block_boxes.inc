@@ -17,7 +17,7 @@ function navigation_region_default_fe_block_boxes() {
   $fe_block_boxes->body = '<ul class="primary-navigation-content-list">
   <li class="primary-navigation-content-list-item">
     <a class="primary-navigation-content-link" href="/attendees">
-      <i class="fa fa-eye">&zwnj;‌‌‌</i>
+      <i class="fa fa-eye"></i>
       <h2 class="primary-navigation-content-title">Conference Overview</h2>
       <p class="primary-navigation-content-paragraph">Explore the wealth of information, resources, and events available at this year\'s annual conference.</p>
     </a>
@@ -53,14 +53,14 @@ function navigation_region_default_fe_block_boxes() {
   $fe_block_boxes->body = '<ul class="primary-navigation-content-list">
   <li class="primary-navigation-content-list-item">
     <a class="primary-navigation-content-link" href="/submitters">
-      <i class="fa fa-comment-o">&zwnj;‌‌‌</i>
+      <i class="fa fa-comment-o"></i>
       <h2 class="primary-navigation-content-title">SIGGRAPH 2015</h2>
-      <p class="primary-navigation-content-paragraph">An important message from SIGGRAPH 2015 Conference Chair Marc Barr.</p>
+      <p class="primary-navigation-content-paragraph">An important message from SIGGRAPH 2015 Conference Chair Marc J. Barr.</p>
     </a>
   </li>
   <li class="primary-navigation-content-list-item">
     <a class="primary-navigation-content-link" href="/important-dates">
-      <i class="fa fa-bell-o">&zwnj;‌‌‌</i>
+      <i class="fa fa-bell-o"></i>
       <h2 class="primary-navigation-content-title">Important Dates</h2>
       <p class="primary-navigation-content-paragraph">Submission deadlines for all SIGGRAPH 2015 programs.</p>
     </a>

@@ -35,8 +35,8 @@
   }
   &.expanded, &:hover {
     .form-text {
-      @include rem-fallback(margin-left, -13.125rem);
-      @include rem-fallback(width, 15rem);
+      @include rem-fallback(margin-left, -17rem);
+      @include rem-fallback(width, 16.75rem);
     }
     .form-submit {
       color: $orange;

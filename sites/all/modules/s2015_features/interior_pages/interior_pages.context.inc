@@ -26,6 +26,12 @@ function interior_pages_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
+        'addtoany-addtoany_button' => array(
+          'module' => 'addtoany',
+          'delta' => 'addtoany_button',
+          'region' => 'content_header',
+          'weight' => '-10',
+        ),
         'views-30a59ed5fc3ab70a2bdbcd982684116e' => array(
           'module' => 'views',
           'delta' => '30a59ed5fc3ab70a2bdbcd982684116e',
@@ -71,6 +77,12 @@ function interior_pages_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
+        'addtoany-addtoany_button' => array(
+          'module' => 'addtoany',
+          'delta' => 'addtoany_button',
+          'region' => 'content_header',
+          'weight' => '-10',
+        ),
         'menu_block-6' => array(
           'module' => 'menu_block',
           'delta' => '6',
@@ -110,6 +122,12 @@ function interior_pages_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
+        'addtoany-addtoany_button' => array(
+          'module' => 'addtoany',
+          'delta' => 'addtoany_button',
+          'region' => 'content_header',
+          'weight' => '-10',
+        ),
         'views-30a59ed5fc3ab70a2bdbcd982684116e' => array(
           'module' => 'views',
           'delta' => '30a59ed5fc3ab70a2bdbcd982684116e',
@@ -194,6 +212,12 @@ function interior_pages_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
+        'addtoany-addtoany_button' => array(
+          'module' => 'addtoany',
+          'delta' => 'addtoany_button',
+          'region' => 'content_header',
+          'weight' => '-10',
+        ),
         'views-30a59ed5fc3ab70a2bdbcd982684116e' => array(
           'module' => 'views',
           'delta' => '30a59ed5fc3ab70a2bdbcd982684116e',

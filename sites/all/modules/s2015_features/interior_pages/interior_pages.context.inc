@@ -13,6 +13,42 @@ function interior_pages_context_default_contexts() {
   $context = new stdClass();
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
+  $context->name = 'basic';
+  $context->description = 'Context for the basic page content type.';
+  $context->tag = 'pages';
+  $context->conditions = array(
+    'node' => array(
+      'values' => array(
+        'page' => 'page',
+      ),
+      'options' => array(
+        'node_form' => '1',
+      ),
+    ),
+  );
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'addtoany-addtoany_button' => array(
+          'module' => 'addtoany',
+          'delta' => 'addtoany_button',
+          'region' => 'content_header',
+          'weight' => '-10',
+        ),
+      ),
+    ),
+  );
+  $context->condition_mode = 0;
+
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('Context for the basic page content type.');
+  t('pages');
+  $export['basic'] = $context;
+
+  $context = new stdClass();
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
   $context->name = 'for_attendees';
   $context->description = 'This is the "For Attendees" page context';
   $context->tag = 'pages';
@@ -246,6 +282,39 @@ function interior_pages_context_default_contexts() {
   t('This is the "For Volunteers" page context');
   t('pages');
   $export['for_volunteers'] = $context;
+
+  $context = new stdClass();
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
+  $context->name = 'lend_your_support';
+  $context->description = 'Content for Lend Your Support page.';
+  $context->tag = 'pages';
+  $context->conditions = array(
+    'path' => array(
+      'values' => array(
+        'exhibitors-advertisers/lend-your-support-siggraph-2015' => 'exhibitors-advertisers/lend-your-support-siggraph-2015',
+      ),
+    ),
+  );
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'block-45' => array(
+          'module' => 'block',
+          'delta' => '45',
+          'region' => 'content',
+          'weight' => '-10',
+        ),
+      ),
+    ),
+  );
+  $context->condition_mode = 0;
+
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('Content for Lend Your Support page.');
+  t('pages');
+  $export['lend_your_support'] = $context;
 
   return $export;
 }

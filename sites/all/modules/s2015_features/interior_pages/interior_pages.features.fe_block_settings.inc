@@ -80,6 +80,39 @@ exhibitors-advertisers/sponsorship-advertising',
     'visibility' => 1,
   );
 
+  $export['block-lend_your_support'] = array(
+    'cache' => -1,
+    'css_class' => 'block-lend-your-support',
+    'custom' => 0,
+    'machine_name' => 'lend_your_support',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['menu_block-2'] = array(
     'cache' => -1,
     'css_class' => 'primary-sub-navigation primary-sub-navigation-for-submitters',

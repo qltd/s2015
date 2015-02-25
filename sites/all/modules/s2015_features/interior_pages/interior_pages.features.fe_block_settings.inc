@@ -12,6 +12,39 @@ function interior_pages_default_fe_block_settings() {
 
   $export['version'] = '2.0';
 
+  $export['addtoany-addtoany_button'] = array(
+    'cache' => 1,
+    'css_class' => 'social-share-buttons',
+    'custom' => 0,
+    'delta' => 'addtoany_button',
+    'module' => 'addtoany',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Share Page:',
+    'visibility' => 0,
+  );
+
   $export['block-exhibiting_at_siggraph'] = array(
     'cache' => -1,
     'css_class' => 'contact-info-exhibitors-advertisers',

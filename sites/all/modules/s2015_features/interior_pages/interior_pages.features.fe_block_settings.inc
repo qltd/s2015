@@ -45,6 +45,39 @@ function interior_pages_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['block-contact_lend_your_support'] = array(
+    'cache' => -1,
+    'css_class' => 'contact-info-exhibitors-advertisers',
+    'custom' => 0,
+    'machine_name' => 'contact_lend_your_support',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['block-exhibiting_at_siggraph'] = array(
     'cache' => -1,
     'css_class' => 'contact-info-exhibitors-advertisers',

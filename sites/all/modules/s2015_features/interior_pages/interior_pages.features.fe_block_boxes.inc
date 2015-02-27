@@ -11,6 +11,21 @@ function interior_pages_default_fe_block_boxes() {
   $export = array();
 
   $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Contact Information for Lend Your Support';
+  $fe_block_boxes->format = 'event';
+  $fe_block_boxes->machine_name = 'contact_lend_your_support';
+  $fe_block_boxes->body = '<p><strong>To learn more about how this opportunity can benefit your organization, contact:</strong></p>
+
+<p><a href="mailto:aluporini@heiexpo.com">Ann Luporini</a><br />
+Hall-Erickson, Inc.<br />
+98 East Chicago Avenue<br />
+Westmont, Illinois 60559 USA<br />
++1.630.929.7924</p>
+';
+
+  $export['contact_lend_your_support'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'Exhibiting at SIGGRAPH 2015';
   $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'exhibiting_at_siggraph';

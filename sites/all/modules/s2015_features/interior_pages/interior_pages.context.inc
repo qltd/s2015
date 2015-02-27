@@ -305,6 +305,12 @@ function interior_pages_context_default_contexts() {
           'region' => 'content',
           'weight' => '-10',
         ),
+        'block-46' => array(
+          'module' => 'block',
+          'delta' => '46',
+          'region' => 'sidebar',
+          'weight' => '-10',
+        ),
       ),
     ),
   );

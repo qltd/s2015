@@ -2649,7 +2649,7 @@ b, strong {
   width: 13.75rem; }
 
 .breadcrumb {
-  width: 50%;
+  width: 65%;
   float: left;
   font-size: 14px;
   font-size: 0.875rem;
@@ -4517,7 +4517,7 @@ html[xmlns] .slides {
   margin-left: 10px; }
 
 .social-share-buttons {
-  width: 50%;
+  width: 35%;
   float: right;
   text-align: right; }
   .social-share-buttons h2 {

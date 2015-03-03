@@ -1,0 +1,18 @@
+.block-hotel-widget {
+  padding: 28px;
+  padding: 1.75rem;
+  background-image: url("../images/hotelpattern.png");
+  background-attachment: fixed;
+  .block__title {
+    margin-top: 0;
+  }
+
+  .page-node-116 & {
+    padding: 0;
+    background-image: none;
+    .block__title {
+      display: none;
+      visibility: hidden;
+    }
+  }
+}

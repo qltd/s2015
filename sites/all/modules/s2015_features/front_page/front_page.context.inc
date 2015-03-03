@@ -42,6 +42,12 @@ function front_page_context_default_contexts() {
           'module' => 'views',
           'delta' => '9c499aded61b02cb2e64a5937132d8a6',
           'region' => 'content',
+          'weight' => '-8',
+        ),
+        'block-47' => array(
+          'module' => 'block',
+          'delta' => '47',
+          'region' => 'content',
           'weight' => '-7',
         ),
         'block-31' => array(

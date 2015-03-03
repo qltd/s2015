@@ -123,7 +123,7 @@ function interior_pages_context_default_contexts() {
           'module' => 'menu_block',
           'delta' => '6',
           'region' => 'sidebar',
-          'weight' => '-10',
+          'weight' => '-11',
         ),
         'block-42' => array(
           'module' => 'block',
@@ -282,6 +282,39 @@ function interior_pages_context_default_contexts() {
   t('This is the "For Volunteers" page context');
   t('pages');
   $export['for_volunteers'] = $context;
+
+  $context = new stdClass();
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
+  $context->name = 'hotels';
+  $context->description = 'Context for the Hotels page.';
+  $context->tag = 'pages';
+  $context->conditions = array(
+    'path' => array(
+      'values' => array(
+        'attendees/hotels' => 'attendees/hotels',
+      ),
+    ),
+  );
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'block-47' => array(
+          'module' => 'block',
+          'delta' => '47',
+          'region' => 'content',
+          'weight' => '-25',
+        ),
+      ),
+    ),
+  );
+  $context->condition_mode = 0;
+
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('Context for the Hotels page.');
+  t('pages');
+  $export['hotels'] = $context;
 
   $context = new stdClass();
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */

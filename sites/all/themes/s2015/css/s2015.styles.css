@@ -4237,6 +4237,40 @@ html[xmlns] .slides {
   margin: 0 auto;
   max-width: 1342px; }
 
+.block-hotel-widget {
+  padding: 28px;
+  padding: 1.75rem;
+  background-image: url("../images/hotelpattern.png");
+  background-attachment: fixed; }
+  .block-hotel-widget .block__title {
+    margin-top: 0; }
+  .page-node-116 .block-hotel-widget {
+    padding: 0;
+    background-image: none; }
+    .page-node-116 .block-hotel-widget .block__title {
+      display: none;
+      visibility: hidden; }
+
+.hotel-widget-link {
+  margin-bottom: 16px;
+  margin-bottom: 1rem; }
+  .page-node-116 .hotel-widget-link {
+    display: none;
+    visibility: hidden; }
+
+.hotel-widget-wrap {
+  margin: 0 auto 24px;
+  margin: 0 auto 1.5rem;
+  padding: 10px 10px 0;
+  padding: 0.625rem 0.625rem 0;
+  width: 700px;
+  width: 43.75rem;
+  background: #fff; }
+  .page-node-116 .hotel-widget-wrap {
+    margin: 0;
+    padding: 0;
+    width: auto; }
+
 .block-lend-your-support i {
   display: block; }
 

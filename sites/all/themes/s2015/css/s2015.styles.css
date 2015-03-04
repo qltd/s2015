@@ -4244,6 +4244,8 @@ html[xmlns] .slides {
   background-attachment: fixed; }
   .block-hotel-widget .block__title {
     margin-top: 0; }
+  .page-node-116 .block-hotel-widget {
+    background-image: none; }
 
 .hotel-widget-link {
   margin-bottom: 10px;

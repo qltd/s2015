@@ -173,7 +173,7 @@ function front_page_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => 'Reserve your hotel room early and save!',
+    'title' => '',
     'visibility' => 0,
   );
 

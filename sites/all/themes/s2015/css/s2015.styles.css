@@ -2872,14 +2872,17 @@ button {
   .download-pdf-wrap .left {
     float: left;
     max-width: 20%;
-    padding-left: 2rem;
+    padding-left: 1rem;
     font-size: 3rem; }
+    .download-pdf-wrap .left i {
+      vertical-align: middle; }
   .download-pdf-wrap .right {
     float: right;
-    padding-right: 2rem; }
+    padding-right: 2.5rem; }
     .download-pdf-wrap .right strong {
       display: block;
-      margin-bottom: 0.5rem; }
+      margin-bottom: 0.5rem;
+      margin-top: 0.4rem; }
   .download-pdf-wrap .clear {
     clear: both; }
   .download-pdf-wrap a, .download-pdf-wrap a:link, .download-pdf-wrap a:visited {

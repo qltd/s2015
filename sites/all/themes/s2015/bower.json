@@ -2,7 +2,7 @@
   "name": "s2015",
   "version": "1.0.0",
   "dependencies": {
-    "bourbon ": "^4.0.2",
+    "bourbon ": "4.0.2",
     "ckeditor": "^4.4.3",
     "font-awesome": "^4.1.0",
     "html5-boilerplate": "^4.3.0",

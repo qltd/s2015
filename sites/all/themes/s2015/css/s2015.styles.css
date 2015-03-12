@@ -2867,7 +2867,8 @@ button {
     transition: left 100ms ease-out; }
 
 .download-pdf-wrap {
-  padding: 2rem !important; }
+  padding: 2rem !important;
+  margin: 2rem 0 !important; }
   .download-pdf-wrap .left {
     float: left;
     max-width: 20%;
@@ -2877,7 +2878,8 @@ button {
     float: right;
     padding-right: 2rem; }
     .download-pdf-wrap .right strong {
-      display: block; }
+      display: block;
+      margin-bottom: 0.5rem; }
   .download-pdf-wrap .clear {
     clear: both; }
   .download-pdf-wrap a, .download-pdf-wrap a:link, .download-pdf-wrap a:visited {

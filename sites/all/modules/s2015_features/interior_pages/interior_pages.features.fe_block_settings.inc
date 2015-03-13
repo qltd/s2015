@@ -377,5 +377,38 @@ exhibitors-advertisers/sponsorship-advertising',
     'visibility' => 0,
   );
 
+  $export['views-hours_and_location-block'] = array(
+    'cache' => -1,
+    'css_class' => 'title-line-submission-deadline title-line-tooltip',
+    'custom' => 0,
+    'delta' => 'hours_and_location-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   return $export;
 }

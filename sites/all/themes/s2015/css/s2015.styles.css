@@ -2872,13 +2872,13 @@ button {
   .download-pdf-wrap .left {
     float: left;
     max-width: 20%;
-    padding-left: 1rem;
+    padding-left: 1.2rem;
     font-size: 3rem; }
     .download-pdf-wrap .left i {
       vertical-align: middle; }
   .download-pdf-wrap .right {
     float: right;
-    padding-right: 2.5rem; }
+    padding-right: 2.7rem; }
     .download-pdf-wrap .right strong {
       display: block;
       margin-bottom: 0.5rem;

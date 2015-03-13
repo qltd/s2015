@@ -4428,7 +4428,8 @@ html[xmlns] .slides {
   display: block; }
 
 .lend-your-support-wrapper {
-  overflow: hidden; }
+  overflow: hidden;
+  padding-top: 3rem; }
 
 .recognition-amount-text {
   padding-top: 8px;

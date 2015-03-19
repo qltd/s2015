@@ -4407,7 +4407,7 @@ html[xmlns] .slides {
 .hotel-widget-link {
   margin-bottom: 10px;
   margin-bottom: 0.625rem; }
-  .page-node-116 .hotel-widget-link {
+  .not-front .hotel-widget-link {
     display: none;
     visibility: hidden; }
 

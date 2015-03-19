@@ -4,7 +4,9 @@
 
 .billboards-small {}
 .billboards-small-list {
-  @include container-fallback($width-container, $width-container-px-fallback);
+  //@include container-fallback($width-container, $width-container-px-fallback);
+  max-width: 800px;
+  max-width: 50rem;
   padding: 0;
   list-style: none;
   text-align: center;

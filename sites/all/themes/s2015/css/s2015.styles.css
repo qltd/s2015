@@ -2860,6 +2860,32 @@ button {
     -moz-transition: left 100ms ease-out;
     transition: left 100ms ease-out; }
 
+.download-pdf-wrap {
+  padding: 2rem !important;
+  margin: 2rem 0 !important; }
+  .download-pdf-wrap .left {
+    float: left;
+    max-width: 20%;
+    padding-left: 1.19rem;
+    font-size: 3rem; }
+    .download-pdf-wrap .left i {
+      vertical-align: middle; }
+  .download-pdf-wrap .right {
+    float: right;
+    padding-right: 2.78rem; }
+    .download-pdf-wrap .right strong {
+      display: block;
+      margin-bottom: 0.5rem;
+      margin-top: 0.4rem; }
+  .download-pdf-wrap .clear {
+    clear: both; }
+  .download-pdf-wrap a, .download-pdf-wrap a:link, .download-pdf-wrap a:visited {
+    color: #88898c; }
+  .download-pdf-wrap a.icon-link {
+    color: #5889b5; }
+    .download-pdf-wrap a.icon-link:hover {
+      color: #a80532; }
+
 /*
  * jQuery FlexSlider v2.2.0
  * http://www.woothemes.com/flexslider/
@@ -4367,7 +4393,7 @@ html[xmlns] .slides {
   background-attachment: fixed; }
   .block-hotel-widget .block__title {
     margin-top: 0; }
-  .page-node-116 .block-hotel-widget {
+  .not-front .block-hotel-widget {
     padding: 0 0 28px;
     padding: 0 0 1.75rem;
     background-image: none; }
@@ -4375,7 +4401,7 @@ html[xmlns] .slides {
 .hotel-widget-link {
   margin-bottom: 10px;
   margin-bottom: 0.625rem; }
-  .page-node-116 .hotel-widget-link {
+  .not-front .hotel-widget-link {
     display: none;
     visibility: hidden; }
 
@@ -4387,7 +4413,7 @@ html[xmlns] .slides {
   width: 700px;
   width: 43.75rem;
   background: #fff; }
-  .page-node-116 .hotel-widget-wrap {
+  .not-front .hotel-widget-wrap {
     margin: 0;
     padding: 0;
     width: auto; }
@@ -4396,7 +4422,8 @@ html[xmlns] .slides {
   display: block; }
 
 .lend-your-support-wrapper {
-  overflow: hidden; }
+  overflow: hidden;
+  padding-top: 3rem; }
 
 .recognition-amount-text {
   padding-top: 8px;

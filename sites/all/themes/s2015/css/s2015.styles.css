@@ -3874,6 +3874,14 @@ html[xmlns] .slides {
   padding: 0;
   line-height: normal; }
 
+/**
+ * Patch for exhibitors-advertisers/table-contents, a couple random menu items are showing as
+ * expanded, even though they are set to be closed. 
+ * @rdarling
+ **/
+.menu-mlid-1057, .menu-mlid-1061 {
+  margin-bottom: 1.25rem; }
+
 .front-block, .front-block-full {
   margin-top: 60px;
   margin-top: 3.75rem;

@@ -66,7 +66,7 @@ function interior_pages_context_default_contexts() {
           'module' => 'addtoany',
           'delta' => 'addtoany_button',
           'region' => 'content_header',
-          'weight' => '-10',
+          'weight' => '-9',
         ),
         'views-30a59ed5fc3ab70a2bdbcd982684116e' => array(
           'module' => 'views',
@@ -79,6 +79,12 @@ function interior_pages_context_default_contexts() {
           'delta' => '1166e414025bbb712537716b55a9774e',
           'region' => 'highlighted',
           'weight' => '-9',
+        ),
+        'views-hours_and_location-block' => array(
+          'module' => 'views',
+          'delta' => 'hours_and_location-block',
+          'region' => 'title_line',
+          'weight' => '-10',
         ),
         'menu_block-4' => array(
           'module' => 'menu_block',
@@ -123,7 +129,7 @@ function interior_pages_context_default_contexts() {
           'module' => 'menu_block',
           'delta' => '6',
           'region' => 'sidebar',
-          'weight' => '-11',
+          'weight' => '-12',
         ),
         'block-42' => array(
           'module' => 'block',
@@ -332,9 +338,9 @@ function interior_pages_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'block-45' => array(
+        'block-44' => array(
           'module' => 'block',
-          'delta' => '45',
+          'delta' => '44',
           'region' => 'content',
           'weight' => '-10',
         ),

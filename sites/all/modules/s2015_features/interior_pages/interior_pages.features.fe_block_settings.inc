@@ -377,5 +377,1305 @@ exhibitors-advertisers/sponsorship-advertising',
     'visibility' => 0,
   );
 
+  $export['views-sessions_and_events-block_1'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'sessions_and_events-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-sessions_and_events-block_10'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'sessions_and_events-block_10',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-sessions_and_events-block_11'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'sessions_and_events-block_11',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-sessions_and_events-block_12'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'sessions_and_events-block_12',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-sessions_and_events-block_13'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_13',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_14'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_14',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_15'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_15',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_16'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_16',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_17'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_17',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_18'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_18',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_19'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_19',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_2'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'sessions_and_events-block_2',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-sessions_and_events-block_20'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_20',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_21'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_21',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_22'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_22',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_23'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_23',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_24'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_24',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_25'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_25',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_26'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_26',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_27'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_27',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_28'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_28',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_29'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_29',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_3'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'sessions_and_events-block_3',
+    'module' => 'views',
+    'node_types' => array(
+      0 => 'session',
+    ),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-sessions_and_events-block_30'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_30',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_31'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_31',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_32'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_32',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_33'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_33',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_34'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_34',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_35'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_35',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_36'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_36',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_37'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_37',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_38'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_38',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_39'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_39',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_4'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'sessions_and_events-block_4',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-sessions_and_events-block_40'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_40',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_41'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_41',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_42'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'sessions_and_events-block_42',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+  );
+
+  $export['views-sessions_and_events-block_5'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'sessions_and_events-block_5',
+    'module' => 'views',
+    'node_types' => array(
+      0 => 'event',
+    ),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-sessions_and_events-block_6'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'sessions_and_events-block_6',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-sessions_and_events-block_7'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'sessions_and_events-block_7',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-sessions_and_events-block_8'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'sessions_and_events-block_8',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-sessions_and_events-block_9'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'sessions_and_events-block_9',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'adminimal' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'omega' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega',
+        'weight' => 0,
+      ),
+      's2015' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 's2015',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   return $export;
 }

@@ -6,17 +6,14 @@ $(document).ready(->
     $('.birds-of-a-feather .date-display-single').each (index, element) =>
         if (!(index % 2))
             date = new Date($(element).attr('content'))
-            console.log(date)
             day = date.getUTCDay()
-            console.log(day)
             month = date.getUTCMonth()
-            console.log(month)
             datePrint = days[day] + ', ' + date.getUTCDate() + ' ' + months[month]
             if (day != currentDay)
                 $('#birds-of-a-feather-day-list').append('<li><a href="#' + days[day] + '">' + datePrint + '</a></li>')
                 $(element).closest('.views-row').prepend('<h2 class="conference-date-header" id="' + days[day] + '">' + datePrint + '</h2>')
                 if (currentDay > -1)
-                    $(element).closest('.views-row').prev().append('<p><br><a href="#">Back to Top</a></p>')
+                    $(element).closest('.views-row').prev().append('<p class="b-top-btn"><br><a href="#">Back to Top</a></p>')
                 currentDay = day
 )
 

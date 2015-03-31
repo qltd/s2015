@@ -2750,6 +2750,25 @@ b, strong {
     font-size: 0.875rem;
     line-height: 1.4; }
 
+.sessions-events.birds-of-a-feather h3 {
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #666666; }
+.sessions-events.birds-of-a-feather .b-top-btn a {
+  display: inline-block;
+  background: #5889b5;
+  color: #fff;
+  padding: 1rem 2rem; }
+.sessions-events.birds-of-a-feather .organizer {
+  display: block; }
+.sessions-events.birds-of-a-feather .conference-date-header {
+  border-top: 1px solid;
+  margin-top: 3rem;
+  padding-top: 2.5rem; }
+.sessions-events.birds-of-a-feather .views-row {
+  margin-bottom: 3rem; }
+
 .branding-conference-dates {
   padding-left: 20px;
   padding-left: 1.25rem; }

@@ -7,7 +7,6 @@ $(document).ready(->
         if (!(index % 2))
             date = new Date($(element).attr('content'))
             day = date.getUTCDay()
-            console.log('hello world')
             month = date.getUTCMonth()
             datePrint = days[day] + ', ' + date.getUTCDate() + ' ' + months[month]
             if (day != currentDay)

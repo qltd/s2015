@@ -16,11 +16,8 @@
         var date, datePrint, day, month;
         if (!(index % 2)) {
           date = new Date($(element).attr('content'));
-          console.log(date);
           day = date.getUTCDay();
-          console.log(day);
           month = date.getUTCMonth();
-          console.log(month);
           datePrint = days[day] + ', ' + date.getUTCDate() + ' ' + months[month];
           if (day !== currentDay) {
             $('#birds-of-a-feather-day-list').append('<li><a href="#' + days[day] + '">' + datePrint + '</a></li>');

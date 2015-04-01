@@ -1,10 +1,14 @@
 .sessions-events.birds-of-a-feather {
     //styles for the birds of a feather view
     h3 {
-        font-weight:normal;
-        font-size: 1.5rem; 
+        font-weight:bold;
+        font-size: 1.3rem; 
         line-height: 1.5rem;
         color: $black;
+    }
+
+    p {
+        margin: 1rem 0rem; 
     }
 
     .b-top-btn {
@@ -13,6 +17,11 @@
             background: $blue; 
             color:#fff;
             padding:1rem 2rem;
+            transition: background 0.5s ease;
+
+            &:hover {
+                background: #a60735; 
+            }
         } 
     }
 
@@ -30,4 +39,35 @@
         margin-bottom: 3rem;
     }
 
+    .date-location {
+        color:#777; 
+        visibility: hidden; //hiding the location
+
+        .session-date {
+            visibility: visible; //but displaying the date
+            //probably use display block here when the location is made visible, to display on seperate lines
+            //probably need to figure out how to remove the pipe character also
+        }
+    }
+
+}
+
+.birds-of-a-feather-day-links {
+    margin-top: 2.35rem;
+
+    h2 {
+        font-size:1.4rem; 
+        font-weight:400;
+    }
+
+    ul {
+        padding-left: 0; 
+        margin-top:-1rem;
+    }
+
+    li {
+        list-style:none;
+        margin-bottom: 0;
+        font-size:1.1rem;
+    }
 }

@@ -2751,15 +2751,20 @@ b, strong {
     line-height: 1.4; }
 
 .sessions-events.birds-of-a-feather h3 {
-  font-weight: normal;
-  font-size: 1.5rem;
+  font-weight: bold;
+  font-size: 1.3rem;
   line-height: 1.5rem;
   color: #666666; }
+.sessions-events.birds-of-a-feather p {
+  margin: 1rem 0rem; }
 .sessions-events.birds-of-a-feather .b-top-btn a {
   display: inline-block;
   background: #5889b5;
   color: #fff;
-  padding: 1rem 2rem; }
+  padding: 1rem 2rem;
+  transition: background 0.5s ease; }
+  .sessions-events.birds-of-a-feather .b-top-btn a:hover {
+    background: #a60735; }
 .sessions-events.birds-of-a-feather .organizer {
   display: block; }
 .sessions-events.birds-of-a-feather .conference-date-header {
@@ -2768,6 +2773,24 @@ b, strong {
   padding-top: 2.5rem; }
 .sessions-events.birds-of-a-feather .views-row {
   margin-bottom: 3rem; }
+.sessions-events.birds-of-a-feather .date-location {
+  color: #777;
+  visibility: hidden; }
+  .sessions-events.birds-of-a-feather .date-location .session-date {
+    visibility: visible; }
+
+.birds-of-a-feather-day-links {
+  margin-top: 2.35rem; }
+  .birds-of-a-feather-day-links h2 {
+    font-size: 1.4rem;
+    font-weight: 400; }
+  .birds-of-a-feather-day-links ul {
+    padding-left: 0;
+    margin-top: -1rem; }
+  .birds-of-a-feather-day-links li {
+    list-style: none;
+    margin-bottom: 0;
+    font-size: 1.1rem; }
 
 .branding-conference-dates {
   padding-left: 20px;

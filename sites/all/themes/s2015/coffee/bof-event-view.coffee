@@ -3,6 +3,7 @@ days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday' ]
 months = ['January','February','March','April','May','June','July','August','September','October','November','December']
 $(document).ready(->
     currentDay = -1
+    total_length_of_bof_array = $('.birds-of-a-feather .date-display-single').length
     $('.birds-of-a-feather .date-display-single').each (index, element) =>
         if (!(index % 2))
             date = new Date($(element).attr('content'))
@@ -15,5 +16,7 @@ $(document).ready(->
                 if (currentDay > -1)
                     $(element).closest('.views-row').prev().append('<p class="b-top-btn"><br><a href="#">Back to Top</a></p>')
                 currentDay = day
+        if index is total_length_of_bof_array - 1
+            $(element).closest('.views-row').append('<p class="b-top-btn"><br><a href="#">Back to Top</a></p>')
 )
 

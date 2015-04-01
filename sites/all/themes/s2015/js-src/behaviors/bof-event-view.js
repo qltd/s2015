@@ -9,8 +9,9 @@
   months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
   $(document).ready(function() {
-    var currentDay;
+    var currentDay, total_length_of_bof_array;
     currentDay = -1;
+    total_length_of_bof_array = $('.birds-of-a-feather .date-display-single').length;
     return $('.birds-of-a-feather .date-display-single').each((function(_this) {
       return function(index, element) {
         var date, datePrint, day, month;
@@ -25,8 +26,11 @@
             if (currentDay > -1) {
               $(element).closest('.views-row').prev().append('<p class="b-top-btn"><br><a href="#">Back to Top</a></p>');
             }
-            return currentDay = day;
+            currentDay = day;
           }
+        }
+        if (index === total_length_of_bof_array - 1) {
+          return $(element).closest('.views-row').append('<p class="b-top-btn"><br><a href="#">Back to Top</a></p>');
         }
       };
     })(this));

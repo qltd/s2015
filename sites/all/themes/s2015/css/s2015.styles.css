@@ -2752,7 +2752,7 @@ b, strong {
 
 .sessions-events.birds-of-a-feather h3 {
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1.125rem;
   line-height: 1.5rem;
   color: #666666; }
 .sessions-events.birds-of-a-feather p {
@@ -2774,7 +2774,7 @@ b, strong {
 .sessions-events.birds-of-a-feather .views-row {
   margin-bottom: 3rem; }
 .sessions-events.birds-of-a-feather .date-location {
-  color: #777;
+  color: #999;
   visibility: hidden; }
   .sessions-events.birds-of-a-feather .date-location .session-date {
     visibility: visible; }
@@ -2782,11 +2782,10 @@ b, strong {
 .birds-of-a-feather-day-links {
   margin-top: 2.35rem; }
   .birds-of-a-feather-day-links h2 {
-    font-size: 1.4rem;
-    font-weight: 400; }
+    font-size: 1.3125rem; }
   .birds-of-a-feather-day-links ul {
     padding-left: 0;
-    margin-top: -1rem; }
+    margin-top: -0.5rem; }
   .birds-of-a-feather-day-links li {
     list-style: none;
     margin-bottom: 0;

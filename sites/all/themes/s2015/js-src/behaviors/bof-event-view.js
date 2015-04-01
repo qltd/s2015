@@ -12,7 +12,7 @@
     var currentDay, total_length_of_bof_array;
     currentDay = -1;
     total_length_of_bof_array = $('.birds-of-a-feather .date-display-single').length;
-    return $('.birds-of-a-feather .date-display-single').each((function(_this) {
+    $('.birds-of-a-feather .date-display-single').each((function(_this) {
       return function(index, element) {
         var date, datePrint, day, month;
         if (!(index % 2)) {
@@ -34,6 +34,8 @@
         }
       };
     })(this));
+    $('.primary-navigation-programs-events').removeClass('active-trail').parent().removeClass('active-trail');
+    return $('.primary-navigation-attendees-col-3').removeClass('active-trail').parent().removeClass('active-trail');
   });
 
 }).call(this);

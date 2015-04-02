@@ -7,6 +7,9 @@ $(document).ready(->
     total_length_of_bof_array = $('.birds-of-a-feather .date-display-single').length
     $('.birds-of-a-feather .date-display-single').each (index, element) =>
         if (!(index % 2))
+            date_content = $(element).html()
+            updated_date_content = date_content.replace(/August/,'August,').replace(/PM/,'pm').replace(/AM/,'am')
+            $(element).html(updated_date_content) #visual tweaks to displayed content
             date = new Date($(element).attr('content'))
             day = date.getUTCDay()
             month = date.getUTCMonth()
@@ -17,6 +20,11 @@ $(document).ready(->
                 if (currentDay > -1)
                     $(element).closest('.views-row').prev().append('<p class="b-top-btn"><br><a href="#">Back to Top</a></p>')
                 currentDay = day
+        else
+            #just preform a visual tweak on the content
+            date_content = $(element).html()
+            updated_date_content = date_content.replace(/PM/,'pm').replace(/AM/,'am')
+            $(element).html(updated_date_content)
         if index is total_length_of_bof_array - 1
             $(element).closest('.views-row').append('<p class="b-top-btn"><br><a href="#">Back to Top</a></p>')
     #do not expand programs and events nav on page load

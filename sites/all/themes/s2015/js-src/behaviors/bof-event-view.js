@@ -14,8 +14,11 @@
     total_length_of_bof_array = $('.birds-of-a-feather .date-display-single').length;
     $('.birds-of-a-feather .date-display-single').each((function(_this) {
       return function(index, element) {
-        var date, datePrint, day, month;
+        var date, datePrint, date_content, day, month, updated_date_content;
         if (!(index % 2)) {
+          date_content = $(element).html();
+          updated_date_content = date_content.replace(/August/, 'August,').replace(/PM/, 'pm').replace(/AM/, 'am');
+          $(element).html(updated_date_content);
           date = new Date($(element).attr('content'));
           day = date.getUTCDay();
           month = date.getUTCMonth();
@@ -28,6 +31,10 @@
             }
             currentDay = day;
           }
+        } else {
+          date_content = $(element).html();
+          updated_date_content = date_content.replace(/PM/, 'pm').replace(/AM/, 'am');
+          $(element).html(updated_date_content);
         }
         if (index === total_length_of_bof_array - 1) {
           return $(element).closest('.views-row').append('<p class="b-top-btn"><br><a href="#">Back to Top</a></p>');

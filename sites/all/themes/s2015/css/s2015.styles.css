@@ -3592,6 +3592,38 @@ html[xmlns] .slides {
   min-height: 168px;
   min-height: 10.5rem; }
 
+#logos_guidelines_content_wrap .logos-guidelines-wrapper .resource-container {
+  display: table;
+  margin-bottom: 15px; }
+  #logos_guidelines_content_wrap .logos-guidelines-wrapper .resource-container div {
+    display: table-cell;
+    height: 220px;
+    vertical-align: top; }
+    #logos_guidelines_content_wrap .logos-guidelines-wrapper .resource-container div.resource-image-container {
+      width: 240px; }
+    #logos_guidelines_content_wrap .logos-guidelines-wrapper .resource-container div.resource-info-container {
+      padding: 0 20px;
+      width: 460px;
+      font-size: 16px; }
+      #logos_guidelines_content_wrap .logos-guidelines-wrapper .resource-container div.resource-info-container a {
+        font-size: 36px;
+        transition: all 0.5 ease; }
+        #logos_guidelines_content_wrap .logos-guidelines-wrapper .resource-container div.resource-info-container a:hover {
+          color: #a80532; }
+      #logos_guidelines_content_wrap .logos-guidelines-wrapper .resource-container div.resource-info-container ul {
+        list-style: outside none none;
+        margin: 0 0 10px;
+        padding-left: 0; }
+        #logos_guidelines_content_wrap .logos-guidelines-wrapper .resource-container div.resource-info-container ul li {
+          font-size: 14px;
+          margin-bottom: 0; }
+      #logos_guidelines_content_wrap .logos-guidelines-wrapper .resource-container div.resource-info-container p {
+        margin: 0;
+        padding: 0;
+        font-size: 14px; }
+      #logos_guidelines_content_wrap .logos-guidelines-wrapper .resource-container div.resource-info-container .label {
+        font-weight: bold; }
+
 .messages {
   max-width: 960px;
   max-width: 60rem;

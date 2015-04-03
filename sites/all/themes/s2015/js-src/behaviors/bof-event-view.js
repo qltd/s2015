@@ -17,7 +17,7 @@
         var date, datePrint, date_content, day, month, updated_date_content;
         if (!(index % 2)) {
           date_content = $(element).html();
-          updated_date_content = date_content.replace(/August/, 'August,').replace(/PM/, 'pm').replace(/AM/, 'am');
+          updated_date_content = date_content.replace(/August/, 'August,').replace(/PM/, 'pm').replace(/AM/, 'am').replace(/09/, '9');
           $(element).html(updated_date_content);
           date = new Date($(element).attr('content'));
           day = date.getUTCDay();

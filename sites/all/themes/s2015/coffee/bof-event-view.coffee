@@ -8,7 +8,7 @@ $(document).ready(->
     $('.birds-of-a-feather .date-display-single').each (index, element) =>
         if (!(index % 2))
             date_content = $(element).html()
-            updated_date_content = date_content.replace(/August/,'August,').replace(/PM/,'pm').replace(/AM/,'am')
+            updated_date_content = date_content.replace(/August/,'August,').replace(/PM/,'pm').replace(/AM/,'am').replace(/09/,'9')
             $(element).html(updated_date_content) #visual tweaks to displayed content
             date = new Date($(element).attr('content'))
             day = date.getUTCDay()

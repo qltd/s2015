@@ -1,0 +1,60 @@
+.sponsorship-advertising-wrapper {
+    .resources-wrapper {
+        padding: 2rem 0;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        overflow: auto;
+        font-size:0.9rem;
+
+        .resource-container {
+            float:left;
+            width:49%;
+
+            a {
+                display:inline-block; 
+                font-size: 3rem;
+                float:left;
+                margin-right: 1rem;
+                
+                &:hover {
+                    color: $red; 
+                }
+            }
+
+            span {
+                display:inline-block; 
+                font-weight:bold;
+            }
+
+            p {
+                margin:0; 
+                font-size:0.9rem;
+            }
+        }
+    }
+
+    .internal-pages-list {
+        list-style: none;
+        clear:both;
+        margin-top:3rem;
+        padding-left:0;
+
+        li {
+            margin-bottom:2rem;
+        }
+
+        p {
+            margin: 0; 
+        }
+
+        i {
+            font-size: 2rem; 
+            color:#88898c;
+        }
+
+        h3 {
+            margin-top:0; 
+        }
+    }
+}
+

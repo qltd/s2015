@@ -56,5 +56,22 @@
             margin-top:0; 
         }
     }
+
+    &.sponsorship-ops {
+        .opportunity-incentives {
+            font-size: 0.9rem;
+            background:lighten($blue,40%);
+            padding: 2rem;
+            list-style:none;
+
+            div {
+                float:left;  
+            }
+
+            li {
+                list-style:none; 
+            }
+        } 
+    }
 }
 

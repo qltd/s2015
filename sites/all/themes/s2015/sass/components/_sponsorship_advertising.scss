@@ -58,6 +58,11 @@
     }
 
     &.sponsorship-ops {
+
+        .highlight {
+            font-size:0.9rem; 
+        }
+
         .opportunity-incentives {
             font-size: 0.9rem;
             background:lighten($blue,40%);
@@ -66,12 +71,47 @@
 
             div {
                 float:left;  
+                text-align: center;
+                height:10rem;
+                margin-right: 3rem;
+                padding-top:1rem;
+
+                h3 {
+                    font-size:0.9rem; 
+                }
+
+                i {
+                    font-size:3rem; 
+                    color:$blue;
+                }
             }
 
             li {
                 list-style:none; 
+                font-size:0.9rem;
+                margin:0;
+            }
+
+            p {
+                font-size:0.9rem; 
             }
         } 
+
+        .opportunity-programs {
+            padding-left: 0;
+
+            li {
+                list-style:none; 
+            } 
+
+            h5 {
+                margin-bottom:0; 
+            }
+
+            p {
+                margin-top:0; 
+            }
+        }
     }
 }
 

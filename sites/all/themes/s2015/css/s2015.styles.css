@@ -4217,15 +4217,38 @@ html[xmlns] .slides {
     color: #88898c; }
   .sponsorship-advertising-wrapper .internal-pages-list h3 {
     margin-top: 0; }
+.sponsorship-advertising-wrapper.sponsorship-ops .highlight {
+  font-size: 0.9rem; }
 .sponsorship-advertising-wrapper.sponsorship-ops .opportunity-incentives {
   font-size: 0.9rem;
   background: #e5edf4;
   padding: 2rem;
   list-style: none; }
   .sponsorship-advertising-wrapper.sponsorship-ops .opportunity-incentives div {
-    float: left; }
+    float: left;
+    text-align: center;
+    height: 10rem;
+    margin-right: 3rem;
+    padding-top: 1rem; }
+    .sponsorship-advertising-wrapper.sponsorship-ops .opportunity-incentives div h3 {
+      font-size: 0.9rem; }
+    .sponsorship-advertising-wrapper.sponsorship-ops .opportunity-incentives div i {
+      font-size: 3rem;
+      color: #5889b5; }
   .sponsorship-advertising-wrapper.sponsorship-ops .opportunity-incentives li {
+    list-style: none;
+    font-size: 0.9rem;
+    margin: 0; }
+  .sponsorship-advertising-wrapper.sponsorship-ops .opportunity-incentives p {
+    font-size: 0.9rem; }
+.sponsorship-advertising-wrapper.sponsorship-ops .opportunity-programs {
+  padding-left: 0; }
+  .sponsorship-advertising-wrapper.sponsorship-ops .opportunity-programs li {
     list-style: none; }
+  .sponsorship-advertising-wrapper.sponsorship-ops .opportunity-programs h5 {
+    margin-bottom: 0; }
+  .sponsorship-advertising-wrapper.sponsorship-ops .opportunity-programs p {
+    margin-top: 0; }
 
 .tabs--primary {
   margin-bottom: 0;

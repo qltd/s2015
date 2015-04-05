@@ -4249,6 +4249,56 @@ html[xmlns] .slides {
     margin-bottom: 0; }
   .sponsorship-advertising-wrapper.sponsorship-ops .opportunity-programs p {
     margin-top: 0; }
+.sponsorship-advertising-wrapper.advertising-at-s2015-wrapper .highlight {
+  font-size: 0.9rem; }
+.sponsorship-advertising-wrapper.advertising-at-s2015-wrapper .opportunity-incentives {
+  font-size: 0.9rem;
+  background: #e5edf4;
+  padding: 2rem;
+  list-style: none; }
+  .sponsorship-advertising-wrapper.advertising-at-s2015-wrapper .opportunity-incentives div {
+    float: left;
+    text-align: center;
+    height: 10rem;
+    margin-right: 3rem;
+    padding-top: 1rem; }
+    .sponsorship-advertising-wrapper.advertising-at-s2015-wrapper .opportunity-incentives div h3 {
+      font-size: 0.9rem; }
+    .sponsorship-advertising-wrapper.advertising-at-s2015-wrapper .opportunity-incentives div i {
+      font-size: 3rem;
+      color: #5889b5; }
+  .sponsorship-advertising-wrapper.advertising-at-s2015-wrapper .opportunity-incentives li {
+    list-style: none;
+    font-size: 0.9rem;
+    margin: 0; }
+  .sponsorship-advertising-wrapper.advertising-at-s2015-wrapper .opportunity-incentives p {
+    font-size: 0.9rem; }
+.sponsorship-advertising-wrapper.advertising-at-s2015-wrapper .details-list {
+  padding-left: 0; }
+  .sponsorship-advertising-wrapper.advertising-at-s2015-wrapper .details-list li {
+    list-style: none; }
+  .sponsorship-advertising-wrapper.advertising-at-s2015-wrapper .details-list h5 {
+    margin-bottom: 0; }
+  .sponsorship-advertising-wrapper.advertising-at-s2015-wrapper .details-list p {
+    margin-top: 0; }
+.sponsorship-advertising-wrapper.advertising-at-s2015-wrapper .con-cen-ban-details {
+  padding-left: 0; }
+  .sponsorship-advertising-wrapper.advertising-at-s2015-wrapper .con-cen-ban-details h6 {
+    font-weight: normal;
+    font-size: 1rem;
+    margin: 0; }
+  .sponsorship-advertising-wrapper.advertising-at-s2015-wrapper .con-cen-ban-details p {
+    margin-top: 0;
+    font-size: 0.9rem; }
+  .sponsorship-advertising-wrapper.advertising-at-s2015-wrapper .con-cen-ban-details li {
+    list-style: none;
+    margin: 0; }
+  .sponsorship-advertising-wrapper.advertising-at-s2015-wrapper .con-cen-ban-details .pink {
+    color: #E163AD; }
+  .sponsorship-advertising-wrapper.advertising-at-s2015-wrapper .con-cen-ban-details .blue {
+    color: #5D8CB8; }
+  .sponsorship-advertising-wrapper.advertising-at-s2015-wrapper .con-cen-ban-details .green {
+    color: #A2BC1D; }
 
 .tabs--primary {
   margin-bottom: 0;

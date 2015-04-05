@@ -4299,6 +4299,38 @@ html[xmlns] .slides {
     color: #5D8CB8; }
   .sponsorship-advertising-wrapper.advertising-at-s2015-wrapper .con-cen-ban-details .green {
     color: #A2BC1D; }
+.sponsorship-advertising-wrapper.digital-advertising-wrapper .highlight {
+  font-size: 0.9rem; }
+.sponsorship-advertising-wrapper.digital-advertising-wrapper .opportunity-incentives {
+  font-size: 0.9rem;
+  background: #e5edf4;
+  padding: 2rem;
+  list-style: none; }
+  .sponsorship-advertising-wrapper.digital-advertising-wrapper .opportunity-incentives div {
+    float: left;
+    text-align: center;
+    height: 10rem;
+    margin-right: 3rem;
+    padding-top: 1rem; }
+    .sponsorship-advertising-wrapper.digital-advertising-wrapper .opportunity-incentives div h3 {
+      font-size: 0.9rem; }
+    .sponsorship-advertising-wrapper.digital-advertising-wrapper .opportunity-incentives div i {
+      font-size: 3rem;
+      color: #5889b5; }
+  .sponsorship-advertising-wrapper.digital-advertising-wrapper .opportunity-incentives li {
+    list-style: none;
+    font-size: 0.9rem;
+    margin: 0; }
+  .sponsorship-advertising-wrapper.digital-advertising-wrapper .opportunity-incentives p {
+    font-size: 0.9rem; }
+.sponsorship-advertising-wrapper.digital-advertising-wrapper .opportunity-types {
+  padding-left: 0; }
+  .sponsorship-advertising-wrapper.digital-advertising-wrapper .opportunity-types li {
+    list-style: none; }
+  .sponsorship-advertising-wrapper.digital-advertising-wrapper .opportunity-types h5 {
+    margin-bottom: 0; }
+  .sponsorship-advertising-wrapper.digital-advertising-wrapper .opportunity-types p {
+    margin-top: 0; }
 
 .tabs--primary {
   margin-bottom: 0;

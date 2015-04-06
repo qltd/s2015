@@ -1,7 +1,47 @@
 .sponsorship-advertising-wrapper {
+    
+    h3 {
+        margin-bottom:1rem;
+    }
+
+    .opportunity-incentives {
+        font-size: 0.9rem;
+        background:lighten($blue,40%);
+        padding: 2rem;
+        list-style:none;
+
+        div {
+            float:left;  
+            text-align: center;
+            height:10rem;
+            margin-right: 3.9rem;
+            padding-top:2rem;
+            padding-left:0.5rem;
+
+            h3 {
+                font-size:0.9rem; 
+                font-weight:bold;
+            }
+
+            i {
+                font-size:3rem; 
+                color:$blue;
+            }
+        }
+
+        li {
+            list-style:none; 
+            font-size:0.9rem;
+            margin:0;
+        }
+
+        p {
+            font-size:0.9rem; 
+        }
+    }
+
     .resources-wrapper {
         padding: 2rem 0;
-        border-top: 1px solid;
         border-bottom: 1px solid;
         overflow: auto;
         font-size:0.9rem;
@@ -12,10 +52,10 @@
 
             a {
                 display:inline-block; 
-                font-size: 3rem;
+                font-size: 2.5rem;
                 float:left;
                 margin-right: 1rem;
-                
+
                 &:hover {
                     color: $red; 
                 }
@@ -50,10 +90,15 @@
         i {
             font-size: 2rem; 
             color:#88898c;
+
+            &.fa-mobile {
+                font-size:2.5rem; 
+            }
         }
 
         h3 {
             margin-top:0; 
+            margin-bottom:1rem;
         }
     }
 
@@ -62,40 +107,6 @@
         .highlight {
             font-size:0.9rem; 
         }
-
-        .opportunity-incentives {
-            font-size: 0.9rem;
-            background:lighten($blue,40%);
-            padding: 2rem;
-            list-style:none;
-
-            div {
-                float:left;  
-                text-align: center;
-                height:10rem;
-                margin-right: 3rem;
-                padding-top:1rem;
-
-                h3 {
-                    font-size:0.9rem; 
-                }
-
-                i {
-                    font-size:3rem; 
-                    color:$blue;
-                }
-            }
-
-            li {
-                list-style:none; 
-                font-size:0.9rem;
-                margin:0;
-            }
-
-            p {
-                font-size:0.9rem; 
-            }
-        } 
 
         .opportunity-programs {
             padding-left: 0;
@@ -106,53 +117,35 @@
 
             h5 {
                 margin-bottom:0; 
+                font-size: 1.125rem;
             }
 
             p {
                 margin-top:0; 
             }
+
+            .highlight {
+                font-size:16px; 
+                color:#999; 
+            }
+
+            &.details-list {
+                margin-top:2rem; 
+            }
         }
+
     }
 
     &.advertising-at-s2015-wrapper {
 
-        .highlight {
-            font-size:0.9rem; 
+        h3 {
+            margin-bottom: 1rem; 
         }
 
-        .opportunity-incentives {
-            font-size: 0.9rem;
-            background:lighten($blue,40%);
-            padding: 2rem;
-            list-style:none;
-
-            div {
-                float:left;  
-                text-align: center;
-                height:10rem;
-                margin-right: 3rem;
-                padding-top:1rem;
-
-                h3 {
-                    font-size:0.9rem; 
-                }
-
-                i {
-                    font-size:3rem; 
-                    color:$blue;
-                }
-            }
-
-            li {
-                list-style:none; 
-                font-size:0.9rem;
-                margin:0;
-            }
-
-            p {
-                font-size:0.9rem; 
-            }
-        } 
+        .highlight {
+            font-size:0.9rem; 
+            color:#999; 
+        }
 
         .details-list {
             padding-left: 0;
@@ -163,6 +156,7 @@
 
             h5 {
                 margin-bottom:0; 
+                font-size: 1.125rem;
             }
 
             p {
@@ -172,7 +166,7 @@
 
         .con-cen-ban-details {
             padding-left:0; 
-            
+
             h6 {
                 font-weight: normal;
                 font-size: 1rem; 
@@ -191,76 +185,47 @@
 
             .pink {
                 color:#E163AD; 
+                font-size:1.5rem
             }
 
             .blue {
                 color: #5D8CB8; 
+                font-size:1.5rem
             }
 
             .green {
                 color: #A2BC1D; 
+                font-size:1.5rem
             }
 
         }
 
     }
 
+    &.digital-advertising-wrapper {
 
-        &.digital-advertising-wrapper {
+        .highlight {
+            font-size:0.9rem; 
+            color:#999;
+        }
 
-            .highlight {
-                font-size:0.9rem; 
-            }
 
-            .opportunity-incentives {
-                font-size: 0.9rem;
-                background:lighten($blue,40%);
-                padding: 2rem;
-                list-style:none;
+        .opportunity-types {
+            padding-left: 0;
 
-                div {
-                    float:left;  
-                    text-align: center;
-                    height:10rem;
-                    margin-right: 3rem;
-                    padding-top:1rem;
-
-                    h3 {
-                        font-size:0.9rem; 
-                    }
-
-                    i {
-                        font-size:3rem; 
-                        color:$blue;
-                    }
-                }
-
-                li {
-                    list-style:none; 
-                    font-size:0.9rem;
-                    margin:0;
-                }
-
-                p {
-                    font-size:0.9rem; 
-                }
+            li {
+                list-style:none; 
             } 
 
-            .opportunity-types {
-                    padding-left: 0;
+            h5 {
+                margin-bottom:0; 
+                font-size: 1.125rem;
+            }
 
-                li {
-                    list-style:none; 
-                } 
-
-                h5 {
-                    margin-bottom:0; 
-                }
-
-                p {
-                    margin-top:0; 
-                }
+            p {
+                margin-top:0; 
             }
         }
+    }
 }
 

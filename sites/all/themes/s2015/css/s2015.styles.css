@@ -4190,14 +4190,14 @@ html[xmlns] .slides {
   font-size: 0.9rem;
   background: #e5edf4;
   padding: 2rem;
-  list-style: none; }
+  list-style: none;
+  display: table;
+  width: 100%; }
   .sponsorship-advertising-wrapper .opportunity-incentives div {
-    float: left;
     text-align: center;
-    height: 10rem;
-    margin-right: 3.9rem;
-    padding-top: 2rem;
-    padding-left: 0.5rem; }
+    display: table-cell;
+    vertical-align: middle;
+    width: 27%; }
     .sponsorship-advertising-wrapper .opportunity-incentives div h3 {
       font-size: 0.9rem;
       font-weight: bold; }
@@ -4209,7 +4209,14 @@ html[xmlns] .slides {
     font-size: 0.9rem;
     margin: 0; }
   .sponsorship-advertising-wrapper .opportunity-incentives p {
-    font-size: 0.9rem; }
+    font-size: 0.9rem;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 1.2rem; }
+  .sponsorship-advertising-wrapper .opportunity-incentives ul {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 1.2rem; }
 .sponsorship-advertising-wrapper .resources-wrapper {
   padding: 2rem 0;
   border-bottom: 1px solid;
@@ -4286,7 +4293,8 @@ html[xmlns] .slides {
     margin: 0; }
   .sponsorship-advertising-wrapper.advertising-at-s2015-wrapper .con-cen-ban-details p {
     margin-top: 0;
-    font-size: 0.9rem; }
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem; }
   .sponsorship-advertising-wrapper.advertising-at-s2015-wrapper .con-cen-ban-details li {
     list-style: none;
     margin: 0; }

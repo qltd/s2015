@@ -8,7 +8,7 @@
         //the blue box
         font-size: 0.9rem;
         background:lighten($blue,40%);
-        padding: 2rem;
+        padding: 2rem 0;
         list-style:none;
         display:table;
         width:100%;
@@ -22,7 +22,7 @@
             //padding-left:0.5rem;
             display:table-cell;
             vertical-align: middle;
-            width:28%;
+            width:27%;
 
             h3 {
                 font-size:0.9rem; 
@@ -32,6 +32,8 @@
             i {
                 font-size:3rem; 
                 color:$blue;
+                position:relative;
+                left:4px;
             }
         }
 
@@ -45,13 +47,13 @@
             font-size:0.9rem; 
             display:table-cell;
             vertical-align: middle;
-            padding-left:1rem;
+            padding-left:0;
         }
 
         ul {
             display:table-cell; 
             vertical-align: middle;
-            padding-left:1rem;
+            padding-left:0;
         }
     }
 

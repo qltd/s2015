@@ -4211,11 +4211,13 @@ html[xmlns] .slides {
     font-size: 0.9rem;
     display: table-cell;
     vertical-align: middle;
-    padding-left: 0; }
+    padding-left: 0;
+    padding-right: 2rem; }
   .sponsorship-advertising-wrapper .opportunity-incentives ul {
     display: table-cell;
     vertical-align: middle;
-    padding-left: 0; }
+    padding-left: 0;
+    padding-right: 2rem; }
 .sponsorship-advertising-wrapper .resources-wrapper {
   padding: 2rem 0;
   border-bottom: 1px solid;

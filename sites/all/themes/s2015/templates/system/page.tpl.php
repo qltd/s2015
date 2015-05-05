@@ -71,6 +71,7 @@
  */
 ?>
 <div class="l-page">
+      <?php print render($page['banner_ad']); ?>
   <header class="l-header" role="banner">
     <div class="l-top">
       <?php if ($site_slogan): ?>

@@ -19,6 +19,7 @@ scripts[] = js/s2015.min.js
 ; ========================================
 ; Regions
 ; ========================================
+regions[banner_ad] = Banner Ad
 regions[top] = Top
 regions[navigation] = Navigation
 regions[branding] = Branding

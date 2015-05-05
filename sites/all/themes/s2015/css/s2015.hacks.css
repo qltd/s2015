@@ -27,4 +27,7 @@
 body.adminimal-menu {
   margin-top: 29px !important; }
 
+.node-type-page .l-region.l-region--sidebar {
+  width: 220px; }
+
 /*# sourceMappingURL=s2015.hacks.css.map */

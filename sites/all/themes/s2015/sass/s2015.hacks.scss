@@ -41,3 +41,18 @@ body {
         width: 220px;
     }
 }
+
+.bluebtn {
+    background:#5889b5;
+    &:hover {
+        background:#a80532;
+    }
+}
+
+.content-block-heading-fl {
+    margin-bottom:0;
+}
+
+.content-block-content-fl {
+    margin-top: 0;
+}

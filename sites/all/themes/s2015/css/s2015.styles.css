@@ -3629,11 +3629,11 @@ html[xmlns] .slides {
   margin-left: -72px;
   margin-left: -4.5rem; }
 .primary-navigation-for-submitters:hover > .menu-link:after {
-  height: 480px;
-  height: 30rem; }
+  height: 512px;
+  height: 32rem; }
 .primary-navigation-for-submitters:hover > .menu {
-  height: 480px;
-  height: 30rem; }
+  height: 512px;
+  height: 32rem; }
 
 .primary-navigation-for-volunteers > .menu {
   margin-left: -232px;
@@ -3643,11 +3643,11 @@ html[xmlns] .slides {
   margin-left: -391px;
   margin-left: -24.4375rem; }
 .primary-navigation-for-attendees:hover > .menu-link:after {
-  height: 544px;
-  height: 34rem; }
+  height: 576px;
+  height: 36rem; }
 .primary-navigation-for-attendees:hover > .menu {
-  height: 544px;
-  height: 34rem; }
+  height: 576px;
+  height: 36rem; }
 .primary-navigation-for-attendees .primary-navigation-programs-events, .primary-navigation-for-attendees .primary-navigation-attendees-col-3, .primary-navigation-for-attendees .primary-navigation-information-planning {
   display: block !important;
   margin-bottom: 12px;

@@ -41,4 +41,15 @@ body.adminimal-menu {
 .content-block-content-fl {
   margin-top: 0; }
 
+.content-table-styled-fl .new {
+  color: #fbb37b;
+  font-size: 12px; }
+
+.content-list-styled-fl {
+  padding-left: 0;
+  margin-top: 0; }
+  .content-list-styled-fl li {
+    list-style: none;
+    margin-bottom: 0.5rem; }
+
 /*# sourceMappingURL=s2015.hacks.css.map */

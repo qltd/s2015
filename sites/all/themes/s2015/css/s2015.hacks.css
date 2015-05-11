@@ -53,6 +53,10 @@ body.adminimal-menu {
     margin-bottom: 0.2rem; }
 
 .header-content-link-wrap-fl {
-  padding-bottom: 1rem; }
+  padding-bottom: 1rem;
+  font-size: 16px; }
+
+.content-table-styled-fl {
+  font-size: 14px; }
 
 /*# sourceMappingURL=s2015.hacks.css.map */

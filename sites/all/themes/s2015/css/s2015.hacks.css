@@ -59,4 +59,20 @@ body.adminimal-menu {
 .content-table-styled-fl {
   font-size: 14px; }
 
+.social-media-in-body {
+  padding-left: 0;
+  padding-top: 1rem; }
+  .social-media-in-body li {
+    list-style: none;
+    display: inline;
+    color: #5889b5; }
+    .social-media-in-body li a {
+      color: #5889b5; }
+      .social-media-in-body li a:link, .social-media-in-body li a:visited {
+        color: #5889b5; }
+      .social-media-in-body li a:hover {
+        color: #fbb37b; }
+    .social-media-in-body li:hover {
+      color: #fbb37b; }
+
 /*# sourceMappingURL=s2015.hacks.css.map */

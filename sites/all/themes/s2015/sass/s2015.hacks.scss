@@ -81,3 +81,27 @@ body {
 .content-table-styled-fl {
     font-size:14px;
 }
+
+.social-media-in-body {
+    padding-left:0;
+    padding-top:1rem;
+    li {
+        list-style:none; 
+        display:inline;
+        color: #5889b5;
+        a {
+            color: #5889b5;
+            &:link, &:visited {
+                color: #5889b5;
+            }
+            &:hover {
+               color: #fbb37b; 
+            }
+        
+        }
+
+        &:hover {
+           color: #fbb37b; 
+        }
+    }
+}

@@ -50,6 +50,9 @@ body.adminimal-menu {
   margin-top: 0; }
   .content-list-styled-fl li {
     list-style: none;
-    margin-bottom: 0.5rem; }
+    margin-bottom: 0.2rem; }
+
+.header-content-link-wrap-fl {
+  padding-bottom: 1rem; }
 
 /*# sourceMappingURL=s2015.hacks.css.map */

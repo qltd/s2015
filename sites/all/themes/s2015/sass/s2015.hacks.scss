@@ -57,6 +57,10 @@ body {
     margin-top: 0;
 }
 
+.cbc-fl-small {
+    font-size:14px; 
+}
+
 .content-table-styled-fl {
     .new {
        color:#fbb37b;  
@@ -80,6 +84,10 @@ body {
 
 .content-table-styled-fl {
     font-size:14px;
+
+    hr {
+        margin: 2rem 0; 
+    }
 }
 
 .social-media-in-body {
@@ -105,4 +113,8 @@ body {
            color: #fbb37b; 
         }
     }
+}
+
+.header-link-target {
+    margin: -1rem 0;
 }

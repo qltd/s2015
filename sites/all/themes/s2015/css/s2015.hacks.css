@@ -41,6 +41,9 @@ body.adminimal-menu {
 .content-block-content-fl {
   margin-top: 0; }
 
+.cbc-fl-small {
+  font-size: 14px; }
+
 .content-table-styled-fl .new {
   color: #fbb37b;
   font-size: 12px; }
@@ -58,6 +61,8 @@ body.adminimal-menu {
 
 .content-table-styled-fl {
   font-size: 14px; }
+  .content-table-styled-fl hr {
+    margin: 2rem 0; }
 
 .social-media-in-body {
   padding-left: 0;
@@ -75,5 +80,8 @@ body.adminimal-menu {
         color: #fbb37b; }
     .social-media-in-body li:hover {
       color: #fbb37b; }
+
+.header-link-target {
+  margin: -1rem 0; }
 
 /*# sourceMappingURL=s2015.hacks.css.map */

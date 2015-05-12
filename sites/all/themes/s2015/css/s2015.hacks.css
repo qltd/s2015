@@ -65,7 +65,8 @@ body.adminimal-menu {
   .social-media-in-body li {
     list-style: none;
     display: inline;
-    color: #5889b5; }
+    color: #5889b5;
+    margin: 0rem 0.5rem; }
     .social-media-in-body li a {
       color: #5889b5; }
       .social-media-in-body li a:link, .social-media-in-body li a:visited {

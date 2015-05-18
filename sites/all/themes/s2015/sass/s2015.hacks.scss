@@ -119,3 +119,14 @@ body {
 .header-link-target {
     margin: -1rem 0;
 }
+
+/**
+ * Style Adjustments for For Attendees pages
+ * @rdar
+ */
+
+.node-type-event {
+    //need to make sure that nothing else is being hit by using .node-type-event
+
+
+}

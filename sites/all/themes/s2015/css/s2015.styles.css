@@ -3294,8 +3294,22 @@ html[xmlns] .slides {
     vertical-align: top;
     width: 33%;
     font-size: 14px; }
+    .for-att-3-col-table td p {
+      font-size: 14px; }
   .for-att-3-col-table p {
     margin-top: 0; }
+
+.node-type-event h1.content-title {
+  display: none; }
+.node-type-event .l-content {
+  text-align: left; }
+  .node-type-event .l-content .body-wrapper {
+    border-top: 1px solid #a8a8aa; }
+.node-type-event h2 {
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  border-top: 1px solid #a8a8aa; }
 
 .front-call-for-submissions {
   background-color: #bcccdf; }

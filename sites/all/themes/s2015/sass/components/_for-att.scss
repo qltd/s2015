@@ -97,9 +97,34 @@
         vertical-align: top; 
         width:33%;
         font-size:14px;
+        p {
+            font-size:14px;
+        }
     }
 
     p {
         margin-top:0; 
     }
 }
+
+.node-type-event {
+    h1.content-title {
+        display:none; 
+    }
+
+    .l-content {
+        text-align:left; 
+
+        .body-wrapper {
+            border-top: 1px solid #a8a8aa;
+        }
+    }
+
+    h2 {
+        font-weight:bold;
+        font-size: 1.125rem; 
+        line-height: 1.5rem;
+        border-top: 1px solid #a8a8aa;
+    }
+}
+

@@ -1,7 +1,7 @@
 .l-main {
   @include rem-fallback(padding, 1.875rem, 0, 3.75rem);
 }
-.node-type-page, .node-type-for-submitters, .node-type-for-attendees, .node-type-event {
+.node-type-page, .node-type-for-submitters, .node-type-for-attendees, .node-type-event, .node-type-session {
   .l-main {
     @include container-fallback($width-container, $width-container-em-fallback);  
   }

@@ -3305,11 +3305,12 @@ html[xmlns] .slides {
   text-align: left; }
   .node-type-event .l-content .body-wrapper {
     border-top: 1px solid #a8a8aa; }
-.node-type-event h2 {
-  font-weight: bold;
-  font-size: 1.125rem;
-  line-height: 1.5rem;
-  border-top: 1px solid #a8a8aa; }
+  .node-type-event .l-content h2 {
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    border-top: 1px solid #a8a8aa;
+    padding-top: 1.4rem; }
 
 .front-call-for-submissions {
   background-color: #bcccdf; }

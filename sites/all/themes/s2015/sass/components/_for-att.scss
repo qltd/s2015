@@ -1,0 +1,105 @@
+/**
+ * Styles for For Attendees pages
+ * @rdar
+ */
+#block-views-registration-categories-block {
+    //the reg cat and hours/location block 
+    span {
+       color: #a80532;
+       font-weight: bold; 
+    }
+    th,td,thead {
+        background-color: inherit; 
+        font-size: 14px;
+        vertical-align:top;
+    } 
+
+    li {
+        list-style:none; 
+        margin-bottom:0;
+        font-size:14px;
+    }
+
+    ul {
+        padding-left:0; 
+        margin-top:0;
+    }
+
+    h3 {
+        font-weight:bold;
+        font-size: 1.125rem; 
+        line-height: 1.5rem;
+    }
+
+    table {
+        width:100%; 
+        border-top: 1px solid #a8a8aa;
+    }
+} 
+
+
+.sessions-events {
+    //styles for the birds of a feather view
+    h3 {
+        font-weight:bold;
+        font-size: 1.125rem; 
+        line-height: 1.5rem;
+        color: $black;
+    }
+
+    p {
+        margin: 1rem 0rem; 
+    }
+
+    .b-top-btn {
+        a {
+            display: inline-block;
+            background: $blue; 
+            color:#fff;
+            padding:1rem 2rem;
+            transition: background 0.5s ease;
+
+            &:hover {
+                background: #a60735; 
+            }
+        } 
+    }
+
+    .organizer {
+        display: block;
+    }
+
+    .conference-date-header {
+        border-top: 1px solid;
+        margin-top: 3rem;
+        padding-top: 2.5rem;
+    }
+
+    .views-row {
+        margin-bottom: 3rem;
+    }
+
+    .date-location {
+        color:#999; 
+        //visibility: hidden; //hiding the location
+
+        /*.session-date {
+            visibility: visible;
+        }*/
+    }
+
+}
+
+.for-att-3-col-table {
+    width:100%;
+
+    td {
+        vertical-align: top; 
+        width:33%;
+        font-size:14px;
+    }
+
+    p {
+        margin-top:0; 
+    }
+}

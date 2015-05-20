@@ -3,7 +3,10 @@
 function s2015_breadcrumb ($variables) {
   $breadcrumb = $variables['breadcrumb'];
   if (!empty($breadcrumb)) {
-
+    echo 'before unset<br /><pre>';
+    var_dump($breadcrumb); 
+    die;
+    //TO DO: add to breadcrumb array right here for inner for attendees event details pages
     // Remove column labels that do not contain links from breadcrumbs
     foreach ($breadcrumb as $key => $crumb) {
       if (strpos($crumb, 'nolink') !== FALSE) {

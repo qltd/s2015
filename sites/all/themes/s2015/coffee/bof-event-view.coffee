@@ -1,3 +1,6 @@
+#Originally this script only related to the birds of a feather page, now it is being extended to all the for attendees
+#pages, but I don't feel like renaming the file. I am lazy. 
+#@rdar
 $ = jQuery
 days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday' ]
 months = ['January','February','March','April','May','June','July','August','September','October','November','December']
@@ -30,5 +33,19 @@ $(document).ready(->
     #do not expand programs and events nav on page load
     $('.primary-navigation-programs-events').removeClass('active-trail').parent().removeClass('active-trail')
     $('.primary-navigation-attendees-col-3').removeClass('active-trail').parent().removeClass('active-trail')
+    #for sessions and events view
+    $('.view-sessions-and-events .date-display-single').each (index, element) =>
+        date_content = $(element).html()
+        updated_date_content = date_content.replace(/PM/,'pm').replace(/AM/,'am').replace(/09/,'9')
+        $(element).html(updated_date_content)
+    $('.view-sessions-and-events .date-location').each (index, element) =>
+        date_content = $(element).html()
+        updated_date_content = date_content.replace(/ \|/g,',')
+        $(element).html(updated_date_content)
+    #replace all periods that are not in the body wrapper
+    $('.view-sessions-and-events .view-content div p:not(".body-wrapper")').each (index, element) =>
+        p_content = $(element).html()
+        updated_p_content = p_content.replace(/\./,'')
+        $(element).html(updated_p_content)
 )
 

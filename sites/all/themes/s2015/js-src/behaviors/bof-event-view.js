@@ -42,7 +42,31 @@
       };
     })(this));
     $('.primary-navigation-programs-events').removeClass('active-trail').parent().removeClass('active-trail');
-    return $('.primary-navigation-attendees-col-3').removeClass('active-trail').parent().removeClass('active-trail');
+    $('.primary-navigation-attendees-col-3').removeClass('active-trail').parent().removeClass('active-trail');
+    $('.view-sessions-and-events .date-display-single').each((function(_this) {
+      return function(index, element) {
+        var date_content, updated_date_content;
+        date_content = $(element).html();
+        updated_date_content = date_content.replace(/PM/, 'pm').replace(/AM/, 'am').replace(/09/, '9');
+        return $(element).html(updated_date_content);
+      };
+    })(this));
+    $('.view-sessions-and-events .date-location').each((function(_this) {
+      return function(index, element) {
+        var date_content, updated_date_content;
+        date_content = $(element).html();
+        updated_date_content = date_content.replace(/ \|/g, ',');
+        return $(element).html(updated_date_content);
+      };
+    })(this));
+    return $('.view-sessions-and-events .view-content div p:not(".body-wrapper")').each((function(_this) {
+      return function(index, element) {
+        var p_content, updated_p_content;
+        p_content = $(element).html();
+        updated_p_content = p_content.replace(/\./, '');
+        return $(element).html(updated_p_content);
+      };
+    })(this));
   });
 
 }).call(this);

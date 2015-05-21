@@ -64,7 +64,8 @@
         var p_content, updated_p_content;
         p_content = $(element).html();
         updated_p_content = p_content.replace(/\./, '');
-        return $(element).html(updated_p_content);
+        $(element).html(updated_p_content);
+        return $(element).addClass('imported-content-p');
       };
     })(this));
   });

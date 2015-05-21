@@ -3046,9 +3046,10 @@ html[xmlns] .slides {
   margin-bottom: 3rem; }
 .sessions-events .date-location {
   color: #999;
-  /*.session-date {
-      visibility: visible;
-  }*/ }
+  font-weight: 400;
+  font-size: 16px; }
+  .sessions-events .date-location.imported-content-p {
+    font-size: 16px; }
 
 .for-att-3-col-table {
   width: 100%; }
@@ -3073,6 +3074,14 @@ html[xmlns] .slides {
     line-height: 1.5rem;
     border-top: 1px solid #a8a8aa;
     padding-top: 1.4rem; }
+.node-type-event .imported-content-p {
+  font-size: 14px;
+  margin-top: 0; }
+.node-type-event .body-wrapper .imported-content-p {
+  font-size: 1.125rem;
+  margin-top: 1rem; }
+.node-type-event .view-content h3 {
+  margin-bottom: 0; }
 
 .front-call-for-submissions {
   background-color: #bcccdf; }

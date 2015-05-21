@@ -47,5 +47,6 @@ $(document).ready(->
         p_content = $(element).html()
         updated_p_content = p_content.replace(/\./,'')
         $(element).html(updated_p_content)
+        $(element).addClass('imported-content-p')
 )
 

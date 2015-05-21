@@ -36,11 +36,11 @@ $(document).ready(->
     #for sessions and events view
     $('.view-sessions-and-events .date-display-single').each (index, element) =>
         date_content = $(element).html()
-        updated_date_content = date_content.replace(/PM/,'pm').replace(/AM/,'am').replace(/09/,'9')
+        updated_date_content = date_content.replace(/PM/,'pm').replace(/AM/,'am').replace(/09/,'9').replace(/August/,'August,')
         $(element).html(updated_date_content)
     $('.view-sessions-and-events .date-location').each (index, element) =>
         date_content = $(element).html()
-        updated_date_content = date_content.replace(/ \|/g,',')
+        updated_date_content = date_content.replace(/\s\|/g,',')
         $(element).html(updated_date_content)
     #replace all periods that are not in the body wrapper
     $('.view-sessions-and-events .view-content div p:not(".body-wrapper")').each (index, element) =>

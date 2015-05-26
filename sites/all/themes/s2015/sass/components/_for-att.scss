@@ -80,7 +80,7 @@
         margin-bottom: 3rem;
     }
 
-    .date-location {
+    .date-location, .session-chair {
         color:#999; 
         font-weight:400;
         font-size:16px;
@@ -157,3 +157,10 @@
     }
 }
 
+.node-type-session {
+    .l-content {
+        .body-wrapper {
+            border-top: none;
+        }
+    }
+}

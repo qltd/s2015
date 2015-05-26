@@ -3050,6 +3050,8 @@ html[xmlns] .slides {
   font-size: 16px; }
   .sessions-events .date-location.imported-content-p, .sessions-events .session-chair.imported-content-p {
     font-size: 16px; }
+.sessions-events .session-chair {
+  display: block; }
 
 .for-att-3-col-table {
   width: 100%; }

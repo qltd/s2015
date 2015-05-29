@@ -4,6 +4,9 @@
  */
 #block-views-registration-categories-block {
     //the reg cat and hours/location block 
+
+    padding-bottom: 20px;
+
     span {
        color: #a80532;
        font-weight: bold; 
@@ -15,6 +18,14 @@
         line-height: 1.5;
         font-weight: 300;
     } 
+
+    td:first-child {
+        width:220px; 
+    }
+
+    td:nth-child(2), th:nth-child(2) {
+        padding-left: 1.5rem;
+    }
 
     li {
         list-style:none; 
@@ -179,10 +190,20 @@
     }
 
     .hr-row > td {
-        padding-bottom: 2rem;
+        padding-bottom: 8px;
     }
 
-    .second-col td:nth-child(2) {
-        padding-left: 1.5rem;
+    .second-col {
+        td:nth-child(2) {
+            padding-left: 1.5rem;
+            font-weight:300;
+            a {
+                font-weight:normal; 
+            }
+        }
+        
+        p {
+            margin-bottom:18px; 
+        }
     }
 }

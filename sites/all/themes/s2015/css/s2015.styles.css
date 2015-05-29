@@ -2997,29 +2997,35 @@ html[xmlns] .slides {
  * Styles for For Attendees pages
  * @rdar
  */
-#block-views-registration-categories-block span {
-  color: #a80532;
-  font-weight: bold; }
-#block-views-registration-categories-block th, #block-views-registration-categories-block td, #block-views-registration-categories-block thead {
-  background-color: inherit;
-  font-size: 14px;
-  vertical-align: top;
-  line-height: 1.5;
-  font-weight: 300; }
-#block-views-registration-categories-block li {
-  list-style: none;
-  margin-bottom: 0;
-  font-size: 14px; }
-#block-views-registration-categories-block ul {
-  padding-left: 0;
-  margin-top: 0; }
-#block-views-registration-categories-block h3 {
-  font-weight: bold;
-  font-size: 1.125rem;
-  line-height: 1.5rem; }
-#block-views-registration-categories-block table {
-  width: 100%;
-  border-top: 1px solid #a8a8aa; }
+#block-views-registration-categories-block {
+  padding-bottom: 20px; }
+  #block-views-registration-categories-block span {
+    color: #a80532;
+    font-weight: bold; }
+  #block-views-registration-categories-block th, #block-views-registration-categories-block td, #block-views-registration-categories-block thead {
+    background-color: inherit;
+    font-size: 14px;
+    vertical-align: top;
+    line-height: 1.5;
+    font-weight: 300; }
+  #block-views-registration-categories-block td:first-child {
+    width: 220px; }
+  #block-views-registration-categories-block td:nth-child(2), #block-views-registration-categories-block th:nth-child(2) {
+    padding-left: 1.5rem; }
+  #block-views-registration-categories-block li {
+    list-style: none;
+    margin-bottom: 0;
+    font-size: 14px; }
+  #block-views-registration-categories-block ul {
+    padding-left: 0;
+    margin-top: 0; }
+  #block-views-registration-categories-block h3 {
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 1.5rem; }
+  #block-views-registration-categories-block table {
+    width: 100%;
+    border-top: 1px solid #a8a8aa; }
 
 .sessions-events h3 {
   font-weight: bold;
@@ -3095,9 +3101,14 @@ html[xmlns] .slides {
 .for-att-3-col-table .bold {
   font-weight: bold; }
 .for-att-3-col-table .hr-row > td {
-  padding-bottom: 2rem; }
+  padding-bottom: 8px; }
 .for-att-3-col-table .second-col td:nth-child(2) {
-  padding-left: 1.5rem; }
+  padding-left: 1.5rem;
+  font-weight: 300; }
+  .for-att-3-col-table .second-col td:nth-child(2) a {
+    font-weight: normal; }
+.for-att-3-col-table .second-col p {
+  margin-bottom: 18px; }
 
 .front-call-for-submissions {
   background-color: #bcccdf; }

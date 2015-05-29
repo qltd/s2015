@@ -3096,6 +3096,9 @@ html[xmlns] .slides {
 .node-type-session .l-content .body-wrapper {
   border-top: none; }
 
+.node-type-event .l-content .body-wrapper {
+  margin-top: 40px; }
+
 .for-att-3-col-table .red {
   color: #a80532; }
 .for-att-3-col-table .bold {
@@ -3109,6 +3112,14 @@ html[xmlns] .slides {
     font-weight: normal; }
 .for-att-3-col-table .second-col p {
   margin-bottom: 18px; }
+.for-att-3-col-table .second-col td:last-child strong {
+  color: #88898c; }
+
+.pre-hr-space {
+  height: 5px; }
+
+.for-att-program-first-p {
+  margin-top: 10px; }
 
 .front-call-for-submissions {
   background-color: #bcccdf; }

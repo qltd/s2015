@@ -65,5 +65,5 @@
   </div>
   
 </article>
-
+<div class="pre-hr-space"></div>
 <hr />

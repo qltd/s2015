@@ -180,6 +180,14 @@
     }
 }
 
+.node-type-event {
+    .l-content {
+        .body-wrapper {
+            margin-top:40px;
+        } 
+    }
+}
+
 .for-att-3-col-table {
     .red {
        color: #a80532;
@@ -205,5 +213,19 @@
         p {
             margin-bottom:18px; 
         }
+
+        td:last-child {
+            strong {
+                color: #88898c; 
+            } 
+        }
     }
+}
+
+.pre-hr-space {
+   height:5px;  
+}
+
+.for-att-program-first-p {
+    margin-top: 10px;
 }

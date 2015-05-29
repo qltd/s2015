@@ -51,21 +51,12 @@
         return $(element).html(updated_date_content);
       };
     })(this));
-    $('.view-sessions-and-events .date-location, .sessions-events .date-location').each((function(_this) {
+    return $('.view-sessions-and-events .date-location, .sessions-events .date-location').each((function(_this) {
       return function(index, element) {
         var date_content, updated_date_content;
         date_content = $(element).html();
         updated_date_content = date_content.replace(/\s\|/g, ',');
         return $(element).html(updated_date_content);
-      };
-    })(this));
-    return $('.view-sessions-and-events .view-content div p:not(".body-wrapper")').each((function(_this) {
-      return function(index, element) {
-        var p_content, updated_p_content;
-        p_content = $(element).html();
-        updated_p_content = p_content.replace(/\./, '');
-        $(element).html(updated_p_content);
-        return $(element).addClass('imported-content-p');
       };
     })(this));
   });

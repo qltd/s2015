@@ -42,5 +42,8 @@ $(document).ready(->
         date_content = $(element).html()
         updated_date_content = date_content.replace(/\s\|/g,',')
         $(element).html(updated_date_content)
+    #replace all periods that are not in the body wrapper
+    $('.view-sessions-and-events .view-content div p:not(".body-wrapper")').each (index, element) =>
+        $(element).addClass('imported-content-p')
 )
 

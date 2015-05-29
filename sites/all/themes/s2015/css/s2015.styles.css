@@ -3090,6 +3090,15 @@ html[xmlns] .slides {
 .node-type-session .l-content .body-wrapper {
   border-top: none; }
 
+.for-att-3-col-table .red {
+  color: #a80532; }
+.for-att-3-col-table .bold {
+  font-weight: bold; }
+.for-att-3-col-table .hr-row > td {
+  padding-bottom: 2rem; }
+.for-att-3-col-table .second-col td:nth-child(2) {
+  padding-left: 1.5rem; }
+
 .front-call-for-submissions {
   background-color: #bcccdf; }
   .front-call-for-submissions .block__content {

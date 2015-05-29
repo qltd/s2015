@@ -168,3 +168,21 @@
         }
     }
 }
+
+.for-att-3-col-table {
+    .red {
+       color: #a80532;
+    }
+
+    .bold {
+        font-weight:bold; 
+    }
+
+    .hr-row > td {
+        padding-bottom: 2rem;
+    }
+
+    .second-col td:nth-child(2) {
+        padding-left: 1.5rem;
+    }
+}

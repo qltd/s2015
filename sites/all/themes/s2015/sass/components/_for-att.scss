@@ -202,6 +202,10 @@
     }
 
     .second-col {
+        a, strong {
+            display:inline-block;
+            margin-bottom:5px; 
+        }
         td:nth-child(2) {
             padding-left: 1.5rem;
             font-weight:300;

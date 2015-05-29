@@ -3105,6 +3105,9 @@ html[xmlns] .slides {
   font-weight: bold; }
 .for-att-3-col-table .hr-row > td {
   padding-bottom: 8px; }
+.for-att-3-col-table .second-col a, .for-att-3-col-table .second-col strong {
+  display: inline-block;
+  margin-bottom: 5px; }
 .for-att-3-col-table .second-col td:nth-child(2) {
   padding-left: 1.5rem;
   font-weight: 300; }

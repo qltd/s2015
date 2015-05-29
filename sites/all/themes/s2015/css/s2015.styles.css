@@ -3117,6 +3117,9 @@ html[xmlns] .slides {
   margin-bottom: 18px; }
 .for-att-3-col-table .second-col td:last-child strong {
   color: #88898c; }
+.for-att-3-col-table .for-att-sub-head-style {
+  display: inline-block;
+  margin-bottom: 5px; }
 
 .pre-hr-space {
   height: 5px; }

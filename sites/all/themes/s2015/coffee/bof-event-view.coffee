@@ -45,5 +45,9 @@ $(document).ready(->
     #replace all periods that are not in the body wrapper
     $('.view-sessions-and-events .view-content div p:not(".body-wrapper")').each (index, element) =>
         $(element).addClass('imported-content-p')
+    $('.affiliation-wrapper p').each (index, element) =>
+        content = $(element).html()
+        updated_content = content.replace(/Moderator/,'<strong>Moderator</strong>').replace(/Panelists/,'<strong>Panelists</strong>')
+        $(element).html(updated_content)
 )
 

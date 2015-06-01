@@ -47,7 +47,7 @@ $(document).ready(->
         $(element).addClass('imported-content-p')
     $('.affiliation-wrapper p').each (index, element) =>
         content = $(element).html()
-        updated_content = content.replace(/Moderator/,'<strong>Moderator</strong>').replace(/Panelists/,'<strong>Panelists</strong>')
+        updated_content = content.replace(/Moderators/,'<strong>Moderators</strong>').replace(/Moderator/,'<strong>Moderator</strong>').replace(/Panelists/,'<strong>Panelists</strong>')
         $(element).html(updated_content)
 )
 

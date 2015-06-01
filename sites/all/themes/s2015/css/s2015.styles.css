@@ -3129,6 +3129,9 @@ html[xmlns] .slides {
 
 .vid-prev-row > td {
   padding-bottom: 20px; }
+.vid-prev-row a {
+  display: inline-block;
+  margin-bottom: 5px; }
 
 .front-call-for-submissions {
   background-color: #bcccdf; }

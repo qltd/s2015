@@ -239,6 +239,15 @@
     margin-top: 10px;
 }
 
-.vid-prev-row > td {
-    padding-bottom: 20px;
+.vid-prev-row  {
+    
+    &> td {
+        padding-bottom: 20px;
+    }
+
+    a {
+    
+        display:inline-block;
+        margin-bottom:5px; 
+    }
 }

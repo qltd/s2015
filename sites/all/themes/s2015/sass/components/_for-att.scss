@@ -251,3 +251,16 @@
         margin-bottom:5px; 
     }
 }
+
+.page-node-5672 {
+    //styles specific to the program preview videos page
+    .node__content {
+        border-top:none !important; 
+        h2 {
+            color: #88898c;
+            font-size: 1.125rem;
+            font-weight: bold;
+            line-height: 1.5rem;
+        }
+    }
+}

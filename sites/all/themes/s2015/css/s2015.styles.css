@@ -3139,7 +3139,11 @@ html[xmlns] .slides {
     color: #88898c;
     font-size: 1.125rem;
     font-weight: bold;
-    line-height: 1.5rem; }
+    line-height: 1.5rem;
+    margin-bottom: 0; }
+
+.no-top-margin {
+  margin-top: 0; }
 
 .front-call-for-submissions {
   background-color: #bcccdf; }

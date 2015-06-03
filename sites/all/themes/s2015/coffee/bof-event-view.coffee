@@ -49,5 +49,9 @@ $(document).ready(->
         content = $(element).html()
         updated_content = content.replace(/Moderators/,'<strong>Moderators</strong>').replace(/Moderator/,'<strong>Moderator</strong>').replace(/Panelists/,'<strong>Panelists</strong>')
         $(element).html(updated_content)
+    #update breadcrumb content to remove special charaters
+    breadcrumb_content = $('.breadcrumb').html()
+    updated_breadcrumb_content = breadcrumb_content.replace(/&#039;/,"'")
+    $('.breadcrumb').html(updated_breadcrumb_content)
 )
 

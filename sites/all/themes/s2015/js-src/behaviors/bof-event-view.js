@@ -9,7 +9,7 @@
   months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
   $(document).ready(function() {
-    var currentDay, total_length_of_bof_array;
+    var breadcrumb_content, currentDay, total_length_of_bof_array, updated_breadcrumb_content;
     currentDay = -1;
     total_length_of_bof_array = $('.birds-of-a-feather .date-display-single').length;
     $('.birds-of-a-feather .date-display-single').each((function(_this) {
@@ -64,7 +64,7 @@
         return $(element).addClass('imported-content-p');
       };
     })(this));
-    return $('.affiliation-wrapper p').each((function(_this) {
+    $('.affiliation-wrapper p').each((function(_this) {
       return function(index, element) {
         var content, updated_content;
         content = $(element).html();
@@ -72,6 +72,9 @@
         return $(element).html(updated_content);
       };
     })(this));
+    breadcrumb_content = $('.breadcrumb').html();
+    updated_breadcrumb_content = breadcrumb_content.replace(/&#039;/, "'");
+    return $('.breadcrumb').html(updated_breadcrumb_content);
   });
 
 }).call(this);

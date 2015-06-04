@@ -73,9 +73,7 @@
       };
     })(this));
     breadcrumb_content = $('.breadcrumb').html();
-    console.log(breadcrumb_content);
     updated_breadcrumb_content = breadcrumb_content.replace(/&amp;#039;/, "'");
-    console.log(updated_breadcrumb_content);
     return $('.breadcrumb').html(updated_breadcrumb_content);
   });
 

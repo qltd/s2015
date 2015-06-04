@@ -51,9 +51,7 @@ $(document).ready(->
         $(element).html(updated_content)
     #update breadcrumb content to remove special charaters
     breadcrumb_content = $('.breadcrumb').html()
-    console.log(breadcrumb_content)
     updated_breadcrumb_content = breadcrumb_content.replace(/&amp;#039;/,"'")
-    console.log(updated_breadcrumb_content)
     $('.breadcrumb').html(updated_breadcrumb_content)
 )
 

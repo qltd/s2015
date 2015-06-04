@@ -28,3 +28,4 @@ require('./behaviors/search');
 require('./behaviors/quicktabs');
 require('./behaviors/flexslider');
 require('./behaviors/bof-event-view');
+require('./behaviors/reg_butt');

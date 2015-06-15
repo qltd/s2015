@@ -91,4 +91,7 @@ body.adminimal-menu {
 .block--views-sessions-and-events-block-7 div.body-wrapper.clearfix {
   border-top: none; }
 
+.view-art-gallery-event-details h2, .view-art-gallery-event-details .body-wrapper {
+  border: none !important; }
+
 /*# sourceMappingURL=s2015.hacks.css.map */

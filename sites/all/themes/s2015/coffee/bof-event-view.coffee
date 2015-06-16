@@ -36,7 +36,7 @@ $(document).ready(->
     #for sessions and events view
     $('.view-sessions-and-events .date-display-single').each (index, element) =>
         date_content = $(element).html()
-        updated_date_content = date_content.replace(/PM/,'pm').replace(/AM/,'am').replace(/09/,'9').replace(/August/,'August,')
+        updated_date_content = date_content.replace(/PM/,'pm').replace(/AM/,'am').replace(/09/,'9').replace(/August/,'August')
         $(element).html(updated_date_content)
     $('.view-sessions-and-events .date-location, .sessions-events .date-location').each (index, element) =>
         date_content = $(element).html()

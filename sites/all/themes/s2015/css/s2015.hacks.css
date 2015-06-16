@@ -93,5 +93,14 @@ body.adminimal-menu {
 
 .view-art-gallery-event-details h2, .view-art-gallery-event-details .body-wrapper {
   border: none !important; }
+.view-art-gallery-event-details .body-wrapper {
+  margin-top: 0 !important; }
+.view-art-gallery-event-details .affiliation-wrapper, .view-art-gallery-event-details .affiliation-wrapper p {
+  font-size: 14px; }
+
+.for-att-3-col-table.art-gallery-table .second-col strong {
+  color: #88898c; }
+.for-att-3-col-table.art-gallery-table tr:first-child td:nth-child(2) {
+  padding-left: 1.5rem; }
 
 /*# sourceMappingURL=s2015.hacks.css.map */

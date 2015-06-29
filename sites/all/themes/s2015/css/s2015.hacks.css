@@ -109,4 +109,8 @@ body.adminimal-menu {
 .affiliation-wrapper p {
   font-size: 14px; }
 
+.imported-content-p > a {
+  display: inline-block;
+  margin-top: 1rem; }
+
 /*# sourceMappingURL=s2015.hacks.css.map */

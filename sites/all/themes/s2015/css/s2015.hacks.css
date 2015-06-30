@@ -120,5 +120,11 @@ body.adminimal-menu {
     font-size: 14px;
     list-style: outside none none;
     margin-bottom: 0; }
+.for-att-3-col-table .heads-up {
+  background-color: inherit;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+  vertical-align: top; }
 
 /*# sourceMappingURL=s2015.hacks.css.map */

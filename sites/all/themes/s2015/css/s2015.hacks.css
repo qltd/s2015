@@ -139,4 +139,9 @@ body.adminimal-menu {
       line-height: 1.5rem;
       margin-top: 0; }
 
+.real-time-live-event h2 {
+  border: none !important; }
+.real-time-live-event .body-wrapper {
+  border: none !important; }
+
 /*# sourceMappingURL=s2015.hacks.css.map */

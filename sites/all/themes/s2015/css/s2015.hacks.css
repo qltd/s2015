@@ -131,7 +131,8 @@ body.adminimal-menu {
     font-size: 14px;
     font-weight: 300;
     line-height: 1.5;
-    vertical-align: top; }
+    vertical-align: top;
+    padding-bottom: 5px; }
     .for-att-3-col-table .heads-up th h3 {
       font-size: 1.125rem;
       font-weight: bold;

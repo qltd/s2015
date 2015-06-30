@@ -126,5 +126,11 @@ body.adminimal-menu {
   font-weight: 300;
   line-height: 1.5;
   vertical-align: top; }
+  .for-att-3-col-table .heads-up th {
+    background-color: inherit;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    vertical-align: top; }
 
 /*# sourceMappingURL=s2015.hacks.css.map */

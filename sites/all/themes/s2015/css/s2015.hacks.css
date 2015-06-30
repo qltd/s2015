@@ -113,4 +113,12 @@ body.adminimal-menu {
   display: inline-block;
   margin-top: 1rem; }
 
+.for-att-3-col-table .time-list {
+  margin-top: 0;
+  padding-left: 0; }
+  .for-att-3-col-table .time-list li {
+    font-size: 14px;
+    list-style: outside none none;
+    margin-bottom: 0; }
+
 /*# sourceMappingURL=s2015.hacks.css.map */

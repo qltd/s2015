@@ -2537,6 +2537,8 @@ b, strong {
   .sessions-events.birds-of-a-feather .date-location .session-date {
     visibility: visible;
     font-size: 16px; }
+.sessions-events.birds-of-a-feather .imported-content-p > a {
+  margin-top: 0; }
 
 .birds-of-a-feather-day-links {
   margin-top: 2.35rem; }

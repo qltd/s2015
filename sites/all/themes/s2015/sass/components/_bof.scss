@@ -42,9 +42,11 @@
     .date-location {
         color:#999; 
         visibility: hidden; //hiding the location
+        font-size: 1px;
 
         .session-date {
             visibility: visible; //but displaying the date
+            font-size: 16px;
             //probably use display block here when the location is made visible, to display on seperate lines
             //probably need to figure out how to remove the pipe character also
         }

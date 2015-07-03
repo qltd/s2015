@@ -2532,9 +2532,11 @@ b, strong {
   margin-bottom: 3rem; }
 .sessions-events.birds-of-a-feather .date-location {
   color: #999;
-  visibility: hidden; }
+  visibility: hidden;
+  font-size: 1px; }
   .sessions-events.birds-of-a-feather .date-location .session-date {
-    visibility: visible; }
+    visibility: visible;
+    font-size: 16px; }
 
 .birds-of-a-feather-day-links {
   margin-top: 2.35rem; }

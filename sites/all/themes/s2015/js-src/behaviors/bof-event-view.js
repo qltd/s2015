@@ -74,7 +74,15 @@
     })(this));
     breadcrumb_content = $('.breadcrumb').html();
     updated_breadcrumb_content = breadcrumb_content.replace(/&amp;#039;/, "'");
-    return $('.breadcrumb').html(updated_breadcrumb_content);
+    $('.breadcrumb').html(updated_breadcrumb_content);
+    return $('.studio-projects .event-text').each((function(_this) {
+      return function(index, element) {
+        var event_text, updated_event_text;
+        event_text = $(element).html();
+        updated_event_text = event_text.replace(/<\/h3><br>/, '</h3>');
+        return $(element).html(updated_event_text);
+      };
+    })(this));
   });
 
 }).call(this);

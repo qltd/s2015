@@ -53,5 +53,10 @@ $(document).ready(->
     breadcrumb_content = $('.breadcrumb').html()
     updated_breadcrumb_content = breadcrumb_content.replace(/&amp;#039;/,"'")
     $('.breadcrumb').html(updated_breadcrumb_content)
+    #remove line breaks on studio projects page
+    $('.studio-projects .event-text').each (index,element) =>
+        event_text = $(element).html()
+        updated_event_text = event_text.replace(/<\/h3><br>/,'</h3>')
+        $(element).html(updated_event_text)
 )
 

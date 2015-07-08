@@ -144,7 +144,7 @@ body.adminimal-menu {
 .real-time-live-event .body-wrapper {
   border: none !important; }
 
-.sessions-events.studio-courses .imported-content-p {
+.sessions-events.studio-courses .imported-content-p, .sessions-events.educator-symposium .imported-content-p {
   margin-top: 0; }
 
 /*# sourceMappingURL=s2015.hacks.css.map */

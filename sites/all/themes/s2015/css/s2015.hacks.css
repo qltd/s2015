@@ -152,7 +152,11 @@ body.adminimal-menu {
   .corporate-sponsors li {
     display: inline-block;
     list-style: none;
-    padding: 0 5px; }
+    padding: 0 35px; }
+    .corporate-sponsors li.block-title {
+      font-size: 12px; }
+    .corporate-sponsors li.text-logo {
+      font-size: 24px; }
   .corporate-sponsors ul {
     margin-bottom: 0; }
 

@@ -147,4 +147,11 @@ body.adminimal-menu {
 .sessions-events.studio-courses .imported-content-p, .sessions-events.educator-symposium .imported-content-p {
   margin-top: 0; }
 
+.corporate-sponsors {
+  background: #E9EAEA; }
+  .corporate-sponsors li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 5px; }
+
 /*# sourceMappingURL=s2015.hacks.css.map */

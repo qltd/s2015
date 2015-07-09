@@ -39,6 +39,7 @@
     LIBRARIES
 \*------------------------------------*/
 /*--App Libraries--*/
+/*this controls how tall the blue nav dropdown is*/
 @font-face {
   font-family: 'Swiss-Light';
   src: url("../fonts/272616_0_0.eot");

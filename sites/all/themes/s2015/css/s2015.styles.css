@@ -2174,6 +2174,7 @@ textarea {
   content: ""; }
 
 /*--App Libraries--*/
+/*this controls how tall the blue nav dropdown is*/
 /**
  * @mixin input-placeholder
  *

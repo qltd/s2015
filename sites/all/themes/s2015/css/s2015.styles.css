@@ -3797,11 +3797,11 @@ html[xmlns] .slides {
   margin-left: -391px;
   margin-left: -24.4375rem; }
 .primary-navigation-for-attendees:hover > .menu-link:after {
-  height: 576px;
-  height: 36rem; }
+  height: 640px;
+  height: 40rem; }
 .primary-navigation-for-attendees:hover > .menu {
-  height: 576px;
-  height: 36rem; }
+  height: 640px;
+  height: 40rem; }
 .primary-navigation-for-attendees .primary-navigation-programs-events, .primary-navigation-for-attendees .primary-navigation-attendees-col-3, .primary-navigation-for-attendees .primary-navigation-information-planning {
   display: block !important;
   margin-bottom: 12px;

@@ -153,5 +153,10 @@ body.adminimal-menu {
     display: inline-block;
     list-style: none;
     padding: 0 5px; }
+  .corporate-sponsors ul {
+    margin-bottom: 0; }
+
+.front .l-main {
+  padding-bottom: 0; }
 
 /*# sourceMappingURL=s2015.hacks.css.map */

@@ -169,8 +169,17 @@ body.adminimal-menu {
 
 .focus-area .registration-levels {
   color: #a80532; }
+.focus-area h3 {
+  margin: 0; }
 
 .focus-area-main em {
+  color: #999; }
+.focus-area-main h3 {
+  margin-bottom: 0; }
+.focus-area-main p {
+  margin-top: 0; }
+
+.focus-area-landing em {
   color: #999; }
 
 /*# sourceMappingURL=s2015.hacks.css.map */

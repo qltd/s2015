@@ -289,3 +289,13 @@ body {
         display:block;
     }
 }
+
+//Here we are putting in some styles for the course schedule
+#course_schedule_wrap {
+    float: right;
+    width: 50%;
+
+    h3 {
+        padding-bottom:1rem;  
+    }
+}

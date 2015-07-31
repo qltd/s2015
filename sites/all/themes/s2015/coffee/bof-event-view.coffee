@@ -58,5 +58,9 @@ $(document).ready(->
         event_text = $(element).html()
         updated_event_text = event_text.replace(/<\/h3><br>/,'</h3>')
         $(element).html(updated_event_text)
+    #here we are breaking up the course schedule
+    csc = $('.course-schedule-content').html()
+    updated_csc = csc.replace(/\spm\s/g," pm<br />")
+    $('.course-schedule-content').html(updated_csc)
 )
 

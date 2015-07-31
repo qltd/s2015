@@ -183,4 +183,10 @@ body.adminimal-menu {
   color: #999;
   display: block; }
 
+#course_schedule_wrap {
+  float: right;
+  width: 50%; }
+  #course_schedule_wrap h3 {
+    padding-bottom: 1rem; }
+
 /*# sourceMappingURL=s2015.hacks.css.map */

@@ -9,7 +9,7 @@
   months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
   $(document).ready(function() {
-    var breadcrumb_content, currentDay, total_length_of_bof_array, updated_breadcrumb_content;
+    var breadcrumb_content, csc, currentDay, total_length_of_bof_array, updated_breadcrumb_content, updated_csc;
     currentDay = -1;
     total_length_of_bof_array = $('.birds-of-a-feather .date-display-single').length;
     $('.birds-of-a-feather .date-display-single').each((function(_this) {
@@ -75,7 +75,7 @@
     breadcrumb_content = $('.breadcrumb').html();
     updated_breadcrumb_content = breadcrumb_content.replace(/&amp;#039;/, "'");
     $('.breadcrumb').html(updated_breadcrumb_content);
-    return $('.studio-projects .event-text').each((function(_this) {
+    $('.studio-projects .event-text').each((function(_this) {
       return function(index, element) {
         var event_text, updated_event_text;
         event_text = $(element).html();
@@ -83,6 +83,9 @@
         return $(element).html(updated_event_text);
       };
     })(this));
+    csc = $('.course-schedule-content').html();
+    updated_csc = csc.replace(/\spm\s/g, " pm<br />");
+    return $('.course-schedule-content').html(updated_csc);
   });
 
 }).call(this);

@@ -301,3 +301,10 @@ body {
         font-weight:300;
     }
 }
+
+//adjusting p max width for content in the left col on course page, to make room for course schedule
+.course-with-schedule {
+   .imported-content-p {
+        max-width:50%; 
+   }
+}

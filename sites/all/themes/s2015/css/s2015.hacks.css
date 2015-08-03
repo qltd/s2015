@@ -185,8 +185,9 @@ body.adminimal-menu {
 
 #course_schedule_wrap {
   float: right;
-  width: 50%; }
-  #course_schedule_wrap h3 {
-    padding-bottom: 1rem; }
+  width: 50%;
+  padding-left: 1rem; }
+  #course_schedule_wrap .course-schedule-content {
+    font-size: 14px; }
 
 /*# sourceMappingURL=s2015.hacks.css.map */

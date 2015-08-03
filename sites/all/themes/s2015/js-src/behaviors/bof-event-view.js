@@ -83,9 +83,9 @@
         return $(element).html(updated_event_text);
       };
     })(this));
-    csc = $('.course-schedule-content').html();
-    updated_csc = csc.replace(/\spm\s/g, " pm<br />");
-    return $('.course-schedule-content').html(updated_csc);
+    csc = $('#course_schedule_wrap').html();
+    updated_csc = csc.replace(/<br>/, "").replace(/<\/h3><br>/, '</h3>');
+    return $('#course_schedule_wrap').html(updated_csc);
   });
 
 }).call(this);

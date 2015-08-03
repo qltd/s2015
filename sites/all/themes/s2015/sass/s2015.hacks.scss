@@ -294,8 +294,9 @@ body {
 #course_schedule_wrap {
     float: right;
     width: 50%;
-
-    h3 {
-        padding-bottom:1rem;  
+    padding-left:1rem;
+    
+    .course-schedule-content {
+        font-size:14px; 
     }
 }

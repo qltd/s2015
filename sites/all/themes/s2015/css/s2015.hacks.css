@@ -193,5 +193,7 @@ body.adminimal-menu {
 
 .course-with-schedule .imported-content-p {
   max-width: 50%; }
+  .body-wrapper .course-with-schedule .imported-content-p {
+    max-width: 100%; }
 
 /*# sourceMappingURL=s2015.hacks.css.map */
